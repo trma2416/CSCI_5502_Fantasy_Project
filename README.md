@@ -23,3 +23,9 @@ The main source of our data will be ESPN. We will scrape historical box score da
 As for the qualitative news, we will need to do web scraping. If web scraping with BeautifulSoup doesn't work, then we will try to connect to ESPN’s direct api links. Also, the qualitative news is more of an extra analysis, while the historical quantitative data will be used for the core analysis. We will try to gather as much data from news as possible, but a significant amount is not needed.
 
 ## Milestone roadmap:
+We will spend one week each on all of these steps:
+- We will first start by analyzing what exact features we are looking for.
+- After engineering the features we want, we will start grabbing both types of data: box score data and news data.
+- We will then use these data to do data analysis so we can connect our features with the data.
+- The next step will be to create and execute an algorithm that uses all of the information we gathered to project estimated fantasy scores.
+- With these predictive scores, the project will provide us with a decision on whether to start or bench a player.

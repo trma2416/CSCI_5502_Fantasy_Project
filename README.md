@@ -1,4 +1,4 @@
-# CSCI_5502_Fantasy_Project
+# CSCI_5502_Fantasy_Football_Prediction
 
 ## Team Members:
 **Tristan Martinez**   

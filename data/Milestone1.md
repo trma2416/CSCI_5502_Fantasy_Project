@@ -42,8 +42,10 @@ The importance of these variables differs based on the player picked. Some of th
 | At/Vs | Historic and future game: Whether the game was home or away | String | "vs" = home, "@" = away | Combination of: Source #1 & Source #3 |
 | Opponent Defense Rank | Historic and future game: Opponent's defense rank by points allowed in that season | Integer | Rank, 1 (best) to 32 (worst) | Combination of: Source #1, Source #2, and Source #3 |  
   
-**Identify target/outcome variables if the project has them, but do not assume every project requires a prediction target:**
-**| Variable name | Meaning | Data type | Unit/Categories | Source |**
+**Identify target/outcome variables if the project has them, but do not assume every project requires a prediction target:**  
+  
+| Variable name | Meaning | Data type | Unit/Categories | Source |
 | Total fantasy points | A predictive value after weighting and aggregating variables above into an algorithm | float | Count | Source: ML algorithm that consumed variables above |  
+  
 **If multiple datasets are joined, document keys, join logic, expected matches, unmatched records, and any aggregation:**
 Source #1 and Source #2 are joined into one data table. Source #2 uses the "opponent" column and "season" column from Source #1 to join. Source #2 contains each team and how many points they allowed their opponent to score. This is used to rank each team (more scores allowed means a lower rank in defense). This list of teams and their ranks is then combined into Source #1 by matching the season year and our specified opponent name.

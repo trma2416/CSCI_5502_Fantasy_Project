@@ -19,7 +19,7 @@ Next game schedule: This is appropriate for the research question because it tel
 ## Data Dictionary and Structure   
 **Define the unit of observation: what one row represents:** The data we scrape from "Historical game data" and "Current standings" will be combined into one data frame. Each row within this table is one game played by our player during the 2024-2026 regular season. The data from "Next game schedule" only gives us one value, which is the next opponent of our specified player.  
 **Provide a compact data dictionary for the variables that matter to the project: variable name, meaning, data type, units/categories, and source:**
-The importance of these variables differs based on the player picked. Some of these variables might be important for Player A, while Other variables might be important for Player B. It depends on the role of the player that picked.  
+The importance of these variables differs based on the player picked. Some of these variables might be important for Player A, while other variables might be important for Player B. It depends on the role of the player that picked.  
   
 | Variable name | Meaning | Data type | Unit/Categories | Source |
 | --- | --- | --- | --- | --- |

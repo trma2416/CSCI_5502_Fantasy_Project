@@ -3,7 +3,8 @@
 API URLs:  
 1. Historical game data: "https://site.web.api.espn.com/apis/common/v3/sports/football/nfl/athletes/{pid}/gamelog"  
 2. Current standings = "https://site.api.espn.com/apis/v2/sports/football/nfl/standings"  
-3. Next game schedule = "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/{team_abbr_lower}/schedule"  
+3. Next game schedule = "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/{team_abbr_lower}/schedule"
+   
 **Date accessed:** 10/12/2026; this will change over time because the data gets added after new games in the future  
 **License/term:** None  
 **Geographic and Time coverage:** No relevant geographic criteria. Time covered is 2024-current regular season data.  

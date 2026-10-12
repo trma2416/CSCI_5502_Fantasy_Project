@@ -1,5 +1,3 @@
-# ESPN Quantitative Game Data  
-  
 ## Data Provenance and Acquisition   
 **Source:**   
 API URLs:  

@@ -45,6 +45,7 @@ The importance of these variables differs based on the player picked. Some of th
 **Identify target/outcome variables if the project has them, but do not assume every project requires a prediction target:**  
   
 | Variable name | Meaning | Data type | Unit/Categories | Source |
+| --- | --- | --- | --- | --- |
 | Total fantasy points | A predictive value after weighting and aggregating variables above into an algorithm | float | Count | Source: ML algorithm that consumed variables above |  
   
 **If multiple datasets are joined, document keys, join logic, expected matches, unmatched records, and any aggregation:**

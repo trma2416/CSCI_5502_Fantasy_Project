@@ -19,8 +19,9 @@ Next game schedule: This is appropriate for the research question because it tel
 ## Data Dictionary and Structure   
 **Define the unit of observation: what one row represents:** The data we scrape from "Historical game data" and "Current standings" will be combined into one data frame. Each row within this table is one game played by our player during the 2024-2026 regular season. The data from "Next game schedule" only gives us one value, which is the next opponent of our specified player.  
 **Provide a compact data dictionary for the variables that matter to the project: variable name, meaning, data type, units/categories, and source:**
-The importance of these variables differs based on the player picked. Some of these variables might be important for Player A, while Other variables might be important for Player B. It depends on the role of the player that picked.
-**| Variable name | Meaning | Data type | Unit/Categories | Source |**
+The importance of these variables differs based on the player picked. Some of these variables might be important for Player A, while Other variables might be important for Player B. It depends on the role of the player that picked.  
+  
+| Variable name | Meaning | Data type | Unit/Categories | Source |
 | --- | --- | --- | --- | --- |
 | Receptions | Total number of times our player caught the ball | Integer | Count | Source #1 |
 | Receiving Yards | Total number of yards our player caught the ball for | Integer | Yard | Source #1 |
@@ -40,6 +41,7 @@ The importance of these variables differs based on the player picked. Some of th
 | Opponent | Historic and future game: Team our player faced in that game | String | NFL team abbreviation | Combination of: Source #1 & Source #3 |
 | At/Vs | Historic and future game: Whether the game was home or away | String | "vs" = home, "@" = away | Combination of: Source #1 & Source #3 |
 | Opponent Defense Rank | Historic and future game: Opponent's defense rank by points allowed in that season | Integer | Rank, 1 (best) to 32 (worst) | Combination of: Source #1, Source #2, and Source #3 |  
+  
 **Identify target/outcome variables if the project has them, but do not assume every project requires a prediction target:**
 **| Variable name | Meaning | Data type | Unit/Categories | Source |**
 | Total fantasy points | A predictive value after weighting and aggregating variables above into an algorithm | float | Count | Source: ML algorithm that consumed variables above |  

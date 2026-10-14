@@ -4,6 +4,7 @@ API URLs:
 1. Historical game data: "https://site.web.api.espn.com/apis/common/v3/sports/football/nfl/athletes/{pid}/gamelog"  
 2. Current standings = "https://site.api.espn.com/apis/v2/sports/football/nfl/standings"  
 3. Next game schedule = "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/{team_abbr_lower}/schedule"
+4. Historical Fantasy Data [2025 Fantasy Player Data](https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/2025)
    
 **Date accessed:** 10/12/2026; this will change over time because the data gets added after new games in the future  
 **License/term:** None  

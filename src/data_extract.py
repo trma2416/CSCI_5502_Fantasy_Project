@@ -1,3 +1,7 @@
+## Extract data from espn API endpoints, generates two csv files, player_gamelogs_{SEASON}.csv and player_summary_{SEASON}.csv
+## usage in terminal use: python3 <directory/to/script/>data_extract.py
+## only need to run once which will store data in you local repo but it will not be pushed to online version for storage reasons
+
 import json
 import time
 import requests

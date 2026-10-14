@@ -1,3 +1,7 @@
+## Extract historical fantasy data from espn API endpoints, generates csv file, player_weeks_{SEASON}.csv
+## usage in terminal use: python3 <directory/to/script/>import_hist.py
+## only need to run once which will store data in you local repo but it will not be pushed to online version for storage reasons
+
 import json
 import requests
 import pandas as pd

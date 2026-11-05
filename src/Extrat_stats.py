@@ -10,7 +10,7 @@ from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
 
 # Season configuration
-SEASON = 2025
+SEASON = 2024
 POSITIONS = {1: "QB", 2: "RB", 3: "WR", 4: "TE", 5: "K"}  # D/ST has no player gamelog
 MAX_WORKERS = 8  # concurrent gamelog requests
 

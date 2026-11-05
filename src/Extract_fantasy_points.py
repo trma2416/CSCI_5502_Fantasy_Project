@@ -7,7 +7,7 @@ import requests
 import pandas as pd
 from pathlib import Path
 
-SEASON = 2025
+SEASON = 2024
 WEEKS = range(1, 19)  # 2025 regular season
 
 OUT_FILE = Path("data") / f"player_weeks_{SEASON}.csv"

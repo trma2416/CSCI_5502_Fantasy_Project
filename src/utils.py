@@ -2,6 +2,21 @@ import numpy as np
 import pandas as pd
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
+def write_to_dict(df, name, data_path):
+    '''Update dictionary csv files '''
+    columns = df.columns.to_numpy()
+    dict_ = pd.DataFrame(columns)
+    try:
+        dict_.to_csv(data_path/f"dicts/{name}_dictionary.csv")
+    except Exception as e:
+        print(f"failed to write dictionary with exception {e}")
+
+def update_data(df, name, data_path):
+    try:
+        df.to_csv(data_path/f"{name}_final.csv")
+    except Exception as e:
+        print(f"failed to updata data: {e}")
+
 def clean(X, y):
     m = y.notna() & np.isfinite(y)
     return X[m], y[m]

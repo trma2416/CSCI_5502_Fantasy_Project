@@ -2,20 +2,23 @@
 ## generates one csv per season: player_weeks_{SEASON}.csv in ./data
 ##
 ## usage in terminal:
-##   python3 <directory/to/script/>Extract_fantasy_points.py                  -> seasons listed in SEASONS below
-##   python3 <directory/to/script/>Extract_fantasy_points.py 2024 2025 2026   -> seasons given on the command line
+##   python3 <directory/to/script/>Extract_fantasy_points.py                        -> seasons listed in SEASONS below
+##   python3 <directory/to/script/>Extract_fantasy_points.py 2024 2026              -> specific seasons
+##   python3 <directory/to/script/>Extract_fantasy_points.py --season 2025          -> one season (flag can repeat)
+##   python3 <directory/to/script/>Extract_fantasy_points.py --start 2020 --end 2023 -> inclusive range of seasons
+##   python3 <directory/to/script/>Extract_fantasy_points.py -h                     -> show help
 ## only need to run once per season which will store data in you local repo but it will not be pushed to online version for storage reasons
 ##
 ## Weeks kept per season: every week through the latest PLAYED week, plus the single next week
 ## (projection only, no actuals yet). A finished season keeps all 18 weeks.
 
+import argparse
 import json
-import sys
 import requests
 import pandas as pd
 from pathlib import Path
 
-# Seasons to extract (override from the command line: python3 Extract_fantasy_points.py 2025 2026)
+# Default seasons to extract when none are given on the command line
 SEASONS = [2024, 2025, 2026]
 WEEKS = range(1, 19)  # full regular season; later weeks are trimmed below if not yet reached
 DATA_DIR = Path("data")
@@ -25,7 +28,7 @@ URL = (
     "https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/{season}"
     "/segments/0/leaguedefaults/3"
 )
-POSITIONS = {1: "QB", 2: "RB", 3: "WR", 4: "TE", 5: "K", 16: "D/ST"}
+POSITIONS = {1: "QB", 2: "RB", 3: "WR", 4: "TE", 5: "K"}
 
 # Ask for up to 2000 players, most-rostered first
 headers = {
@@ -105,10 +108,34 @@ def run_season(season):
     ))
 
 
+def parse_args(argv=None):
+    parser = argparse.ArgumentParser(
+        description="Extract weekly ESPN fantasy points and projections into data/player_weeks_{SEASON}.csv."
+    )
+    parser.add_argument("seasons", nargs="*", type=int, metavar="SEASON",
+                        help="season year(s) to extract, e.g. 2024 2025")
+    parser.add_argument("-s", "--season", dest="extra_seasons", action="append", type=int, default=[],
+                        metavar="SEASON", help="season to extract (can be repeated)")
+    parser.add_argument("--start", type=int, help="first season of an inclusive range (requires --end)")
+    parser.add_argument("--end", type=int, help="last season of an inclusive range (requires --start)")
+    args = parser.parse_args(argv)
+
+    if (args.start is None) != (args.end is None):
+        parser.error("--start and --end must be used together")
+    if args.start is not None and args.start > args.end:
+        parser.error("--start must be less than or equal to --end")
+
+    seasons = list(args.seasons) + args.extra_seasons
+    if args.start is not None:
+        seasons += range(args.start, args.end + 1)
+    return sorted(set(seasons)) or SEASONS
+
+
 def main(seasons):
+    print(f"Extracting seasons: {', '.join(map(str, seasons))}")
     for season in seasons:
         run_season(season)
 
 
 if __name__ == "__main__":
-    main([int(a) for a in sys.argv[1:]] or SEASONS)
+    main(parse_args())

@@ -2,23 +2,26 @@
 ## player_gamelogs_{SEASON}.csv and player_summary_{SEASON}.csv in ./data
 ##
 ## usage in terminal:
-##   python3 <directory/to/script/>Extrat_stats.py                  -> seasons listed in SEASONS below
-##   python3 <directory/to/script/>Extrat_stats.py 2024 2025 2026   -> seasons given on the command line
+##   python3 <directory/to/script/>Extrat_stats.py                         -> seasons listed in SEASONS below
+##   python3 <directory/to/script/>Extrat_stats.py 2024 2026               -> specific seasons
+##   python3 <directory/to/script/>Extrat_stats.py --season 2025           -> one season (flag can repeat)
+##   python3 <directory/to/script/>Extrat_stats.py --start 2020 --end 2023 -> inclusive range of seasons
+##   python3 <directory/to/script/>Extrat_stats.py -h                      -> show help
 ## only need to run once per season which will store data in you local repo but it will not be pushed to online version for storage reasons
 ##
 ## Upcoming week: for a season that is still in progress, ONE extra unplayed week (the next one)
 ## is appended to the gamelogs so next-week features (opponent, home/away, weather) exist.
 ## Finished seasons get no upcoming rows. See ADD_UPCOMING_WEEK / UPCOMING_WEEK_OVERRIDE.
 
+import argparse
 import json
-import sys
 import time
 import requests
 import pandas as pd
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
 
-# Seasons to extract (override from the command line: python3 Extrat_stats.py 2025 2026)
+# Default seasons to extract when none are given on the command line
 SEASONS = [2024, 2025, 2026]
 
 POSITIONS = {1: "QB", 2: "RB", 3: "WR", 4: "TE", 5: "K"}  # D/ST has no player gamelog
@@ -332,10 +335,35 @@ def run_season(season):
     print(f"Saved {len(summary)} player summaries to {summary_file(season)}")
 
 
+def parse_args(argv=None):
+    parser = argparse.ArgumentParser(
+        description="Extract ESPN player gamelogs and summaries into "
+                    "data/player_gamelogs_{SEASON}.csv and data/player_summary_{SEASON}.csv."
+    )
+    parser.add_argument("seasons", nargs="*", type=int, metavar="SEASON",
+                        help="season year(s) to extract, e.g. 2024 2025")
+    parser.add_argument("-s", "--season", dest="extra_seasons", action="append", type=int, default=[],
+                        metavar="SEASON", help="season to extract (can be repeated)")
+    parser.add_argument("--start", type=int, help="first season of an inclusive range (requires --end)")
+    parser.add_argument("--end", type=int, help="last season of an inclusive range (requires --start)")
+    args = parser.parse_args(argv)
+
+    if (args.start is None) != (args.end is None):
+        parser.error("--start and --end must be used together")
+    if args.start is not None and args.start > args.end:
+        parser.error("--start must be less than or equal to --end")
+
+    seasons = list(args.seasons) + args.extra_seasons
+    if args.start is not None:
+        seasons += range(args.start, args.end + 1)
+    return sorted(set(seasons)) or SEASONS
+
+
 def main(seasons):
+    print(f"Extracting seasons: {', '.join(map(str, seasons))}")
     for season in seasons:
         run_season(season)
 
 
 if __name__ == "__main__":
-    main([int(a) for a in sys.argv[1:]] or SEASONS)
+    main(parse_args())

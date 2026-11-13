@@ -1,32 +1,51 @@
-## Extract data from espn API endpoints, generates two csv files, player_gamelogs_{SEASON}.csv and player_summary_{SEASON}.csv
-## usage in terminal use: python3 <directory/to/script/>data_extract.py
-## only need to run once which will store data in you local repo but it will not be pushed to online version for storage reasons
+## Extract data from espn API endpoints for one or more seasons. For each season it generates
+## player_gamelogs_{SEASON}.csv and player_summary_{SEASON}.csv in ./data
+##
+## usage in terminal:
+##   python3 <directory/to/script/>Extrat_stats.py                  -> seasons listed in SEASONS below
+##   python3 <directory/to/script/>Extrat_stats.py 2024 2025 2026   -> seasons given on the command line
+## only need to run once per season which will store data in you local repo but it will not be pushed to online version for storage reasons
+##
+## Upcoming week: for a season that is still in progress, ONE extra unplayed week (the next one)
+## is appended to the gamelogs so next-week features (opponent, home/away, weather) exist.
+## Finished seasons get no upcoming rows. See ADD_UPCOMING_WEEK / UPCOMING_WEEK_OVERRIDE.
 
 import json
+import sys
 import time
 import requests
 import pandas as pd
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
 
-# Season configuration
-SEASON = 2024
+# Seasons to extract (override from the command line: python3 Extrat_stats.py 2025 2026)
+SEASONS = [2024, 2025, 2026]
+
 POSITIONS = {1: "QB", 2: "RB", 3: "WR", 4: "TE", 5: "K"}  # D/ST has no player gamelog
 MAX_WORKERS = 8  # concurrent gamelog requests
+LAST_REG_SEASON_WEEK = 18
+DATA_DIR = Path("data")
 
-GAMELOG_FILE = Path("data") / f"player_gamelogs_{SEASON}.csv"
-SUMMARY_FILE = Path("data") / f"player_summary_{SEASON}.csv"
+# --- upcoming-week settings -------------------------------------------------------------
+# The next week is detected per season as (latest week with played games) + 1, so a finished
+# season (latest week = 18) gets nothing. Only exactly one week is ever added.
+ADD_UPCOMING_WEEK = True
+# Per-season override for mid-week runs while that week's games are still being played,
+# e.g. {2026: 10}. Only the latest played week or the one after it is accepted; anything
+# else raises, so a stale value can't add rows to the wrong week or the wrong season.
+UPCOMING_WEEK_OVERRIDE = {}
 
 # ESPN API configuration
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 PLAYERS_URL = (
-    f"https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/{SEASON}"
-    f"/segments/0/leaguedefaults/3"
+    "https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/{season}"
+    "/segments/0/leaguedefaults/3"
 )
 GAMELOG_URL = (
     "https://site.web.api.espn.com/apis/common/v3/sports/football/nfl/athletes/{pid}/gamelog"
 )
 STANDINGS_URL = "https://site.api.espn.com/apis/v2/sports/football/nfl/standings"
+SCOREBOARD_URL = "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"
 
 # Gamelog columns that are game metadata rather than stats
 META_COLS = [
@@ -35,12 +54,20 @@ META_COLS = [
 ]
 
 
-def get_players(season=SEASON):
+def gamelog_file(season):
+    return DATA_DIR / f"player_gamelogs_{season}.csv"
+
+
+def summary_file(season):
+    return DATA_DIR / f"player_summary_{season}.csv"
+
+
+def get_players(season):
     """Return every fantasy-relevant player (QB/RB/WR/TE/K) who recorded stats in the season,
     along with their actual fantasy points for each week."""
     filt = {"players": {"limit": 3000, "sortPercOwned": {"sortPriority": 1, "sortAsc": False}}}
     r = requests.get(
-        PLAYERS_URL,
+        PLAYERS_URL.format(season=season),
         params={"view": "kona_player_info"},
         headers={**HEADERS, "X-Fantasy-Filter": json.dumps(filt)},
         timeout=60,
@@ -71,7 +98,7 @@ def get_players(season=SEASON):
     return pd.DataFrame(players), pd.DataFrame(weekly_points)
 
 
-def get_gamelog(player_id, season=SEASON, retries=3):
+def get_gamelog(player_id, season, retries=3):
     """Fetch one season of game logs (regular season + postseason) as a DataFrame."""
     for attempt in range(retries):
         r = requests.get(
@@ -113,7 +140,7 @@ def get_gamelog(player_id, season=SEASON, retries=3):
     return pd.DataFrame(rows)
 
 
-def get_defense_ranks(season=SEASON):
+def get_defense_ranks(season):
     """Rank teams by points allowed for a season (1 = fewest allowed)."""
     r = requests.get(STANDINGS_URL, headers=HEADERS, params={"season": season})
     r.raise_for_status()
@@ -126,7 +153,99 @@ def get_defense_ranks(season=SEASON):
     return pd.Series(pa).rank(method="min").astype(int)
 
 
-def get_all_gamelogs(players, season=SEASON):
+def get_upcoming_games(week, season):
+    """One row per team for every game scheduled in `week` (home and away views).
+
+    Uses ESPN's scoreboard. `dates=<season>` is required: without it the `week` parameter
+    silently returns the previous season's schedule.
+    """
+    r = requests.get(
+        SCOREBOARD_URL,
+        headers=HEADERS,
+        params={"dates": season, "seasontype": 2, "week": week, "limit": 1000},
+        timeout=30,
+    )
+    r.raise_for_status()
+    data = r.json()
+
+    # guard against ESPN answering with a different season/week than we asked for
+    got_year = (data.get("season") or {}).get("year")
+    got_week = (data.get("week") or {}).get("number")
+    if (got_year is not None and got_year != season) or (got_week is not None and got_week != week):
+        print(f"WARNING: scoreboard returned season={got_year} week={got_week}, "
+              f"expected season={season} week={week}; skipping upcoming rows")
+        return pd.DataFrame()
+
+    rows = []
+    for ev in data.get("events", []):
+        comps = ev.get("competitions", [{}])[0].get("competitors", [])
+        sides = {c["homeAway"]: c["team"]["abbreviation"] for c in comps}
+        if "home" not in sides or "away" not in sides:
+            continue
+        # atVs uses the same "vs" (home) / "@" (away) values as the gamelog endpoint
+        for side, other, at_vs in (("home", "away", "vs"), ("away", "home", "@")):
+            rows.append({
+                "team": sides[side],
+                "opponent": sides[other],
+                "atVs": at_vs,
+                "eventId": ev["id"],
+                "date": ev.get("date"),
+                "week": week,
+            })
+    return pd.DataFrame(rows)
+
+
+def pick_upcoming_week(gamelogs, season):
+    """The single week to add as unplayed rows for this season, or None for no rows."""
+    last_played = int(gamelogs["week"].max())
+
+    if season in UPCOMING_WEEK_OVERRIDE:
+        week = UPCOMING_WEEK_OVERRIDE[season]
+        if week not in (last_played, last_played + 1):
+            raise ValueError(
+                f"UPCOMING_WEEK_OVERRIDE[{season}]={week} but the latest played week is "
+                f"{last_played}; only {last_played} or {last_played + 1} is allowed. "
+                f"Remove the override for finished seasons."
+            )
+        return week
+
+    week = last_played + 1
+    return week if week <= LAST_REG_SEASON_WEEK else None  # finished season -> None
+
+
+def build_upcoming_rows(gamelogs, week, season):
+    """Unplayed rows (player x upcoming game) in the same schema as the gamelogs.
+
+    Stat columns are left empty (they get filled with NaN on concat). Each player is
+    attached to the team of their most recent game. Teams on a bye get no row, and a player
+    who already has a played row for `week` never gets a second one.
+    """
+    games = get_upcoming_games(week, season)
+    if games.empty:
+        return pd.DataFrame()
+
+    roster = (
+        gamelogs.sort_values("date")
+        .groupby("player_id")
+        .tail(1)[["player_id", "player", "position", "team"]]
+    )
+    upcoming = roster.merge(games, on="team", how="inner")
+
+    # never duplicate a (player, week) that was actually played
+    played = gamelogs.dropna(subset=["week"])
+    played_keys = set(zip(played["player_id"], played["week"].astype(int)))
+    already = [(pid, wk) in played_keys for pid, wk in zip(upcoming["player_id"], upcoming["week"])]
+    upcoming = upcoming[[not a for a in already]]
+
+    upcoming = upcoming.assign(season=season, season_type="Regular Season")
+
+    byes = sorted(set(roster["team"]) - set(games["team"]))
+    print(f"Upcoming week {week}: {len(upcoming)} player rows across "
+          f"{upcoming['team'].nunique()} teams (bye: {byes})")
+    return upcoming
+
+
+def get_all_gamelogs(players, season):
     """Fetch regular-season gamelogs for every player and stack them into one DataFrame."""
     with ThreadPoolExecutor(MAX_WORKERS) as ex:
         frames = list(ex.map(lambda pid: get_gamelog(pid, season), players["player_id"]))
@@ -178,24 +297,45 @@ def summarize_players(gamelogs):
     return summary.sort_values("total_fantasy_points", ascending=False, ignore_index=True)
 
 
-def main():
-    players, weekly_points = get_players(SEASON)
-    print(f"Found {len(players)} players with {SEASON} stats")
+def run_season(season):
+    print(f"\n=== Season {season} ===")
+    players, weekly_points = get_players(season)
+    print(f"Found {len(players)} players with {season} stats")
 
-    gamelogs = get_all_gamelogs(players, SEASON)
+    gamelogs = get_all_gamelogs(players, season)
 
-    ranks = get_defense_ranks(SEASON)
+    ranks = get_defense_ranks(season)
     gamelogs["opp_def_rank"] = gamelogs["opponent"].map(ranks)
     gamelogs = gamelogs.merge(weekly_points, on=["player_id", "week"], how="left")
 
+    # summarize BEFORE adding upcoming rows so unplayed games don't count toward games/averages
     summary = summarize_players(gamelogs)
+    n_played = len(gamelogs)
 
-    GAMELOG_FILE.parent.mkdir(exist_ok=True)
-    gamelogs.to_csv(GAMELOG_FILE, index=False)
-    summary.to_csv(SUMMARY_FILE, index=False)
-    print(f"Saved {len(gamelogs)} games to {GAMELOG_FILE}")
-    print(f"Saved {len(summary)} player summaries to {SUMMARY_FILE}")
+    # add the next week's unplayed rows (opponent, home/away, eventId, date; stats stay NaN)
+    if ADD_UPCOMING_WEEK:
+        upcoming_week = pick_upcoming_week(gamelogs, season)
+        if upcoming_week is None:
+            print(f"Season {season} is complete (latest played week "
+                  f"{int(gamelogs['week'].max())}); no upcoming rows")
+        else:
+            upcoming = build_upcoming_rows(gamelogs, upcoming_week, season)
+            if not upcoming.empty:
+                upcoming["opp_def_rank"] = upcoming["opponent"].map(ranks)
+                gamelogs = pd.concat([gamelogs, upcoming], ignore_index=True)
+
+    DATA_DIR.mkdir(exist_ok=True)
+    gamelogs.to_csv(gamelog_file(season), index=False)
+    summary.to_csv(summary_file(season), index=False)
+    print(f"Saved {n_played} played games + {len(gamelogs) - n_played} upcoming rows "
+          f"to {gamelog_file(season)}")
+    print(f"Saved {len(summary)} player summaries to {summary_file(season)}")
+
+
+def main(seasons):
+    for season in seasons:
+        run_season(season)
 
 
 if __name__ == "__main__":
-    main()
+    main([int(a) for a in sys.argv[1:]] or SEASONS)

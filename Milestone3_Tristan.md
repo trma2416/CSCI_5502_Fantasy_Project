@@ -16,3 +16,4 @@ The clustering resulted in 3 groups:
 |   RB  |QB, TE | WR, K |
 
 
+Once the clusters were generated, I moved into the XGBoost_cluster.ipynb to begin to implement the models. I obtained 2024 and 2025 data and following the EDA portion where I generated the contributing attributes, I followed this schema. I then had to perform a shift of specific attributes by a week such that our model is using old scoring data and current contextual data to train on because we are wanting to use the historical data combined with the current weather data to predict a future score. Once that task was completed I had to label our categorical data as a "category" dtype for the input of XGBoost. Finally, I generated our training, validation, and testing splits. We opted to use all of 2024 and half of 2025 as training, weeks 7-9 in 2025 as validation, and the rest of the weeks in 2025 as testing. 

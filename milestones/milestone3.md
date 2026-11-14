@@ -1,7 +1,5 @@
 # Milestone 3: Modeling, Comparison, and Evaluation
 
-**Evidence used:** `milestones/Milestone3_Tristan.md`, `notebooks/Modeling_data_prep.ipynb`, `notebooks/XGBOOST.ipynb`, `notebooks/XGBoost_cluster.ipynb`, `notebooks/test.ipynb`, `notebooks/test_global.ipynb`, `analysis.ipynb` (repository root), and the helper functions in `src/utils.py`. All numbers below come from saved notebook outputs. Places where the evidence is missing, inconsistent, or does not support a claim are marked **⚠ Gap**. Section 7 lists all of them in one place.
-
 ---
 
 ## 1. Modeling Plan

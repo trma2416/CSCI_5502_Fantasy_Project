@@ -17,7 +17,7 @@ The project goal (Milestone 1) is to help fantasy managers make weekly start/sit
 | Clustered XGBoost regressors (RB; QB+TE; WR+K) | `XGBoost_cluster.ipynb`, `test.ipynb` | Regression / one-week-ahead forecasting | RQ2, RQ4 |
 | Side-by-side evaluation of the saved models on the same 2026 player-games | `analysis.ipynb` | Model comparison | RQ2, RQ4 |
 
-**Target:** `target_next_week_fantasy` (global) or `target_fantasy_points` (clustered). Both are the player's fantasy points in their **next game played**, built by `shift(-1)` within each `(player_id, season)` group. Each row combines what was known after week *N* with the scheduled context of game *N+1*.
+**Target:** `target_next_week_fantasy` (both global and clustered). It is the player's fantasy points in their **next game played**, built by `shift(-1)` within each `(player_id, season)` group. Each row combines what was known after week *N* with the scheduled context of game *N+1*.
 
 
 
@@ -33,7 +33,7 @@ The project goal (Milestone 1) is to help fantasy managers make weekly start/sit
 ### 1.4 Assumptions, constraints and failure modes in our implementation
 
 1. **Selection on playing.** `shift(-1)` takes the next game the player *appeared in*. Bye weeks, injuries and inactive weeks are skipped, so the target never includes "did not play." A manager who starts an injured player gets 0, but our evaluation never sees that case. Measured errors are therefore optimistic for real start/sit use.
-2. **Season-level context columns.** `opp_def_rank`, `team_pass_rank` and `team_rush_rank` have exactly one value per opponent per season in all three data files (checked: max distinct values per opponent = 1). For 2024 and 2025 they are end-of-season values, which leak the outcome of later games. `XGBOOST.ipynb` removes them for this reason (comment in cell 2). **The clustered models still use `next_week_opp_def_rank`, `next_week_team_pass_rank` and `next_week_team_rush_rank`** (confirmed in the saved model feature lists). See Section 3.3.
+2. **Season-level context columns.** `opp_def_rank`, `team_pass_rank` and `team_rush_rank` have exactly one value per opponent per season in all three data files (checked: max distinct values per opponent = 1). For 2024 and 2025 they are end-of-season values, which leak the outcome of later games. `XGBOOST.ipynb` removes them for this reason (comment in cell 2).
 3. **Player identity as a feature.** `player` is a categorical feature in every model and has the largest mean |SHAP| in all four of them (Section 6.2). The models depend on having seen the player before. Rookies and players new in 2026 are unseen categories, and no notebook measures error for them.
 4. **Weather is the observed game-day value.** `next_week_temp` and `next_week_wind` come from nflverse game records, not forecasts. In real use only a forecast would be known before kickoff. The SHAP values for these features are small (≤ 0.04), so the effect is likely minor.
 5. **Known data issues carried forward from Milestone 2.** International games have the home team's US stadium, roof and surface (2.6% of 2025 rows). About 27% of rows score exactly 0, often players with no offensive role.
@@ -46,21 +46,14 @@ The project goal (Milestone 1) is to help fantasy managers make weekly start/sit
 |---|---|---|
 | Baseline / reference | ESPN's projected points for the same game (`next_week_projected`) | Every evaluation notebook |
 | Candidate 1 | Global XGBoost, one model for all positions, 97 features | `XGBOOST.ipynb`, `test_global.ipynb` |
-| Candidate 2 | Clustered XGBoost, three models (RB: 29 features; QB+TE: 40; WR+K: 47) routed by position | `XGBoost_cluster.ipynb`, `test.ipynb` |
+| Candidate 2 | Clustered XGBoost, three models (RB; QB+TE; WR+K) routed by position, each on the same 97 features | `XGBoost_cluster.ipynb`, `test.ipynb` |
 | Supporting analysis | Per-position MLR and hierarchical clustering, used to choose the groups for Candidate 2 | `Modeling_data_prep.ipynb` |
 
 The ESPN projection counts as an "established domain benchmark" under the assignment. It is a strong baseline because it was built by a professional system with access to information we do not have (injury reports, depth charts, betting lines).
 
 
 
-| | Global | Clustered |
-|---|---|---|
-| Rolling and cumulative history features (`*_season_avg`, `*_cum_career_avg`, `*_last3`) | Yes (32 columns) | **No**, only last-game raw stats |
-| `team`, `next_week_stadium`, `next_week_gametime` | No | Yes |
-| Season-level rank features | Removed | Included (leaky) |
-| `early_stopping_rounds` | 50 | 100 |
-
-The difference in results therefore cannot be attributed to clustering alone. A fair test would train the clustered models on the global feature set.
+Both candidates use the same modeling frame: the same 97 features, target, row filtering, train/validation/test split and hyperparameters (including `early_stopping_rounds=50`). `XGBoost_cluster.ipynb` builds the frame with the same code as `XGBOOST.ipynb` and then partitions the rows by position group, so the three groups together are exactly the global model's 10,555 / 3,183 / 3,250 rows. The only difference between the candidates is whether one model is fit to all positions or one model per group, so any difference in results can be attributed to the grouping.
 
 
 
@@ -76,10 +69,7 @@ The difference in results therefore cannot be attributed to clustering alone. A 
 - *Next-game context:* `next_week_opponent`, `next_week_atVs`, `next_week_roof`, `next_week_surface`, `next_week_temp`, `next_week_wind`, `next_week_location`.
 - *Engineered history:* career cumulative mean and season-to-date mean for 14 stats (`fantasy_points`, receptions, targets, yards, touchdowns, attempts, interceptions, fumbles lost), plus a 3-game rolling mean of `fantasy_points`, `receivingTargets`, `rushingAttempts` and `passingAttempts`.
 
-**Clustered models (`XGBoost_cluster.ipynb`).**
-- *Shared:* `player`, `position`, `team`, `week`.
-- *Position-relevant last-game stats only.* Columns were chosen per position in `Modeling_data_prep.ipynb`: QB uses passing, rushing and ball security; RB, WR and TE use rushing, receiving and ball security; K uses kicking. When two positions are pooled (QB+TE, WR+K), the frame is the union of their columns.
-- *Next-game context:* `next_week_` versions of `opponent`, `atVs`, `opp_def_rank`, `team_pass_rank`, `team_rush_rank`, `stadium`, `roof`, `surface`, `temp`, `wind`, `location` and `gametime`.
+**Clustered models (`XGBoost_cluster.ipynb`).** The same 97 features as the global model. Each of the three models (RB; QB+TE; WR+K) is trained only on the rows for its positions. Stats that do not apply to a position (for example kicking stats for a WR) are NaN, and XGBoost handles them through its learned default split direction.
 
 ### 3.1 (continued) Features intentionally excluded
 
@@ -87,10 +77,10 @@ The difference in results therefore cannot be attributed to clustering alone. A 
 |---|---|
 | `fantasy_points` (current week), `result`, `score`, `score_category` | Same-game outcomes. `fantasy_points` would be redundant with the history features and is not the target |
 | `projected_points`, `next_week_projected`, `med_proj_pts`, `espn` | ESPN's projection is the baseline, not an input. `med_proj_pts` is a season median and leaks later weeks (Milestone 2) |
-| `opp_def_rank`, `team_pass_rank`, `team_rush_rank` (current week) | Season-level values. In the global model the next-week versions were also removed ("opp_def_rank is a season-end value, so it leaks future games") |
+| `opp_def_rank`, `team_pass_rank`, `team_rush_rank` (current week) | Season-level values. In both models the next-week versions were also removed ("opp_def_rank is a season-end value, so it leaks future games") |
 | `atVs`, `roof`, `surface`, `temp`, `wind`, `location` (current week) | Replaced by their next-week versions. The context that matters is the game being predicted |
 | `player_id`, `eventId`, `game_id`, `date`, `gameday`, `season`, `Unnamed: 0` | Identifiers or duplicates. `player` is kept as the identity feature |
-| `team`, `stadium`, `gametime` | Excluded from the global model only. **⚠ Gap:** no reason is documented for keeping them in the clustered models and not in the global model |
+| `team`, `stadium`, `gametime` | Excluded from both models (the two notebooks use the same exclusion list) |
 
 ### 3.2 Encoding, scaling and transformations
 
@@ -98,7 +88,7 @@ The difference in results therefore cannot be attributed to clustering alone. A 
 - **Scaling.** None, because tree splits do not depend on feature scale. Standardization (z-scores on features and target) was used only in the MLR step, so that coefficients could be compared across positions.
 - **One-hot encoding** (`drop_first=True`) was used only for the exploratory MLR. That step showed that `opp_def_rank` is determined exactly by the `opponent` dummies and `location` by `team`, `opponent` and `atVs`, which produced a rank-deficient design matrix (condition number ≈ 7×10¹⁷).
 - **Feature construction.** Next-game context comes from `shift(-1)` within `(player_id, season)`, so a season's last game never takes the next season's week 1 as its target. Expanding means (`expanding().mean()`) and rolling means (`rolling(3, min_periods=1)`) include the current week *N*. This is valid because the target is week *N+1*.
-- **Row filtering.** Rows with a NaN target are dropped (`utils.clean`). In the clustered notebooks the last week of each season is also dropped (for 2026 this is week 10, which has not been played).
+- **Row filtering.** Rows with a NaN target are dropped (`utils.clean`) in both notebooks. This removes each player's last game of a season, including 2026 week 10, which has not been played.
 
 ### 3.3/3.4 Leakage controls and remaining leakage
 
@@ -138,9 +128,9 @@ The split respects time order. Every validation row comes after every training r
 
 ### 4.3 Common evaluation protocol
 
-`analysis.ipynb` (blocks 10–12) builds a matched test set so that all three predictors are scored on exactly the same rows:
+`analysis.ipynb` builds one input frame with the same code as `XGBOOST.ipynb` (Section 3) and uses it for all four saved models. The global model scores every row of it. Each cluster model scores only the rows for its positions, with the same 97 features. Before predicting, the notebook checks that each saved cluster model's feature list equals the global one, and it stops with a message to retrain if it does not. Blocks 10–12 then build a matched test set so that all three predictors are scored on exactly the same rows:
 - inner join on `(player_id, predicted week)`;
-- assertions that the actual score agrees across the two pipelines and that there are no duplicate keys;
+- assertions that the actual score agrees between the global and cluster rows and that there are no duplicate keys;
 - result: **3,163 player-games, 562 players, predicted weeks 2–9** (WR 1,151; TE 750; RB 740; QB 286; K 236).
 
 ---
@@ -158,7 +148,7 @@ Hyperparameters were tuned **manually**. All four final models use the same conf
 | `max_depth` | 5 | Limits how many features can interact in one tree |
 | `min_child_weight` | 3 | Minimum leaf weight, guards against very small leaves |
 | `subsample` / `colsample_bytree` | 0.7 / 0.7 | Row and column subsampling for regularization |
-| `early_stopping_rounds` | 50 (global), 100 (clustered) | Stops when validation RMSE stops improving |
+| `early_stopping_rounds` | 50 | Stops when validation RMSE stops improving |
 
 One alternative configuration is left commented out in `XGBOOST.ipynb` (`learning_rate=0.01`, `max_depth=8`, `min_child_weight=5`, `subsample=colsample=0.5`). Its result is not recorded.
 
@@ -176,6 +166,8 @@ Early-stopping results on the validation set (from the saved model metadata):
 The test set was not used for tuning. Early stopping and all hyperparameter choices relied on 2025 weeks 10–18 only.
 
 ### 5.2 Final comparison on the test set
+
+> **Note:** the clustered results below (and the clustered SHAP values in Section 6.2 and player examples in Section 6.3) come from the earlier clustered models, which used a different feature set. `XGBoost_cluster.ipynb` now trains on the global feature set, and `analysis.ipynb` and `test.ipynb` have been updated to give the cluster models the same inputs. These numbers must be updated after re-running `XGBoost_cluster.ipynb` and then `analysis.ipynb` and `test.ipynb`.
 
 **Overall, on the 3,163 matched 2026 player-games (`analysis.ipynb`, block 12):**
 
@@ -222,7 +214,7 @@ The test set was not used for tuning. Early stopping and all hyperparameter choi
 
 - **RQ1 (pre-game factors).** Game context alone explains almost none of the week-to-week variation. In `Modeling_data_prep.ipynb`, every numeric pre-game feature had |r| ≤ 0.08 with RB fantasy points. The RB MLR had train R² = 0.066, adjusted R² = −0.013 and F-test p = 0.868, with a test RMSE of 8.22 on the last ~25% of weeks. Standardized MLR coefficients were below 0.10 for most features and at most about 0.33 across positions. The tree models agree (Section 6.2): the player's own history dominates, and context features rank lower.
 - **RQ2 (beat ESPN).** No, overall or by position, except a slight edge for kickers on win count.
-- **RQ4 (does the best model differ by position).** Clustering positions by their context coefficients did not help. Pooling all positions, with richer history features, worked better. As noted in Section 2, the comparison is confounded, so this does not show that position-specific models cannot work.
+- **RQ4 (does the best model differ by position).** Clustering positions by their context coefficients did not help. Pooling all positions worked better. With both candidates now trained on the same features (Section 2), this comparison isolates the effect of grouping once the clustered results are re-run.
 
 **Position clusters found (`Modeling_data_prep.ipynb`).** Hierarchical clustering with average linkage, using distance = 1 − cosine similarity:
 
@@ -275,7 +267,6 @@ The subjects are professional athletes, and the output is advice for a recreatio
 - **It does not show causation.** Features with high SHAP values (opponent, stadium) are associated with predictions. They do not cause scoring changes.
 - **It does not show the model is useful for start/sit decisions.** MAE was evaluated, but ranking within position and week was not, and players who did not play are excluded.
 - **It does not generalize beyond these seasons.** There is one test window (2026 weeks 2–9), one model per approach (one random seed, `random_state=12`), and no confidence intervals. The MAE gap between global and clustered (0.25 points) and between global and ESPN (0.51 points) has no reported uncertainty. A paired bootstrap over players would show whether the global–clustered gap is reliable.
-- **It does not isolate the effect of clustering**, because the feature sets differ (Section 2).
 
 ---
 
@@ -286,15 +277,13 @@ The subjects are professional athletes, and the output is advice for a recreatio
 | 1 | Plan | RQ3 (history vs. history + context) and RQ5 (boom/bust) have no model or results | Train a history-only global model, and add a boom/bust classifier or threshold evaluation |
 | 2 | Plan | XGBoost chosen without a simpler learned competitor | Add a ridge regression or random forest on the global features |
 | 3 | Comparison | No naive baseline | Score `fantasy_points_season_avg` and `fantasy_points_last3` as predictors on the same 3,163 rows |
-| 4 | Comparison | Global and clustered models differ in features and early stopping, not only grouping | Retrain the clustered models on the global feature set |
-| 5 | Comparison | QB+WR+TE / RB / K grouping proposed but code commented out | Run it or remove the section |
-| 6 | Leakage | Clustered models use season-level `next_week_opp_def_rank`, `next_week_team_pass_rank`, `next_week_team_rush_rank` | Drop them, or rebuild the ranks as of each week |
-| 7 | Leakage | Position clustering used 2025 weeks 10–18 (the validation set) | Re-run the clustering on training weeks only |
-| 8 | Baseline | Some ESPN projections are season-median imputations or 0 | Flag imputed rows and report ESPN metrics with and without them |
-| 9 | Documentation | `Milestone3_Tristan.md` states the wrong split (val = 2025 weeks 7–9, test = rest of 2025) | Correct it to train 2024 + 2025 weeks 1–9, val 2025 weeks 10–18, test 2026 |
-| 10 | Documentation | `Milestone3_Tristan.md` overstates agreement between the MLR, R² and Spearman results | Use the notebook's own caveats |
-| 11 | Tuning | Manual tuning with no record of the configurations tried | Log each configuration and its validation RMSE, or run a small randomized search on the validation set |
-| 12 | Reproducibility | `analysis.ipynb` used a 450-round global model, while the committed model (from `XGBOOST.ipynb`) has 411 rounds, giving different metrics (MAE 4.376 vs 4.410) | Fix one model version and re-run every evaluation notebook |
-| 13 | Reproducibility | `figures/shap_top_features.png` is overwritten by two notebooks | Save to model-specific file names |
-| 14 | Evaluation | No ranking metric, no per-position MAE for the global model, no confidence intervals, single seed | Add Spearman within position-week, per-position MAE, and a bootstrap CI on the MAE differences |
-| 15 | Evaluation | Rows where the player did not play next are excluded by construction | State this in the results, or model availability separately |
+| 4 | Comparison | QB+WR+TE / RB / K grouping proposed but code commented out | Run it or remove the section |
+| 5 | Leakage | Position clustering used 2025 weeks 10–18 (the validation set) | Re-run the clustering on training weeks only |
+| 6 | Baseline | Some ESPN projections are season-median imputations or 0 | Flag imputed rows and report ESPN metrics with and without them |
+| 7 | Documentation | `Milestone3_Tristan.md` states the wrong split (val = 2025 weeks 7–9, test = rest of 2025) | Correct it to train 2024 + 2025 weeks 1–9, val 2025 weeks 10–18, test 2026 |
+| 8 | Documentation | `Milestone3_Tristan.md` overstates agreement between the MLR, R² and Spearman results | Use the notebook's own caveats |
+| 9 | Tuning | Manual tuning with no record of the configurations tried | Log each configuration and its validation RMSE, or run a small randomized search on the validation set |
+| 10 | Reproducibility | `analysis.ipynb` used a 450-round global model, while the committed model (from `XGBOOST.ipynb`) has 411 rounds, giving different metrics (MAE 4.376 vs 4.410) | Fix one model version and re-run every evaluation notebook |
+| 11 | Reproducibility | `figures/shap_top_features.png` is overwritten by two notebooks | Save to model-specific file names |
+| 12 | Evaluation | No ranking metric, no per-position MAE for the global model, no confidence intervals, single seed | Add Spearman within position-week, per-position MAE, and a bootstrap CI on the MAE differences |
+| 13 | Evaluation | Rows where the player did not play next are excluded by construction | State this in the results, or model availability separately |

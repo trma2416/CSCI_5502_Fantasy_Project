@@ -63,13 +63,13 @@ Output: `data/player_weeks_{SEASON}.csv`
 **macOS / Linux**
 
 ```bash
-python3 src/Extrat_stats.py
+python3 src/Extract_stats.py
 ```
 
 **Windows (PowerShell or Command Prompt)**
 
 ```powershell
-python src/Extrat_stats.py
+python src/Extract_stats.py
 ```
 
 Output: `data/player_gamelogs_{SEASON}.csv` and `data/player_summary_{SEASON}.csv`

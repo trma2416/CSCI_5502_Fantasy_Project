@@ -27,7 +27,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4047646,A.J. Brown,WR,21,1,1.8,16.58037854
 4047365,Josh Jacobs,RB,9,1,14.0,15.69768227
 4596448,Bucky Irving,RB,27,1,14.5,17.27660191
--16007,Broncos D/ST,D/ST,7,1,16.0,7.76205728
+-16007,Broncos D/ST,16,7,1,16.0,7.76205728
 4239993,Tee Higgins,WR,4,1,6.3,15.47328169
 4431459,Tyler Warren,TE,11,1,14.9,9.91652052
 4426388,Jameson Williams,WR,8,1,6.6,12.91646091
@@ -35,7 +35,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429615,Zay Flowers,WR,33,1,28.1,14.56316758
 4239996,Travis Etienne Jr.,RB,30,1,18.6,10.29738969
 16800,Davante Adams,WR,14,1,9.1,14.45286668
--16034,Texans D/ST,D/ST,34,1,8.0,5.90158976
+-16034,Texans D/ST,16,34,1,8.0,5.90158976
 4259545,D'Andre Swift,RB,3,1,9.5,12.6414126
 4038815,Rico Dowdle,RB,29,1,3.6,4.98799409
 4612826,Ladd McConkey,WR,24,1,13.4,15.12293239
@@ -62,7 +62,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685382,Omarion Hampton,RB,24,1,8.1,14.72817806
 4035687,Michael Pittman Jr.,WR,11,1,20.0,12.00742697
 4567750,Emeka Egbuka,WR,27,1,23.6,13.45588056
--16026,Seahawks D/ST,D/ST,26,1,7.0,4.84232901
+-16026,Seahawks D/ST,16,26,1,7.0,4.84232901
 4362081,Cameron Dicker,K,24,1,9.0,8.39642132
 3126486,Deebo Samuel,WR,28,1,22.6,11.91126252
 3121023,Dallas Goedert,TE,21,1,11.4,9.42159928
@@ -74,7 +74,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4432773,Brian Thomas Jr.,WR,30,1,9.0,16.33656031
 4038941,Justin Herbert,QB,24,1,27.92,16.55577426
 4432708,Marvin Harrison Jr.,WR,22,1,18.1,13.91567827
--16017,Patriots D/ST,D/ST,17,1,5.0,6.52547773
+-16017,Patriots D/ST,16,17,1,5.0,6.52547773
 4569587,Wan'Dale Robinson,WR,19,1,11.5,9.70255026
 3886598,Jauan Jennings,WR,25,1,3.6,12.52552049
 3916433,Jakobi Meyers,WR,30,1,17.7,12.80385758
@@ -105,30 +105,30 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4373678,Khalil Shakir,WR,2,1,12.4,11.73972256
 4429205,Jordan Addison,WR,16,1,0.0,0.0
 4360310,Trevor Lawrence,QB,30,1,10.32,17.97906537
--16008,Lions D/ST,D/ST,8,1,2.0,5.92186452
+-16008,Lions D/ST,16,8,1,2.0,5.92186452
 3150744,Chase McLaughlin,K,27,1,5.0,8.73776764
--16023,Steelers D/ST,D/ST,23,1,1.0,8.27423407
+-16023,Steelers D/ST,16,23,1,1.0,8.27423407
 4036378,Jordan Love,QB,9,1,15.92,14.92023319
 4685702,Quinshon Judkins,RB,5,1,0.0,0.0
 4248528,Christian Watson,WR,9,1,0.0,0.0
 3116165,Chris Godwin Jr.,WR,27,1,0.0,0.0
--16021,Eagles D/ST,D/ST,21,1,2.0,6.16056395
+-16021,Eagles D/ST,16,21,1,2.0,6.16056395
 4569618,Garrett Wilson,WR,20,1,22.5,13.17477269
 4385690,Dalton Kincaid,TE,2,1,14.8,8.75001436
--16030,Jaguars D/ST,D/ST,30,1,12.0,6.42958845
+-16030,Jaguars D/ST,16,30,1,12.0,6.42958845
 2578570,Jacoby Brissett,QB,22,1,0.0,0.13238673
 4608686,Kyle Monangai,RB,3,1,2.1,2.87112813
 4426385,Zach Charbonnet,RB,26,1,10.7,8.59309448
 4241416,Chuba Hubbard,RB,29,1,17.9,15.38728835
 4361432,Romeo Doubs,WR,9,1,8.8,8.36201185
--16014,Rams D/ST,D/ST,14,1,12.0,5.60232673
+-16014,Rams D/ST,16,14,1,12.0,5.60232673
 3929645,Juwan Johnson,TE,18,1,15.6,7.32669686
 4429025,Quentin Johnston,WR,24,1,24.9,6.35507853
 4036133,T.J. Hockenson,TE,16,1,4.5,11.28851267
 3117256,Dalton Schultz,TE,34,1,5.8,7.60175649
 3139477,Patrick Mahomes,QB,12,1,26.02,19.81354612
 4431280,Troy Franklin,WR,7,1,8.4,4.70673007
--16002,Bills D/ST,D/ST,2,1,-2.0,3.11295325
+-16002,Bills D/ST,16,2,1,-2.0,3.11295325
 4430027,Sam LaPorta,TE,8,1,13.9,11.34720342
 4697745,Tyler Loop,K,33,1,13.0,8.22132987
 4241463,Jerry Jeudy,WR,5,1,11.6,14.85999614
@@ -151,17 +151,17 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4574716,Harrison Mevis,K,14,1,,0.0
 4430968,Kimani Vidal,RB,24,1,,0.0
 17427,Cairo Santos,K,3,1,6.0,8.13094703
--16005,Browns D/ST,D/ST,5,1,7.0,4.29914125
+-16005,Browns D/ST,16,5,1,7.0,4.29914125
 3912547,Sam Darnold,QB,26,1,5.4,15.32881695
--16009,Packers D/ST,D/ST,9,1,11.0,3.93013944
+-16009,Packers D/ST,16,9,1,11.0,3.93013944
 4575131,Jacory Croskey-Merritt,RB,28,1,14.2,9.52085554
 4686361,Cam Little,K,30,1,15.0,8.30643177
 2977187,Cooper Kupp,WR,26,1,3.5,12.33167081
--16018,Saints D/ST,D/ST,18,1,9.0,3.60373016
+-16018,Saints D/ST,16,18,1,9.0,3.60373016
 4688813,Josh Downs,WR,11,1,3.2,10.68383008
--16016,Vikings D/ST,D/ST,16,1,4.0,6.93782125
+-16016,Vikings D/ST,16,16,1,4.0,6.93782125
 4569923,Andy Borregales,K,17,1,7.0,7.84703926
--16033,Ravens D/ST,D/ST,33,1,-7.0,3.89555584
+-16033,Ravens D/ST,16,33,1,-7.0,3.89555584
 4040655,Darnell Mooney,WR,1,1,0.0,0.0
 3123076,David Njoku,TE,5,1,6.7,11.25117069
 4685278,Luther Burden III,WR,3,1,0.7,3.2157091
@@ -171,10 +171,10 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429096,Blake Corum,RB,14,1,2.6,4.13459701
 4576297,AJ Barner,TE,26,1,1.2,5.49342721
 4635008,Keon Coleman,WR,2,1,25.2,11.96438641
--16024,Chargers D/ST,D/ST,24,1,2.0,3.75178248
+-16024,Chargers D/ST,16,24,1,2.0,3.75178248
 4428718,Tre Tucker,WR,13,1,13.4,5.47380413
 3917792,Daniel Jones,QB,11,1,29.48,17.14242658
--16011,Colts D/ST,D/ST,11,1,14.0,5.30327609
+-16011,Colts D/ST,16,11,1,14.0,5.30327609
 3051876,Evan Engram,TE,7,1,5.1,9.91085701
 3128720,Nick Chubb,RB,34,1,6.0,9.34272836
 4887558,Emanuel Wilson,RB,9,1,0.4,3.14981133
@@ -182,7 +182,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 15835,Zach Ertz,TE,28,1,11.6,8.91334362
 4597500,Adonai Mitchell,WR,20,1,4.1,5.04047015
 4362619,Chris Rodriguez Jr.,RB,28,1,0.0,0.0
--16027,Buccaneers D/ST,D/ST,27,1,0.0,5.70287499
+-16027,Buccaneers D/ST,16,27,1,0.0,5.70287499
 4429275,Trey Benson,RB,22,1,8.5,7.90662805
 4430539,Brenton Strange,TE,30,1,9.9,8.44110571
 4701936,Matthew Golden,WR,9,1,3.6,12.29770339
@@ -193,18 +193,18 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4428557,Tyjae Spears,RB,10,1,0.0,0.0
 4373626,Tyler Allgeier,RB,1,1,2.4,6.05158695
 5081397,Dylan Sampson,RB,5,1,17.3,9.50812869
--16012,Chiefs D/ST,D/ST,12,1,2.0,5.29997828
--16019,Giants D/ST,D/ST,19,1,0.0,5.18438509
+-16012,Chiefs D/ST,16,12,1,2.0,5.29997828
+-16019,Giants D/ST,16,19,1,0.0,5.18438509
 4433970,J.J. McCarthy,QB,16,1,22.22,16.25991091
 4685415,Travis Hunter,WR,30,1,9.3,12.89438844
 2468609,Taysom Hill,TE,18,1,0.0,0.0
 4242557,Colby Parkinson,TE,14,1,-0.6,0.82883326
 4427728,Bam Knight,RB,22,1,0.0,0.0
 2576925,Darren Waller,TE,15,1,0.0,0.0
--16025,49ers D/ST,D/ST,25,1,10.0,6.28936839
+-16025,49ers D/ST,16,25,1,10.0,6.28936839
 4696981,Cam Skattebo,RB,19,1,2.9,5.4657874
 4243331,Cade Otton,TE,27,1,0.0,8.80199807
--16006,Cowboys D/ST,D/ST,6,1,1.0,3.361893
+-16006,Cowboys D/ST,16,6,1,1.0,3.361893
 4595348,Malik Nabers,WR,19,1,12.1,18.99367796
 4429022,Kayshon Boutte,WR,17,1,16.3,4.08943859
 8439,Aaron Rodgers,QB,23,1,25.66,12.95300987
@@ -217,12 +217,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4572680,Tucker Kraft,TE,9,1,9.9,9.40935859
 4360234,Evan McPherson,K,4,1,5.0,7.93880035
 4241372,Hollywood Brown,WR,12,1,19.9,12.22140314
--16001,Falcons D/ST,D/ST,1,1,3.0,3.94857309
+-16001,Falcons D/ST,16,1,1,3.0,3.94857309
 4259147,Jake Tonges,TE,25,1,10.5,0.0
 3116406,Tyreek Hill,WR,0,1,8.0,15.04824693
 4241474,Brian Robinson Jr.,RB,25,1,4.7,4.12515646
 2985659,Wil Lutz,K,7,1,8.0,8.15440124
--16003,Bears D/ST,D/ST,3,1,13.0,6.69925256
+-16003,Bears D/ST,16,3,1,13.0,6.69925256
 4362887,Justin Fields,QB,20,1,29.52,15.48612236
 3045147,James Conner,RB,22,1,14.4,15.33159459
 4882093,Bhayshul Tuten,RB,30,1,1.1,3.55851853
@@ -242,17 +242,17 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4608810,Tez Johnson,WR,27,1,0.0,0.62967271
 4819231,Kaleb Johnson,RB,23,1,-0.2,5.05755018
 3068267,Austin Ekeler,RB,28,1,8.7,11.89468891
--16015,Dolphins D/ST,D/ST,15,1,-3.0,6.58383429
+-16015,Dolphins D/ST,16,15,1,-3.0,6.58383429
 3123052,Michael Badgley,K,0,1,,0.0
--16028,Commanders D/ST,D/ST,28,1,8.0,6.67534333
+-16028,Commanders D/ST,16,28,1,8.0,6.67534333
 4432762,Shedeur Sanders,QB,5,1,0.0,0.0
 4567096,John Metchie III,WR,20,1,0.0,0.48327298
 4569603,Malik Washington,WR,15,1,4.9,3.74001278
--16013,Raiders D/ST,D/ST,13,1,9.0,4.33647447
+-16013,Raiders D/ST,16,13,1,9.0,4.33647447
 4695883,Jalen Coker,WR,29,1,0.0,0.0
 4682745,Jaylen Wright,RB,15,1,0.0,0.0
 3054212,Jonnu Smith,TE,23,1,12.5,7.61939999
--16010,Titans D/ST,D/ST,10,1,9.0,4.22835502
+-16010,Titans D/ST,16,10,1,9.0,4.22835502
 4249087,Matt Gay,K,0,1,3.0,8.16507385
 4362478,Emari Demercado,RB,22,1,0.0,1.82797678
 4243389,Calvin Austin III,WR,23,1,17.0,6.06233107
@@ -267,12 +267,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 14880,Kirk Cousins,QB,1,1,0.0,0.14230668
 4369863,Cedric Tillman,WR,5,1,16.2,10.70013933
 4038441,Justice Hill,RB,33,1,-0.1,6.65050975
--16020,Jets D/ST,D/ST,20,1,5.0,6.42011847
+-16020,Jets D/ST,16,20,1,5.0,6.42011847
 4360635,Chig Okonkwo,TE,10,1,4.9,7.72759021
 10621,Nick Folk,K,20,1,10.0,7.79586802
 3116389,Samaje Perine,RB,4,1,2.6,3.86031414
 15864,Geno Smith,QB,13,1,17.48,15.02547587
--16022,Cardinals D/ST,D/ST,22,1,4.0,7.01584135
+-16022,Cardinals D/ST,16,22,1,4.0,7.01584135
 4711533,Ollie Gordon II,RB,15,1,1.3,7.02507409
 4688380,Cam Ward,QB,10,1,2.48,13.66629509
 4427095,DeMario Douglas,WR,17,1,8.2,8.45659852
@@ -280,7 +280,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685247,Braelon Allen,RB,20,1,6.9,5.00754489
 4368003,Andrei Iosivas,WR,4,1,0.0,4.19078836
 4361411,Pat Freiermuth,TE,23,1,5.8,7.54449931
--16029,Panthers D/ST,D/ST,29,1,1.0,3.5778121
+-16029,Panthers D/ST,16,29,1,1.0,3.5778121
 3124679,Jason Sanders,K,15,1,0.0,0.0
 4241457,Najee Harris,RB,24,1,2.0,5.36634136
 2991662,Mack Hollins,WR,17,1,1.3,2.43100125
@@ -300,7 +300,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4613202,Kyle Williams,WR,17,1,2.2,3.23804044
 4243371,Riley Patterson,K,15,1,0.0,7.37022514
 3930086,Dawson Knox,TE,2,1,4.0,2.78883576
--16004,Bengals D/ST,D/ST,4,1,7.0,6.11099487
+-16004,Bengals D/ST,16,4,1,7.0,6.11099487
 15795,DeAndre Hopkins,WR,33,1,11.5,6.51985221
 3127586,Jeremy McNichols,RB,28,1,2.5,0.97105864
 3149687,Chris Brooks,RB,9,1,1.3,3.11824372
@@ -1079,7 +1079,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4047646,A.J. Brown,WR,21,2,7.7,15.80231002
 4047365,Josh Jacobs,RB,9,2,14.4,18.27101914
 4596448,Bucky Irving,RB,27,2,18.1,15.93458658
--16007,Broncos D/ST,D/ST,7,2,-5.0,7.46104677
+-16007,Broncos D/ST,16,7,2,-5.0,7.46104677
 4239993,Tee Higgins,WR,4,2,14.6,14.06940898
 4431459,Tyler Warren,TE,11,2,11.9,10.81437986
 4426388,Jameson Williams,WR,8,2,18.8,12.9854214
@@ -1087,7 +1087,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429615,Zay Flowers,WR,33,2,14.9,14.12301346
 4239996,Travis Etienne Jr.,RB,30,2,16.9,13.56658258
 16800,Davante Adams,WR,14,2,22.6,15.13648467
--16034,Texans D/ST,D/ST,34,2,5.0,5.84609567
+-16034,Texans D/ST,16,34,2,5.0,5.84609567
 4259545,D'Andre Swift,RB,3,2,13.9,14.14432421
 4038815,Rico Dowdle,RB,29,2,2.9,5.9387482
 4612826,Ladd McConkey,WR,24,2,9.8,14.22627051
@@ -1114,7 +1114,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685382,Omarion Hampton,RB,24,2,3.5,15.7236837
 4035687,Michael Pittman Jr.,WR,11,2,8.0,11.76724388
 4567750,Emeka Egbuka,WR,27,2,12.9,14.01739261
--16026,Seahawks D/ST,D/ST,26,2,16.0,5.83865459
+-16026,Seahawks D/ST,16,26,2,16.0,5.83865459
 4362081,Cameron Dicker,K,24,2,8.0,8.48211902
 3126486,Deebo Samuel,WR,28,2,17.4,13.20091008
 3121023,Dallas Goedert,TE,21,2,0.0,0.0
@@ -1126,7 +1126,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4432773,Brian Thomas Jr.,WR,30,2,8.9,16.68459437
 4038941,Justin Herbert,QB,24,2,18.78,17.63030238
 4432708,Marvin Harrison Jr.,WR,22,2,4.7,13.98747678
--16017,Patriots D/ST,D/ST,17,2,12.0,4.09483323
+-16017,Patriots D/ST,16,17,2,12.0,4.09483323
 4569587,Wan'Dale Robinson,WR,19,2,28.2,10.00695743
 3886598,Jauan Jennings,WR,25,2,19.9,11.75743622
 3916433,Jakobi Meyers,WR,30,2,12.8,14.1564907
@@ -1157,30 +1157,30 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4373678,Khalil Shakir,WR,2,2,2.2,11.68824409
 4429205,Jordan Addison,WR,16,2,0.0,0.0
 4360310,Trevor Lawrence,QB,30,2,19.24,17.53830372
--16008,Lions D/ST,D/ST,8,2,8.0,5.59927867
+-16008,Lions D/ST,16,8,2,8.0,5.59927867
 3150744,Chase McLaughlin,K,27,2,1.0,8.30586982
--16023,Steelers D/ST,D/ST,23,2,4.0,7.64627302
+-16023,Steelers D/ST,16,23,2,4.0,7.64627302
 4036378,Jordan Love,QB,9,2,20.88,17.62267685
 4685702,Quinshon Judkins,RB,5,2,10.1,3.0194897
 4248528,Christian Watson,WR,9,2,0.0,0.0
 3116165,Chris Godwin Jr.,WR,27,2,0.0,0.0
--16021,Eagles D/ST,D/ST,21,2,7.0,4.909988
+-16021,Eagles D/ST,16,21,2,7.0,4.909988
 4569618,Garrett Wilson,WR,20,2,9.0,15.03543396
 4385690,Dalton Kincaid,TE,2,2,7.7,7.53867191
--16030,Jaguars D/ST,D/ST,30,2,7.0,5.15797359
+-16030,Jaguars D/ST,16,30,2,7.0,5.15797359
 2578570,Jacoby Brissett,QB,22,2,0.2,0.0
 4608686,Kyle Monangai,RB,3,2,4.6,3.7565866
 4426385,Zach Charbonnet,RB,26,2,1.0,10.14035512
 4241416,Chuba Hubbard,RB,29,2,18.7,15.60725599
 4361432,Romeo Doubs,WR,9,2,11.8,9.76388503
--16014,Rams D/ST,D/ST,14,2,9.0,7.42962183
+-16014,Rams D/ST,16,14,2,9.0,7.42962183
 3929645,Juwan Johnson,TE,18,2,15.9,9.13908331
 4429025,Quentin Johnston,WR,24,2,15.9,11.53230893
 4036133,T.J. Hockenson,TE,16,2,2.2,11.1757177
 3117256,Dalton Schultz,TE,34,2,5.9,8.1327071
 3139477,Patrick Mahomes,QB,12,2,22.08,19.41308041
 4431280,Troy Franklin,WR,7,2,24.0,7.11423265
--16002,Bills D/ST,D/ST,2,2,12.0,7.31956473
+-16002,Bills D/ST,16,2,2,12.0,7.31956473
 4430027,Sam LaPorta,TE,8,2,5.6,11.14886781
 4697745,Tyler Loop,K,33,2,12.0,8.75110056
 4241463,Jerry Jeudy,WR,5,2,9.1,13.56194044
@@ -1202,17 +1202,17 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4574716,Harrison Mevis,K,14,2,,0.0
 4430968,Kimani Vidal,RB,24,2,,0.0
 17427,Cairo Santos,K,3,2,3.0,7.88504899
--16005,Browns D/ST,D/ST,5,2,2.0,2.65875931
+-16005,Browns D/ST,16,5,2,2.0,2.65875931
 3912547,Sam Darnold,QB,26,2,15.8,12.82196385
--16009,Packers D/ST,D/ST,9,2,6.0,5.06626311
+-16009,Packers D/ST,16,9,2,6.0,5.06626311
 4575131,Jacory Croskey-Merritt,RB,28,2,1.7,8.41802864
 4686361,Cam Little,K,30,2,10.0,7.98839799
 2977187,Cooper Kupp,WR,26,2,16.0,9.63336616
--16018,Saints D/ST,D/ST,18,2,5.0,5.11509673
+-16018,Saints D/ST,16,18,2,5.0,5.11509673
 4688813,Josh Downs,WR,11,2,11.1,8.13407172
--16016,Vikings D/ST,D/ST,16,2,5.0,6.91985602
+-16016,Vikings D/ST,16,16,2,5.0,6.91985602
 4569923,Andy Borregales,K,17,2,9.0,7.90885016
--16033,Ravens D/ST,D/ST,33,2,15.0,7.80670299
+-16033,Ravens D/ST,16,33,2,15.0,7.80670299
 4040655,Darnell Mooney,WR,1,2,4.0,10.05551108
 3123076,David Njoku,TE,5,2,8.0,10.48949792
 4685278,Luther Burden III,WR,3,2,1.5,2.69924962
@@ -1222,10 +1222,10 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429096,Blake Corum,RB,14,2,10.4,5.33634492
 4576297,AJ Barner,TE,26,2,10.8,6.37498326
 4635008,Keon Coleman,WR,2,2,5.6,12.48073882
--16024,Chargers D/ST,D/ST,24,2,14.0,5.79159175
+-16024,Chargers D/ST,16,24,2,14.0,5.79159175
 4428718,Tre Tucker,WR,13,2,4.9,7.54137414
 3917792,Daniel Jones,QB,11,2,22.84,16.49264105
--16011,Colts D/ST,D/ST,11,2,1.0,6.29707235
+-16011,Colts D/ST,16,11,2,1.0,6.29707235
 3051876,Evan Engram,TE,7,2,2.2,8.87001088
 3128720,Nick Chubb,RB,34,2,15.2,11.53191167
 4887558,Emanuel Wilson,RB,9,2,0.0,1.55709795
@@ -1233,7 +1233,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 15835,Zach Ertz,TE,28,2,18.4,9.29729903
 4597500,Adonai Mitchell,WR,20,2,4.0,3.25918942
 4362619,Chris Rodriguez Jr.,RB,28,2,0.0,0.0
--16027,Buccaneers D/ST,D/ST,27,2,5.0,5.32488189
+-16027,Buccaneers D/ST,16,27,2,5.0,5.32488189
 4429275,Trey Benson,RB,22,2,8.4,9.86260807
 4430539,Brenton Strange,TE,30,2,4.7,8.74142709
 4701936,Matthew Golden,WR,9,2,1.5,10.70576555
@@ -1244,18 +1244,18 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4428557,Tyjae Spears,RB,10,2,0.0,0.0
 4373626,Tyler Allgeier,RB,1,2,15.0,4.20247541
 5081397,Dylan Sampson,RB,5,2,10.9,11.85992889
--16012,Chiefs D/ST,D/ST,12,2,4.0,5.06690853
--16019,Giants D/ST,D/ST,19,2,-3.0,5.46063872
+-16012,Chiefs D/ST,16,12,2,4.0,5.06690853
+-16019,Giants D/ST,16,19,2,-3.0,5.46063872
 4433970,J.J. McCarthy,QB,16,2,2.82,16.82313177
 4685415,Travis Hunter,WR,30,2,5.2,13.62236219
 2468609,Taysom Hill,TE,18,2,0.0,
 4242557,Colby Parkinson,TE,14,2,0.0,0.0
 4427728,Bam Knight,RB,22,2,0.0,0.0
 2576925,Darren Waller,TE,15,2,0.0,0.0
--16025,49ers D/ST,D/ST,25,2,5.0,7.14134403
+-16025,49ers D/ST,16,25,2,5.0,7.14134403
 4696981,Cam Skattebo,RB,19,2,13.9,4.75271773
 4243331,Cade Otton,TE,27,2,5.5,8.19537334
--16006,Cowboys D/ST,D/ST,6,2,-4.0,6.1419068
+-16006,Cowboys D/ST,16,6,2,-4.0,6.1419068
 4595348,Malik Nabers,WR,19,2,37.7,18.33097019
 4429022,Kayshon Boutte,WR,17,2,8.6,9.58180802
 8439,Aaron Rodgers,QB,23,2,10.42,14.26242816
@@ -1268,12 +1268,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4572680,Tucker Kraft,TE,9,2,24.4,9.82623993
 4360234,Evan McPherson,K,4,2,7.0,8.41625834
 4241372,Hollywood Brown,WR,12,2,8.0,13.0995691
--16001,Falcons D/ST,D/ST,1,2,21.0,5.45327722
+-16001,Falcons D/ST,16,1,2,21.0,5.45327722
 4259147,Jake Tonges,TE,25,2,7.1,5.87617286
 3116406,Tyreek Hill,WR,0,2,16.9,14.13988049
 4241474,Brian Robinson Jr.,RB,25,2,2.9,6.84821052
 2985659,Wil Lutz,K,7,2,3.0,7.84012539
--16003,Bears D/ST,D/ST,3,2,-11.0,3.63233705
+-16003,Bears D/ST,16,3,2,-11.0,3.63233705
 4362887,Justin Fields,QB,20,2,3.98,19.24511732
 3045147,James Conner,RB,22,2,12.2,16.37557686
 4882093,Bhayshul Tuten,RB,30,2,15.4,4.29179073
@@ -1293,16 +1293,16 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4608810,Tez Johnson,WR,27,2,0.0,0.0
 4819231,Kaleb Johnson,RB,23,2,0.1,2.54592744
 3068267,Austin Ekeler,RB,28,2,4.4,0.0
--16015,Dolphins D/ST,D/ST,15,2,8.0,4.95640053
--16028,Commanders D/ST,D/ST,28,2,-1.0,3.14871409
+-16015,Dolphins D/ST,16,15,2,8.0,4.95640053
+-16028,Commanders D/ST,16,28,2,-1.0,3.14871409
 4432762,Shedeur Sanders,QB,5,2,0.0,0.0
 4567096,John Metchie III,WR,20,2,1.0,0.28401561
 4569603,Malik Washington,WR,15,2,9.5,8.3750281
--16013,Raiders D/ST,D/ST,13,2,4.0,4.25037141
+-16013,Raiders D/ST,16,13,2,4.0,4.25037141
 4695883,Jalen Coker,WR,29,2,0.0,0.0
 4682745,Jaylen Wright,RB,15,2,0.0,0.0
 3054212,Jonnu Smith,TE,23,2,6.7,9.02703922
--16010,Titans D/ST,D/ST,10,2,1.0,3.18290846
+-16010,Titans D/ST,16,10,2,1.0,3.18290846
 4249087,Matt Gay,K,0,2,4.0,8.06353771
 4362478,Emari Demercado,RB,22,2,0.0,0.0
 4243389,Calvin Austin III,WR,23,2,3.2,7.97103139
@@ -1317,12 +1317,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 14880,Kirk Cousins,QB,1,2,0.0,0.0
 4369863,Cedric Tillman,WR,5,2,10.2,10.34681999
 4038441,Justice Hill,RB,33,2,5.5,6.68530599
--16020,Jets D/ST,D/ST,20,2,-3.0,2.99067934
+-16020,Jets D/ST,16,20,2,-3.0,2.99067934
 4360635,Chig Okonkwo,TE,10,2,7.5,8.64211735
 10621,Nick Folk,K,20,2,6.0,8.08158302
 3116389,Samaje Perine,RB,4,2,0.0,5.51413025
 15864,Geno Smith,QB,13,2,3.2,16.14886752
--16022,Cardinals D/ST,D/ST,22,2,12.0,7.29118213
+-16022,Cardinals D/ST,16,22,2,12.0,7.29118213
 4711533,Ollie Gordon II,RB,15,2,2.3,6.74731437
 4688380,Cam Ward,QB,10,2,9.8,14.96378672
 4427095,DeMario Douglas,WR,17,2,1.8,9.15551414
@@ -1330,7 +1330,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685247,Braelon Allen,RB,20,2,1.1,3.89208053
 4368003,Andrei Iosivas,WR,4,2,2.2,4.37544658
 4361411,Pat Freiermuth,TE,23,2,6.1,6.75237511
--16029,Panthers D/ST,D/ST,29,2,5.0,3.46160188
+-16029,Panthers D/ST,16,29,2,5.0,3.46160188
 3124679,Jason Sanders,K,15,2,0.0,0.0
 4241457,Najee Harris,RB,24,2,6.8,6.52630546
 2991662,Mack Hollins,WR,17,2,7.8,3.23762278
@@ -1349,7 +1349,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4613202,Kyle Williams,WR,17,2,0.0,1.21015102
 4243371,Riley Patterson,K,15,2,11.0,7.83991837
 3930086,Dawson Knox,TE,2,2,3.9,3.29319576
--16004,Bengals D/ST,D/ST,4,2,2.0,4.42140255
+-16004,Bengals D/ST,16,4,2,2.0,4.42140255
 15795,DeAndre Hopkins,WR,33,2,14.4,6.31902129
 3127586,Jeremy McNichols,RB,28,2,0.0,2.1106073
 3149687,Chris Brooks,RB,9,2,5.7,4.47185877
@@ -1794,7 +1794,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4047646,A.J. Brown,WR,21,3,22.9,14.77924101
 4047365,Josh Jacobs,RB,9,3,12.4,16.86782973
 4596448,Bucky Irving,RB,27,3,13.9,17.89395437
--16007,Broncos D/ST,D/ST,7,3,8.0,4.30124945
+-16007,Broncos D/ST,16,7,3,8.0,4.30124945
 4239993,Tee Higgins,WR,4,3,2.5,12.04719936
 4431459,Tyler Warren,TE,11,3,6.8,11.62456954
 4426388,Jameson Williams,WR,8,3,6.3,12.91316417
@@ -1802,7 +1802,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429615,Zay Flowers,WR,33,3,3.3,15.9386431
 4239996,Travis Etienne Jr.,RB,30,3,11.6,12.73034348
 16800,Davante Adams,WR,14,3,14.6,16.47271337
--16034,Texans D/ST,D/ST,34,3,7.0,5.2378239
+-16034,Texans D/ST,16,34,3,7.0,5.2378239
 4259545,D'Andre Swift,RB,3,3,10.8,16.17538051
 4038815,Rico Dowdle,RB,29,3,10.8,5.96145996
 4612826,Ladd McConkey,WR,24,3,8.1,14.57488141
@@ -1829,7 +1829,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685382,Omarion Hampton,RB,24,3,24.9,12.20743689
 4035687,Michael Pittman Jr.,WR,11,3,19.3,10.50425302
 4567750,Emeka Egbuka,WR,27,3,14.5,11.4622905
--16026,Seahawks D/ST,D/ST,26,3,17.0,6.86666812
+-16026,Seahawks D/ST,16,26,3,17.0,6.86666812
 4362081,Cameron Dicker,K,24,3,12.0,8.38176831
 3126486,Deebo Samuel,WR,28,3,4.9,12.61856364
 3121023,Dallas Goedert,TE,21,3,10.3,8.93741843
@@ -1841,7 +1841,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4432773,Brian Thomas Jr.,WR,30,3,7.5,15.33828747
 4038941,Justin Herbert,QB,24,3,14.6,18.42705376
 4432708,Marvin Harrison Jr.,WR,22,3,7.4,12.72544152
--16017,Patriots D/ST,D/ST,17,3,4.0,5.64057312
+-16017,Patriots D/ST,16,17,3,4.0,5.64057312
 4569587,Wan'Dale Robinson,WR,19,3,3.6,11.6475505
 3886598,Jauan Jennings,WR,25,3,0.0,0.0
 3916433,Jakobi Meyers,WR,30,3,9.3,14.66227912
@@ -1872,30 +1872,30 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4373678,Khalil Shakir,WR,2,3,14.5,11.10459251
 4429205,Jordan Addison,WR,16,3,0.0,0.0
 4360310,Trevor Lawrence,QB,30,3,7.78,16.24528826
--16008,Lions D/ST,D/ST,8,3,8.0,2.64696583
+-16008,Lions D/ST,16,8,3,8.0,2.64696583
 3150744,Chase McLaughlin,K,27,3,20.0,8.57118224
--16023,Steelers D/ST,D/ST,23,3,15.0,5.8141659
+-16023,Steelers D/ST,16,23,3,15.0,5.8141659
 4036378,Jordan Love,QB,9,3,11.12,15.99942502
 4685702,Quinshon Judkins,RB,5,3,16.5,9.42943577
 4248528,Christian Watson,WR,9,3,0.0,0.0
 3116165,Chris Godwin Jr.,WR,27,3,0.0,0.0
--16021,Eagles D/ST,D/ST,21,3,12.0,4.72008088
+-16021,Eagles D/ST,16,21,3,12.0,4.72008088
 4569618,Garrett Wilson,WR,20,3,24.4,15.66178416
 4385690,Dalton Kincaid,TE,2,3,17.6,8.71978861
--16030,Jaguars D/ST,D/ST,30,3,13.0,6.11026743
+-16030,Jaguars D/ST,16,30,3,13.0,6.11026743
 2578570,Jacoby Brissett,QB,22,3,0.0,0.0
 4608686,Kyle Monangai,RB,3,3,3.0,6.29492438
 4426385,Zach Charbonnet,RB,26,3,0.0,0.0
 4241416,Chuba Hubbard,RB,29,3,9.6,14.69250054
 4361432,Romeo Doubs,WR,9,3,4.5,10.38748893
--16014,Rams D/ST,D/ST,14,3,7.0,5.21551196
+-16014,Rams D/ST,16,14,3,7.0,5.21551196
 3929645,Juwan Johnson,TE,18,3,11.1,10.58407855
 4429025,Quentin Johnston,WR,24,3,14.9,12.65985436
 4036133,T.J. Hockenson,TE,16,3,15.9,10.10281009
 3117256,Dalton Schultz,TE,34,3,8.9,8.18606479
 3139477,Patrick Mahomes,QB,12,3,13.16,19.81082513
 4431280,Troy Franklin,WR,7,3,2.8,10.83946703
--16002,Bills D/ST,D/ST,2,3,4.0,5.63368628
+-16002,Bills D/ST,16,2,3,4.0,5.63368628
 4430027,Sam LaPorta,TE,8,3,7.3,11.86626323
 4697745,Tyler Loop,K,33,3,7.0,8.73629553
 4241463,Jerry Jeudy,WR,5,3,2.7,12.04367662
@@ -1917,17 +1917,17 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4574716,Harrison Mevis,K,14,3,,0.0
 4430968,Kimani Vidal,RB,24,3,,0.0
 17427,Cairo Santos,K,3,3,7.0,8.44159833
--16005,Browns D/ST,D/ST,5,3,14.0,4.3977188
+-16005,Browns D/ST,16,5,3,14.0,4.3977188
 3912547,Sam Darnold,QB,26,3,16.72,14.05076313
--16009,Packers D/ST,D/ST,9,3,9.0,8.07639174
+-16009,Packers D/ST,16,9,3,9.0,8.07639174
 4575131,Jacory Croskey-Merritt,RB,28,3,10.1,11.185019
 4686361,Cam Little,K,30,3,4.0,8.06173831
 2977187,Cooper Kupp,WR,26,3,5.1,10.50644443
--16018,Saints D/ST,D/ST,18,3,-1.0,5.7191982
+-16018,Saints D/ST,16,18,3,-1.0,5.7191982
 4688813,Josh Downs,WR,11,3,5.4,8.68493289
--16016,Vikings D/ST,D/ST,16,3,32.0,6.98818418
+-16016,Vikings D/ST,16,16,3,32.0,6.98818418
 4569923,Andy Borregales,K,17,3,2.0,7.82882634
--16033,Ravens D/ST,D/ST,33,3,-6.0,3.31887815
+-16033,Ravens D/ST,16,33,3,-6.0,3.31887815
 4040655,Darnell Mooney,WR,1,3,8.4,10.56037196
 3123076,David Njoku,TE,5,3,9.0,9.40349404
 4685278,Luther Burden III,WR,3,3,19.8,2.68735035
@@ -1937,10 +1937,10 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429096,Blake Corum,RB,14,3,5.3,4.92376597
 4576297,AJ Barner,TE,26,3,3.3,4.99592775
 4635008,Keon Coleman,WR,2,3,5.0,12.57584663
--16024,Chargers D/ST,D/ST,24,3,4.0,6.11743765
+-16024,Chargers D/ST,16,24,3,4.0,6.11743765
 4428718,Tre Tucker,WR,13,3,40.9,7.75626143
 3917792,Daniel Jones,QB,11,3,15.82,18.19397405
--16011,Colts D/ST,D/ST,11,3,16.0,6.90846678
+-16011,Colts D/ST,16,11,3,16.0,6.90846678
 3051876,Evan Engram,TE,7,3,0.0,0.0
 3128720,Nick Chubb,RB,34,3,7.0,11.91590771
 4887558,Emanuel Wilson,RB,9,3,2.5,0.79696874
@@ -1948,7 +1948,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 15835,Zach Ertz,TE,28,3,6.8,9.54821453
 4597500,Adonai Mitchell,WR,20,3,0.0,3.8093772
 4362619,Chris Rodriguez Jr.,RB,28,3,3.9,4.33513196
--16027,Buccaneers D/ST,D/ST,27,3,16.0,6.97909926
+-16027,Buccaneers D/ST,16,27,3,16.0,6.97909926
 4429275,Trey Benson,RB,22,3,8.1,8.89449206
 4430539,Brenton Strange,TE,30,3,12.1,7.67373518
 4701936,Matthew Golden,WR,9,3,10.1,8.8148068
@@ -1959,18 +1959,18 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4428557,Tyjae Spears,RB,10,3,0.0,0.0
 4373626,Tyler Allgeier,RB,1,3,1.4,6.64928951
 5081397,Dylan Sampson,RB,5,3,0.2,4.64857846
--16012,Chiefs D/ST,D/ST,12,3,13.0,6.79161678
--16019,Giants D/ST,D/ST,19,3,2.0,4.22882447
+-16012,Chiefs D/ST,16,12,3,13.0,6.79161678
+-16019,Giants D/ST,16,19,3,2.0,4.22882447
 4433970,J.J. McCarthy,QB,16,3,0.0,0.0
 4685415,Travis Hunter,WR,30,3,3.1,11.52353353
 2468609,Taysom Hill,TE,18,3,0.0,
 4242557,Colby Parkinson,TE,14,3,0.0,1.79367609
 4427728,Bam Knight,RB,22,3,0.0,0.0
 2576925,Darren Waller,TE,15,3,0.0,0.0
--16025,49ers D/ST,D/ST,25,3,6.0,5.82843208
+-16025,49ers D/ST,16,25,3,6.0,5.82843208
 4696981,Cam Skattebo,RB,19,3,24.1,10.13120974
 4243331,Cade Otton,TE,27,3,0.0,7.23213507
--16006,Cowboys D/ST,D/ST,6,3,-2.0,4.06055296
+-16006,Cowboys D/ST,16,6,3,-2.0,4.06055296
 4595348,Malik Nabers,WR,19,3,3.3,19.80264746
 4429022,Kayshon Boutte,WR,17,3,4.8,8.40976311
 8439,Aaron Rodgers,QB,23,3,11.66,15.31298874
@@ -1983,12 +1983,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4572680,Tucker Kraft,TE,9,3,5.9,11.12976148
 4360234,Evan McPherson,K,4,3,5.0,7.61626712
 4241372,Hollywood Brown,WR,12,3,8.2,12.00656221
--16001,Falcons D/ST,D/ST,1,3,5.0,6.93604258
+-16001,Falcons D/ST,16,1,3,5.0,6.93604258
 4259147,Jake Tonges,TE,25,3,4.1,6.40045957
 3116406,Tyreek Hill,WR,0,3,15.9,14.13359633
 4241474,Brian Robinson Jr.,RB,25,3,2.2,6.96126659
 2985659,Wil Lutz,K,7,3,9.0,7.88548835
--16003,Bears D/ST,D/ST,3,3,10.0,3.49784953
+-16003,Bears D/ST,16,3,3,10.0,3.49784953
 4362887,Justin Fields,QB,20,3,0.0,0.0
 3045147,James Conner,RB,22,3,6.7,13.43402705
 4882093,Bhayshul Tuten,RB,30,3,8.1,5.65113847
@@ -2008,16 +2008,16 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4608810,Tez Johnson,WR,27,3,0.0,0.0
 4819231,Kaleb Johnson,RB,23,3,0.0,0.78020221
 3068267,Austin Ekeler,RB,28,3,0.0,0.0
--16015,Dolphins D/ST,D/ST,15,3,0.0,2.45011528
--16028,Commanders D/ST,D/ST,28,3,10.0,6.63239077
+-16015,Dolphins D/ST,16,15,3,0.0,2.45011528
+-16028,Commanders D/ST,16,28,3,10.0,6.63239077
 4432762,Shedeur Sanders,QB,5,3,0.0,0.0
 4567096,John Metchie III,WR,20,3,1.8,0.55595762
 4569603,Malik Washington,WR,15,3,6.2,8.0571893
--16013,Raiders D/ST,D/ST,13,3,-3.0,5.5258485
+-16013,Raiders D/ST,16,13,3,-3.0,5.5258485
 4695883,Jalen Coker,WR,29,3,0.0,0.0
 4682745,Jaylen Wright,RB,15,3,0.0,2.20905122
 3054212,Jonnu Smith,TE,23,3,5.3,9.62203158
--16010,Titans D/ST,D/ST,10,3,-4.0,5.13666403
+-16010,Titans D/ST,16,10,3,-4.0,5.13666403
 4249087,Matt Gay,K,0,3,13.0,7.71448405
 4362478,Emari Demercado,RB,22,3,0.0,0.0
 4243389,Calvin Austin III,WR,23,3,12.4,8.72675318
@@ -2032,12 +2032,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 14880,Kirk Cousins,QB,1,3,1.16,0.0
 4369863,Cedric Tillman,WR,5,3,5.6,9.66390643
 4038441,Justice Hill,RB,33,3,7.5,7.04193393
--16020,Jets D/ST,D/ST,20,3,9.0,4.34587609
+-16020,Jets D/ST,16,20,3,9.0,4.34587609
 4360635,Chig Okonkwo,TE,10,3,11.6,9.36791681
 10621,Nick Folk,K,20,3,10.0,7.76083705
 3116389,Samaje Perine,RB,4,3,0.1,3.5486453
 15864,Geno Smith,QB,13,3,26.06,15.24937181
--16022,Cardinals D/ST,D/ST,22,3,5.0,6.20967799
+-16022,Cardinals D/ST,16,22,3,5.0,6.20967799
 4711533,Ollie Gordon II,RB,15,3,9.8,2.16728156
 4688380,Cam Ward,QB,10,3,11.96,14.12957626
 4427095,DeMario Douglas,WR,17,3,2.7,6.28846444
@@ -2045,7 +2045,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685247,Braelon Allen,RB,20,3,6.7,4.05811146
 4368003,Andrei Iosivas,WR,4,3,0.0,3.55684479
 4361411,Pat Freiermuth,TE,23,3,1.6,7.32440816
--16029,Panthers D/ST,D/ST,29,3,17.0,3.22556029
+-16029,Panthers D/ST,16,29,3,17.0,3.22556029
 3124679,Jason Sanders,K,15,3,0.0,0.0
 4241457,Najee Harris,RB,24,3,2.8,6.39974036
 2991662,Mack Hollins,WR,17,3,6.7,4.34848554
@@ -2064,7 +2064,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4613202,Kyle Williams,WR,17,3,1.8,1.07632408
 4243371,Riley Patterson,K,15,3,3.0,7.50425728
 3930086,Dawson Knox,TE,2,3,0.0,3.83062862
--16004,Bengals D/ST,D/ST,4,3,-1.0,7.48261548
+-16004,Bengals D/ST,16,4,3,-1.0,7.48261548
 15795,DeAndre Hopkins,WR,33,3,2.3,4.39590478
 3127586,Jeremy McNichols,RB,28,3,13.8,6.26635873
 3149687,Chris Brooks,RB,9,3,0.0,3.57546433
@@ -2520,7 +2520,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4047646,A.J. Brown,WR,21,4,2.7,15.0815446
 4047365,Josh Jacobs,RB,9,4,31.7,18.47921548
 4596448,Bucky Irving,RB,27,4,25.5,17.45930406
--16007,Broncos D/ST,D/ST,7,4,10.0,7.90922904
+-16007,Broncos D/ST,16,7,4,10.0,7.90922904
 4239993,Tee Higgins,WR,4,4,6.2,11.40461439
 4431459,Tyler Warren,TE,11,4,18.3,11.94929359
 4426388,Jameson Williams,WR,8,4,5.7,10.6598057
@@ -2528,7 +2528,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429615,Zay Flowers,WR,33,4,14.4,14.3505405
 4239996,Travis Etienne Jr.,RB,30,4,19.5,11.06672987
 16800,Davante Adams,WR,14,4,15.6,17.25661984
--16034,Texans D/ST,D/ST,34,4,12.0,7.19691833
+-16034,Texans D/ST,16,34,4,12.0,7.19691833
 4259545,D'Andre Swift,RB,3,4,16.0,15.21798662
 4038815,Rico Dowdle,RB,29,4,4.0,6.93226239
 4612826,Ladd McConkey,WR,24,4,2.1,12.17309971
@@ -2555,7 +2555,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685382,Omarion Hampton,RB,24,4,27.5,16.73687134
 4035687,Michael Pittman Jr.,WR,11,4,15.1,11.62834222
 4567750,Emeka Egbuka,WR,27,4,20.1,14.89475845
--16026,Seahawks D/ST,D/ST,26,4,12.0,6.7765722
+-16026,Seahawks D/ST,16,26,4,12.0,6.7765722
 4362081,Cameron Dicker,K,24,4,5.0,8.68417686
 3126486,Deebo Samuel,WR,28,4,20.1,13.99033049
 3121023,Dallas Goedert,TE,21,4,19.7,8.53911296
@@ -2567,7 +2567,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4432773,Brian Thomas Jr.,WR,30,4,10.6,14.65525145
 4038941,Justin Herbert,QB,24,4,12.52,18.61780441
 4432708,Marvin Harrison Jr.,WR,22,4,18.6,11.30630894
--16017,Patriots D/ST,D/ST,17,4,10.0,6.39295789
+-16017,Patriots D/ST,16,17,4,10.0,6.39295789
 4569587,Wan'Dale Robinson,WR,19,4,4.4,9.58375739
 3886598,Jauan Jennings,WR,25,4,6.4,9.79536977
 3916433,Jakobi Meyers,WR,30,4,7.0,14.95665473
@@ -2598,30 +2598,30 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4373678,Khalil Shakir,WR,2,4,17.9,9.16807049
 4429205,Jordan Addison,WR,16,4,15.4,10.76150253
 4360310,Trevor Lawrence,QB,30,4,11.66,15.81081972
--16008,Lions D/ST,D/ST,8,4,20.0,7.20837498
+-16008,Lions D/ST,16,8,4,20.0,7.20837498
 3150744,Chase McLaughlin,K,27,4,17.0,8.13697422
--16023,Steelers D/ST,D/ST,23,4,9.0,7.54999597
+-16023,Steelers D/ST,16,23,4,9.0,7.54999597
 4036378,Jordan Love,QB,9,4,26.28,18.59558067
 4685702,Quinshon Judkins,RB,5,4,21.5,13.98065267
 4248528,Christian Watson,WR,9,4,0.0,0.0
 3116165,Chris Godwin Jr.,WR,27,4,5.6,10.70817693
--16021,Eagles D/ST,D/ST,21,4,13.0,5.00034413
+-16021,Eagles D/ST,16,21,4,13.0,5.00034413
 4569618,Garrett Wilson,WR,20,4,20.2,15.66242782
 4385690,Dalton Kincaid,TE,2,4,9.8,9.14934674
--16030,Jaguars D/ST,D/ST,30,4,14.0,4.55260523
+-16030,Jaguars D/ST,16,30,4,14.0,4.55260523
 2578570,Jacoby Brissett,QB,22,4,0.0,0.0
 4608686,Kyle Monangai,RB,3,4,1.8,6.74577711
 4426385,Zach Charbonnet,RB,26,4,12.4,9.29150623
 4241416,Chuba Hubbard,RB,29,4,9.9,13.50456907
 4361432,Romeo Doubs,WR,9,4,29.8,10.54054912
--16014,Rams D/ST,D/ST,14,4,6.0,5.65719704
+-16014,Rams D/ST,16,14,4,6.0,5.65719704
 3929645,Juwan Johnson,TE,18,4,5.8,11.10265804
 4429025,Quentin Johnston,WR,24,4,23.8,13.84609057
 4036133,T.J. Hockenson,TE,16,4,7.9,10.11887357
 3117256,Dalton Schultz,TE,34,4,8.0,9.0133766
 3139477,Patrick Mahomes,QB,12,4,27.3,19.30281305
 4431280,Troy Franklin,WR,7,4,9.5,10.36019498
--16002,Bills D/ST,D/ST,2,4,7.0,7.1615672
+-16002,Bills D/ST,16,2,4,7.0,7.1615672
 4430027,Sam LaPorta,TE,8,4,6.9,9.72550384
 4697745,Tyler Loop,K,33,4,9.0,8.51487844
 4241463,Jerry Jeudy,WR,5,4,7.8,11.2714386
@@ -2644,17 +2644,17 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4574716,Harrison Mevis,K,14,4,,0.0
 4430968,Kimani Vidal,RB,24,4,0.0,0.0
 17427,Cairo Santos,K,3,4,19.0,8.3851244
--16005,Browns D/ST,D/ST,5,4,3.0,3.44687139
+-16005,Browns D/ST,16,5,4,3.0,3.44687139
 3912547,Sam Darnold,QB,26,4,16.08,13.01529572
--16009,Packers D/ST,D/ST,9,4,-5.0,6.73289035
+-16009,Packers D/ST,16,9,4,-5.0,6.73289035
 4575131,Jacory Croskey-Merritt,RB,28,4,7.7,8.01723895
 4686361,Cam Little,K,30,4,8.0,7.85680505
 2977187,Cooper Kupp,WR,26,4,6.6,10.61057222
--16018,Saints D/ST,D/ST,18,4,3.0,1.97723148
+-16018,Saints D/ST,16,18,4,3.0,1.97723148
 4688813,Josh Downs,WR,11,4,6.4,8.56161862
--16016,Vikings D/ST,D/ST,16,4,4.0,7.50081541
+-16016,Vikings D/ST,16,16,4,4.0,7.50081541
 4569923,Andy Borregales,K,17,4,6.0,7.66941072
--16033,Ravens D/ST,D/ST,33,4,-3.0,4.07226228
+-16033,Ravens D/ST,16,33,4,-3.0,4.07226228
 4040655,Darnell Mooney,WR,1,4,2.5,10.63084382
 3123076,David Njoku,TE,5,4,3.1,9.26992334
 4685278,Luther Burden III,WR,3,4,1.6,5.77587874
@@ -2664,10 +2664,10 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429096,Blake Corum,RB,14,4,3.6,4.34678406
 4576297,AJ Barner,TE,26,4,12.2,4.12079673
 4635008,Keon Coleman,WR,2,4,7.5,10.46656506
--16024,Chargers D/ST,D/ST,24,4,8.0,7.54556758
+-16024,Chargers D/ST,16,24,4,8.0,7.54556758
 4428718,Tre Tucker,WR,13,4,4.2,11.1987976
 3917792,Daniel Jones,QB,11,4,10.38,17.63199603
--16011,Colts D/ST,D/ST,11,4,0.0,4.44235006
+-16011,Colts D/ST,16,11,4,0.0,4.44235006
 3051876,Evan Engram,TE,7,4,6.9,6.24263031
 3128720,Nick Chubb,RB,34,4,8.2,12.8179204
 4887558,Emanuel Wilson,RB,9,4,11.1,2.93640308
@@ -2675,7 +2675,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 15835,Zach Ertz,TE,28,4,6.1,9.79442046
 4597500,Adonai Mitchell,WR,20,4,10.6,7.09387949
 4362619,Chris Rodriguez Jr.,RB,28,4,5.9,5.82706763
--16027,Buccaneers D/ST,D/ST,27,4,5.0,5.47417339
+-16027,Buccaneers D/ST,16,27,4,5.0,5.47417339
 4429275,Trey Benson,RB,22,4,10.4,13.71517819
 4430539,Brenton Strange,TE,30,4,10.5,8.3844625
 4701936,Matthew Golden,WR,9,4,11.3,10.81839163
@@ -2686,18 +2686,18 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4428557,Tyjae Spears,RB,10,4,0.0,0.0
 4373626,Tyler Allgeier,RB,1,4,11.1,6.49341961
 5081397,Dylan Sampson,RB,5,4,-0.2,2.72166947
--16012,Chiefs D/ST,D/ST,12,4,5.0,3.07151877
--16019,Giants D/ST,D/ST,19,4,6.0,4.6765554
+-16012,Chiefs D/ST,16,12,4,5.0,3.07151877
+-16019,Giants D/ST,16,19,4,6.0,4.6765554
 4433970,J.J. McCarthy,QB,16,4,0.0,0.0
 4685415,Travis Hunter,WR,30,4,7.2,10.11348922
 2468609,Taysom Hill,TE,18,4,0.0,
 4242557,Colby Parkinson,TE,14,4,3.7,1.16266638
 4427728,Bam Knight,RB,22,4,0.0,0.3769352
 2576925,Darren Waller,TE,15,4,17.7,4.62512294
--16025,49ers D/ST,D/ST,25,4,0.0,5.48070911
+-16025,49ers D/ST,16,25,4,0.0,5.48070911
 4696981,Cam Skattebo,RB,19,4,13.0,14.03751671
 4243331,Cade Otton,TE,27,4,3.9,6.03731135
--16006,Cowboys D/ST,D/ST,6,4,-1.0,2.83120613
+-16006,Cowboys D/ST,16,6,4,-1.0,2.83120613
 4595348,Malik Nabers,WR,19,4,4.0,17.57522148
 4429022,Kayshon Boutte,WR,17,4,2.8,7.01994318
 8439,Aaron Rodgers,QB,23,4,12.8,12.69382859
@@ -2710,12 +2710,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4572680,Tucker Kraft,TE,9,4,10.6,11.85909625
 4360234,Evan McPherson,K,4,4,3.0,7.25114563
 4241372,Hollywood Brown,WR,12,4,12.8,9.0405724
--16001,Falcons D/ST,D/ST,1,4,6.0,5.70567607
+-16001,Falcons D/ST,16,1,4,6.0,5.70567607
 4259147,Jake Tonges,TE,25,4,14.8,6.7827627
 3116406,Tyreek Hill,WR,0,4,12.7,14.72176567
 4241474,Brian Robinson Jr.,RB,25,4,2.1,5.19857137
 2985659,Wil Lutz,K,7,4,4.0,8.37091891
--16003,Bears D/ST,D/ST,3,4,9.0,5.16750019
+-16003,Bears D/ST,16,3,4,9.0,5.16750019
 4362887,Justin Fields,QB,20,4,27.14,19.51652784
 3045147,James Conner,RB,22,4,0.0,0.0
 4882093,Bhayshul Tuten,RB,30,4,3.2,5.26313297
@@ -2735,16 +2735,16 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4608810,Tez Johnson,WR,27,4,2.3,2.73337381
 4819231,Kaleb Johnson,RB,23,4,2.2,7.01358322
 3068267,Austin Ekeler,RB,28,4,0.0,0.0
--16015,Dolphins D/ST,D/ST,15,4,5.0,5.56630003
--16028,Commanders D/ST,D/ST,28,4,-1.0,4.64250399
+-16015,Dolphins D/ST,16,15,4,5.0,5.56630003
+-16028,Commanders D/ST,16,28,4,-1.0,4.64250399
 4432762,Shedeur Sanders,QB,5,4,0.0,0.0
 4567096,John Metchie III,WR,20,4,3.0,0.45775008
 4569603,Malik Washington,WR,15,4,4.1,8.77617323
--16013,Raiders D/ST,D/ST,13,4,5.0,3.6412397
+-16013,Raiders D/ST,16,13,4,5.0,3.6412397
 4695883,Jalen Coker,WR,29,4,0.0,0.0
 4682745,Jaylen Wright,RB,15,4,0.0,0.40493893
 3054212,Jonnu Smith,TE,23,4,2.6,7.9651055
--16010,Titans D/ST,D/ST,10,4,1.0,4.18563215
+-16010,Titans D/ST,16,10,4,1.0,4.18563215
 4249087,Matt Gay,K,0,4,18.0,7.45010917
 4362478,Emari Demercado,RB,22,4,10.1,5.44481548
 4243389,Calvin Austin III,WR,23,4,3.3,9.33592585
@@ -2759,12 +2759,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 14880,Kirk Cousins,QB,1,4,0.0,0.0
 4369863,Cedric Tillman,WR,5,4,1.6,8.4791693
 4038441,Justice Hill,RB,33,4,28.7,6.84666163
--16020,Jets D/ST,D/ST,20,4,0.0,4.04033468
+-16020,Jets D/ST,16,20,4,0.0,4.04033468
 4360635,Chig Okonkwo,TE,10,4,1.4,9.08061478
 10621,Nick Folk,K,20,4,11.0,8.10987354
 3116389,Samaje Perine,RB,4,4,0.4,3.89702878
 15864,Geno Smith,QB,13,4,9.78,17.51449742
--16022,Cardinals D/ST,D/ST,22,4,2.0,6.18203605
+-16022,Cardinals D/ST,16,22,4,2.0,6.18203605
 4711533,Ollie Gordon II,RB,15,4,1.0,5.9262526
 4688380,Cam Ward,QB,10,4,4.52,12.40301444
 4427095,DeMario Douglas,WR,17,4,0.0,5.83462095
@@ -2772,7 +2772,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685247,Braelon Allen,RB,20,4,0.6,6.06967213
 4368003,Andrei Iosivas,WR,4,4,3.7,3.50567876
 4361411,Pat Freiermuth,TE,23,4,0.0,5.92112527
--16029,Panthers D/ST,D/ST,29,4,-2.0,5.6305001
+-16029,Panthers D/ST,16,29,4,-2.0,5.6305001
 3124679,Jason Sanders,K,15,4,0.0,0.0
 4241457,Najee Harris,RB,24,4,0.0,0.0
 2991662,Mack Hollins,WR,17,4,7.4,4.76836673
@@ -2791,7 +2791,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4613202,Kyle Williams,WR,17,4,-0.2,1.03614171
 4243371,Riley Patterson,K,15,4,10.0,7.67974738
 3930086,Dawson Knox,TE,2,4,0.0,3.73005899
--16004,Bengals D/ST,D/ST,4,4,-5.0,3.9047221
+-16004,Bengals D/ST,16,4,4,-5.0,3.9047221
 15795,DeAndre Hopkins,WR,33,4,0.0,3.20151194
 3127586,Jeremy McNichols,RB,28,4,1.3,4.66850054
 3149687,Chris Brooks,RB,9,4,1.1,2.82371462
@@ -3252,7 +3252,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4047646,A.J. Brown,WR,21,5,9.3,13.68191821
 4047365,Josh Jacobs,RB,9,5,,0.0
 4596448,Bucky Irving,RB,27,5,0.0,0.0
--16007,Broncos D/ST,D/ST,7,5,7.0,5.5306195
+-16007,Broncos D/ST,16,7,5,7.0,5.5306195
 4239993,Tee Higgins,WR,4,5,11.2,12.79460757
 4431459,Tyler Warren,TE,11,5,14.4,11.23463341
 4426388,Jameson Williams,WR,8,5,2.0,11.83629217
@@ -3260,7 +3260,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429615,Zay Flowers,WR,33,5,12.2,13.04690337
 4239996,Travis Etienne Jr.,RB,30,5,8.8,13.9131977
 16800,Davante Adams,WR,14,5,13.8,15.66564306
--16034,Texans D/ST,D/ST,34,5,12.0,5.53881749
+-16034,Texans D/ST,16,34,5,12.0,5.53881749
 4259545,D'Andre Swift,RB,3,5,,0.0
 4038815,Rico Dowdle,RB,29,5,32.4,14.53651407
 4612826,Ladd McConkey,WR,24,5,14.9,12.8440805
@@ -3287,7 +3287,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685382,Omarion Hampton,RB,24,5,13.0,18.61518897
 4035687,Michael Pittman Jr.,WR,11,5,14.9,13.19823088
 4567750,Emeka Egbuka,WR,27,5,31.3,14.22714488
--16026,Seahawks D/ST,D/ST,26,5,-5.0,5.77216059
+-16026,Seahawks D/ST,16,26,5,-5.0,5.77216059
 4362081,Cameron Dicker,K,24,5,6.0,8.82505665
 3126486,Deebo Samuel,WR,28,5,23.6,14.47010451
 3121023,Dallas Goedert,TE,21,5,10.9,8.33931788
@@ -3299,7 +3299,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4432773,Brian Thomas Jr.,WR,30,5,12.0,13.01796995
 4038941,Justin Herbert,QB,24,5,14.64,20.82429036
 4432708,Marvin Harrison Jr.,WR,22,5,13.8,12.85365422
--16017,Patriots D/ST,D/ST,17,5,6.0,2.47726402
+-16017,Patriots D/ST,16,17,5,6.0,2.47726402
 4569587,Wan'Dale Robinson,WR,19,5,8.2,10.65313185
 3886598,Jauan Jennings,WR,25,5,0.0,0.0
 3916433,Jakobi Meyers,WR,30,5,7.2,13.95311816
@@ -3330,29 +3330,29 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4373678,Khalil Shakir,WR,2,5,11.0,10.21308315
 4429205,Jordan Addison,WR,16,5,15.1,10.82103374
 4360310,Trevor Lawrence,QB,30,5,26.24,15.21815708
--16008,Lions D/ST,D/ST,8,5,10.0,7.17555995
+-16008,Lions D/ST,16,8,5,10.0,7.17555995
 3150744,Chase McLaughlin,K,27,5,12.0,7.93252287
 4036378,Jordan Love,QB,9,5,,0.0
 4685702,Quinshon Judkins,RB,5,5,13.8,14.58257335
 4248528,Christian Watson,WR,9,5,,0.0
 3116165,Chris Godwin Jr.,WR,27,5,5.6,13.22162759
--16021,Eagles D/ST,D/ST,21,5,1.0,4.99742099
+-16021,Eagles D/ST,16,21,5,1.0,4.99742099
 4569618,Garrett Wilson,WR,20,5,19.1,15.96350274
 4385690,Dalton Kincaid,TE,2,5,16.8,7.96321765
--16030,Jaguars D/ST,D/ST,30,5,2.0,4.91917015
+-16030,Jaguars D/ST,16,30,5,2.0,4.91917015
 2578570,Jacoby Brissett,QB,22,5,0.0,0.0
 4608686,Kyle Monangai,RB,3,5,,0.0
 4426385,Zach Charbonnet,RB,26,5,11.8,9.2037512
 4241416,Chuba Hubbard,RB,29,5,0.0,0.0
 4361432,Romeo Doubs,WR,9,5,,0.0
--16014,Rams D/ST,D/ST,14,5,-2.0,6.96373633
+-16014,Rams D/ST,16,14,5,-2.0,6.96373633
 3929645,Juwan Johnson,TE,18,5,3.7,7.86334085
 4429025,Quentin Johnston,WR,24,5,6.9,17.47591188
 4036133,T.J. Hockenson,TE,16,5,9.8,9.06333147
 3117256,Dalton Schultz,TE,34,5,11.0,8.09301464
 3139477,Patrick Mahomes,QB,12,5,26.72,17.66096535
 4431280,Troy Franklin,WR,7,5,8.5,10.66093938
--16002,Bills D/ST,D/ST,2,5,6.0,5.82537067
+-16002,Bills D/ST,16,2,5,6.0,5.82537067
 4430027,Sam LaPorta,TE,8,5,20.2,10.09226355
 4697745,Tyler Loop,K,33,5,3.0,7.768783
 4241463,Jerry Jeudy,WR,5,5,3.5,10.06888911
@@ -3375,16 +3375,16 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4574716,Harrison Mevis,K,14,5,,0.0
 4430968,Kimani Vidal,RB,24,5,2.9,0.0
 17427,Cairo Santos,K,3,5,,0.0
--16005,Browns D/ST,D/ST,5,5,7.0,7.38285619
+-16005,Browns D/ST,16,5,5,7.0,7.38285619
 3912547,Sam Darnold,QB,26,5,27.64,13.23461328
 4575131,Jacory Croskey-Merritt,RB,28,5,27.0,7.77064377
 4686361,Cam Little,K,30,5,9.0,7.72811272
 2977187,Cooper Kupp,WR,26,5,11.9,10.53362907
--16018,Saints D/ST,D/ST,18,5,18.0,5.21064305
+-16018,Saints D/ST,16,18,5,18.0,5.21064305
 4688813,Josh Downs,WR,11,5,11.4,8.75491979
--16016,Vikings D/ST,D/ST,16,5,3.0,7.61762971
+-16016,Vikings D/ST,16,16,5,3.0,7.61762971
 4569923,Andy Borregales,K,17,5,13.0,7.86855864
--16033,Ravens D/ST,D/ST,33,5,-4.0,3.97057455
+-16033,Ravens D/ST,16,33,5,-4.0,3.97057455
 4040655,Darnell Mooney,WR,1,5,,0.0
 3123076,David Njoku,TE,5,5,18.7,8.11114364
 4685278,Luther Burden III,WR,3,5,,0.0
@@ -3394,10 +3394,10 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429096,Blake Corum,RB,14,5,1.3,5.96493968
 4576297,AJ Barner,TE,26,5,24.3,4.70475449
 4635008,Keon Coleman,WR,2,5,10.3,10.2237594
--16024,Chargers D/ST,D/ST,24,5,2.0,5.25792291
+-16024,Chargers D/ST,16,24,5,2.0,5.25792291
 4428718,Tre Tucker,WR,13,5,11.1,10.46672079
 3917792,Daniel Jones,QB,11,5,16.68,18.2633242
--16011,Colts D/ST,D/ST,11,5,16.0,6.13232949
+-16011,Colts D/ST,16,11,5,16.0,6.13232949
 3051876,Evan Engram,TE,7,5,13.3,7.67163678
 3128720,Nick Chubb,RB,34,5,12.1,10.09017656
 4887558,Emanuel Wilson,RB,9,5,,0.0
@@ -3405,7 +3405,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 15835,Zach Ertz,TE,28,5,0.0,9.18427612
 4597500,Adonai Mitchell,WR,20,5,0.0,4.30770787
 4362619,Chris Rodriguez Jr.,RB,28,5,0.7,5.17465581
--16027,Buccaneers D/ST,D/ST,27,5,-4.0,5.74990265
+-16027,Buccaneers D/ST,16,27,5,-4.0,5.74990265
 4429275,Trey Benson,RB,22,5,0.0,0.0
 4430539,Brenton Strange,TE,30,5,3.2,8.96061698
 4701936,Matthew Golden,WR,9,5,,0.0
@@ -3416,18 +3416,18 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4428557,Tyjae Spears,RB,10,5,1.4,5.38923328
 4373626,Tyler Allgeier,RB,1,5,,0.0
 5081397,Dylan Sampson,RB,5,5,1.2,3.53443814
--16012,Chiefs D/ST,D/ST,12,5,7.0,4.86780654
--16019,Giants D/ST,D/ST,19,5,0.0,6.22547453
+-16012,Chiefs D/ST,16,12,5,7.0,4.86780654
+-16019,Giants D/ST,16,19,5,0.0,6.22547453
 4433970,J.J. McCarthy,QB,16,5,0.0,0.0
 4685415,Travis Hunter,WR,30,5,9.4,8.8663211
 2468609,Taysom Hill,TE,18,5,0.66,4.15638305
 4242557,Colby Parkinson,TE,14,5,0.0,3.94891333
 4427728,Bam Knight,RB,22,5,9.4,0.34824698
 2576925,Darren Waller,TE,15,5,18.8,7.92899865
--16025,49ers D/ST,D/ST,25,5,2.0,3.75154204
+-16025,49ers D/ST,16,25,5,2.0,3.75154204
 4696981,Cam Skattebo,RB,19,5,14.4,17.07502791
 4243331,Cade Otton,TE,27,5,12.1,5.6538393
--16006,Cowboys D/ST,D/ST,6,5,6.0,4.18302763
+-16006,Cowboys D/ST,16,6,5,6.0,4.18302763
 4595348,Malik Nabers,WR,19,5,0.0,0.0
 4429022,Kayshon Boutte,WR,17,5,7.3,7.81994203
 8439,Aaron Rodgers,QB,23,5,,0.0
@@ -3463,16 +3463,16 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4608810,Tez Johnson,WR,27,5,9.9,2.14644418
 4819231,Kaleb Johnson,RB,23,5,,0.0
 3068267,Austin Ekeler,RB,28,5,0.0,0.0
--16015,Dolphins D/ST,D/ST,15,5,4.0,4.36140443
--16028,Commanders D/ST,D/ST,28,5,12.0,3.16883027
+-16015,Dolphins D/ST,16,15,5,4.0,4.36140443
+-16028,Commanders D/ST,16,28,5,12.0,3.16883027
 4432762,Shedeur Sanders,QB,5,5,0.0,0.0
 4567096,John Metchie III,WR,20,5,0.0,1.20504038
 4569603,Malik Washington,WR,15,5,4.0,8.98091189
--16013,Raiders D/ST,D/ST,13,5,-3.0,4.22011892
+-16013,Raiders D/ST,16,13,5,-3.0,4.22011892
 4695883,Jalen Coker,WR,29,5,0.0,0.0
 4682745,Jaylen Wright,RB,15,5,0.0,0.0
 3054212,Jonnu Smith,TE,23,5,,0.0
--16010,Titans D/ST,D/ST,10,5,4.0,4.1673563
+-16010,Titans D/ST,16,10,5,4.0,4.1673563
 4249087,Matt Gay,K,0,5,9.0,7.63635257
 4362478,Emari Demercado,RB,22,5,6.1,11.20136363
 4243389,Calvin Austin III,WR,23,5,,0.0
@@ -3487,12 +3487,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 14880,Kirk Cousins,QB,1,5,,0.0
 4369863,Cedric Tillman,WR,5,5,0.0,0.0
 4038441,Justice Hill,RB,33,5,2.2,8.57740214
--16020,Jets D/ST,D/ST,20,5,-5.0,3.36649056
+-16020,Jets D/ST,16,20,5,-5.0,3.36649056
 4360635,Chig Okonkwo,TE,10,5,8.8,7.90012005
 10621,Nick Folk,K,20,5,7.0,8.4216102
 3116389,Samaje Perine,RB,4,5,4.9,3.45682612
 15864,Geno Smith,QB,13,5,5.92,15.12889918
--16022,Cardinals D/ST,D/ST,22,5,6.0,6.30365998
+-16022,Cardinals D/ST,16,22,5,6.0,6.30365998
 4711533,Ollie Gordon II,RB,15,5,-0.2,5.89703942
 4688380,Cam Ward,QB,10,5,8.0,11.96083488
 4427095,DeMario Douglas,WR,17,5,3.7,2.75091882
@@ -3500,7 +3500,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685247,Braelon Allen,RB,20,5,0.0,0.0
 4368003,Andrei Iosivas,WR,4,5,13.2,4.30339709
 4361411,Pat Freiermuth,TE,23,5,,0.0
--16029,Panthers D/ST,D/ST,29,5,5.0,3.45773425
+-16029,Panthers D/ST,16,29,5,5.0,3.45773425
 3124679,Jason Sanders,K,15,5,0.0,0.0
 4241457,Najee Harris,RB,24,5,0.0,0.0
 2991662,Mack Hollins,WR,17,5,0.0,3.84679983
@@ -3519,7 +3519,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4613202,Kyle Williams,WR,17,5,0.0,1.71774727
 4243371,Riley Patterson,K,15,5,7.0,7.75128979
 3930086,Dawson Knox,TE,2,5,3.5,3.83869146
--16004,Bengals D/ST,D/ST,4,5,2.0,2.04409645
+-16004,Bengals D/ST,16,4,5,2.0,2.04409645
 15795,DeAndre Hopkins,WR,33,5,6.6,2.94910241
 3127586,Jeremy McNichols,RB,28,5,2.8,4.73255369
 3149687,Chris Brooks,RB,9,5,,0.0
@@ -3976,7 +3976,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4047646,A.J. Brown,WR,21,6,14.0,14.07840034
 4047365,Josh Jacobs,RB,9,6,32.0,20.85102029
 4596448,Bucky Irving,RB,27,6,0.0,0.0
--16007,Broncos D/ST,D/ST,7,6,17.0,7.02552392
+-16007,Broncos D/ST,16,7,6,17.0,7.02552392
 4239993,Tee Higgins,WR,4,6,11.2,11.51827696
 4431459,Tyler Warren,TE,11,6,18.3,10.58723976
 4426388,Jameson Williams,WR,8,6,18.6,10.70176633
@@ -4010,7 +4010,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685382,Omarion Hampton,RB,24,6,0.0,0.0
 4035687,Michael Pittman Jr.,WR,11,6,4.0,12.79302623
 4567750,Emeka Egbuka,WR,27,6,4.4,16.67934246
--16026,Seahawks D/ST,D/ST,26,6,12.0,5.08913482
+-16026,Seahawks D/ST,16,26,6,12.0,5.08913482
 4362081,Cameron Dicker,K,24,6,17.0,8.68927442
 3126486,Deebo Samuel,WR,28,6,5.4,16.85856722
 3121023,Dallas Goedert,TE,21,6,26.0,9.58194555
@@ -4022,7 +4022,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4432773,Brian Thomas Jr.,WR,30,6,23.0,13.70674863
 4038941,Justin Herbert,QB,24,6,18.76,20.11077855
 4432708,Marvin Harrison Jr.,WR,22,6,5.2,11.95034355
--16017,Patriots D/ST,D/ST,17,6,6.0,5.88713439
+-16017,Patriots D/ST,16,17,6,6.0,5.88713439
 4569587,Wan'Dale Robinson,WR,19,6,20.4,11.60036899
 3886598,Jauan Jennings,WR,25,6,1.7,11.08702159
 3916433,Jakobi Meyers,WR,30,6,7.9,13.18779584
@@ -4053,30 +4053,30 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4373678,Khalil Shakir,WR,2,6,6.3,9.97583175
 4429205,Jordan Addison,WR,16,6,,0.0
 4360310,Trevor Lawrence,QB,30,6,19.22,17.94130259
--16008,Lions D/ST,D/ST,8,6,1.0,4.88152871
+-16008,Lions D/ST,16,8,6,1.0,4.88152871
 3150744,Chase McLaughlin,K,27,6,6.0,8.76820049
--16023,Steelers D/ST,D/ST,23,6,11.0,7.6808574
+-16023,Steelers D/ST,16,23,6,11.0,7.6808574
 4036378,Jordan Love,QB,9,6,14.96,19.33856814
 4685702,Quinshon Judkins,RB,5,6,3.6,13.795272
 4248528,Christian Watson,WR,9,6,0.0,0.0
 3116165,Chris Godwin Jr.,WR,27,6,0.0,0.0
--16021,Eagles D/ST,D/ST,21,6,0.0,6.853017
+-16021,Eagles D/ST,16,21,6,0.0,6.853017
 4569618,Garrett Wilson,WR,20,6,4.3,14.90799234
 4385690,Dalton Kincaid,TE,2,6,0.0,0.0
--16030,Jaguars D/ST,D/ST,30,6,1.0,4.90871177
+-16030,Jaguars D/ST,16,30,6,1.0,4.90871177
 2578570,Jacoby Brissett,QB,22,6,20.7,13.36950903
 4608686,Kyle Monangai,RB,3,6,5.4,5.38476784
 4426385,Zach Charbonnet,RB,26,6,4.7,10.71739642
 4241416,Chuba Hubbard,RB,29,6,0.0,0.0
 4361432,Romeo Doubs,WR,9,6,10.5,10.85443612
--16014,Rams D/ST,D/ST,14,6,16.0,6.21255099
+-16014,Rams D/ST,16,14,6,16.0,6.21255099
 3929645,Juwan Johnson,TE,18,6,1.5,7.91065711
 4429025,Quentin Johnston,WR,24,6,0.0,0.0
 4036133,T.J. Hockenson,TE,16,6,,0.0
 3117256,Dalton Schultz,TE,34,6,,0.0
 3139477,Patrick Mahomes,QB,12,6,31.48,20.0523983
 4431280,Troy Franklin,WR,7,6,3.1,9.95098435
--16002,Bills D/ST,D/ST,2,6,1.0,4.88504834
+-16002,Bills D/ST,16,2,6,1.0,4.88504834
 4430027,Sam LaPorta,TE,8,6,16.5,11.67966914
 4697745,Tyler Loop,K,33,6,3.0,7.516352
 4241463,Jerry Jeudy,WR,5,6,9.3,9.67706171
@@ -4099,16 +4099,16 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4574716,Harrison Mevis,K,14,6,,0.0
 4430968,Kimani Vidal,RB,24,6,22.8,9.51131616
 17427,Cairo Santos,K,3,6,0.0,0.0
--16005,Browns D/ST,D/ST,5,6,0.0,6.56307459
+-16005,Browns D/ST,16,5,6,0.0,6.56307459
 3912547,Sam Darnold,QB,26,6,20.0,15.30448985
--16009,Packers D/ST,D/ST,9,6,3.0,7.76354732
+-16009,Packers D/ST,16,9,6,3.0,7.76354732
 4575131,Jacory Croskey-Merritt,RB,28,6,5.8,13.69177008
 4686361,Cam Little,K,30,6,-1.0,8.27364458
 2977187,Cooper Kupp,WR,26,6,12.0,12.16483692
--16018,Saints D/ST,D/ST,18,6,1.0,5.19976753
+-16018,Saints D/ST,16,18,6,1.0,5.19976753
 4688813,Josh Downs,WR,11,6,16.2,7.76946382
 4569923,Andy Borregales,K,17,6,5.0,7.95189003
--16033,Ravens D/ST,D/ST,33,6,7.0,2.51769959
+-16033,Ravens D/ST,16,33,6,7.0,2.51769959
 4040655,Darnell Mooney,WR,1,6,0.0,0.0
 3123076,David Njoku,TE,5,6,5.8,9.88053633
 4685278,Luther Burden III,WR,3,6,9.1,4.77673028
@@ -4118,10 +4118,10 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429096,Blake Corum,RB,14,6,2.3,6.50302511
 4576297,AJ Barner,TE,26,6,10.1,7.52117739
 4635008,Keon Coleman,WR,2,6,4.1,9.82472869
--16024,Chargers D/ST,D/ST,24,6,8.0,4.68613332
+-16024,Chargers D/ST,16,24,6,8.0,4.68613332
 4428718,Tre Tucker,WR,13,6,12.0,10.48236107
 3917792,Daniel Jones,QB,11,6,22.48,17.16691946
--16011,Colts D/ST,D/ST,11,6,1.0,7.03885374
+-16011,Colts D/ST,16,11,6,1.0,7.03885374
 3051876,Evan Engram,TE,7,6,9.9,8.87473802
 3128720,Nick Chubb,RB,34,6,,0.0
 4887558,Emanuel Wilson,RB,9,6,1.7,4.08821956
@@ -4129,7 +4129,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 15835,Zach Ertz,TE,28,6,16.3,8.58831133
 4597500,Adonai Mitchell,WR,20,6,0.0,0.0
 4362619,Chris Rodriguez Jr.,RB,28,6,0.0,3.78428608
--16027,Buccaneers D/ST,D/ST,27,6,9.0,5.36397808
+-16027,Buccaneers D/ST,16,27,6,9.0,5.36397808
 4429275,Trey Benson,RB,22,6,0.0,0.0
 4430539,Brenton Strange,TE,30,6,0.0,0.0
 4701936,Matthew Golden,WR,9,6,13.2,11.11549566
@@ -4140,18 +4140,18 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4428557,Tyjae Spears,RB,10,6,9.0,5.62059083
 4373626,Tyler Allgeier,RB,1,6,10.8,6.9276747
 5081397,Dylan Sampson,RB,5,6,4.4,2.8576582
--16012,Chiefs D/ST,D/ST,12,6,4.0,3.14596799
--16019,Giants D/ST,D/ST,19,6,8.0,5.31024214
+-16012,Chiefs D/ST,16,12,6,4.0,3.14596799
+-16019,Giants D/ST,16,19,6,8.0,5.31024214
 4433970,J.J. McCarthy,QB,16,6,,0.0
 4685415,Travis Hunter,WR,30,6,5.5,9.38619197
 2468609,Taysom Hill,TE,18,6,6.1,5.09674433
 4242557,Colby Parkinson,TE,14,6,0.0,0.0
 4427728,Bam Knight,RB,22,6,12.4,7.65746305
 2576925,Darren Waller,TE,15,6,9.2,9.79938849
--16025,49ers D/ST,D/ST,25,6,-1.0,4.03929525
+-16025,49ers D/ST,16,25,6,-1.0,4.03929525
 4696981,Cam Skattebo,RB,19,6,31.0,13.85041987
 4243331,Cade Otton,TE,27,6,10.1,7.97348382
--16006,Cowboys D/ST,D/ST,6,6,-1.0,4.64849493
+-16006,Cowboys D/ST,16,6,6,-1.0,4.64849493
 4595348,Malik Nabers,WR,19,6,0.0,0.0
 4429022,Kayshon Boutte,WR,17,6,26.3,7.03060503
 8439,Aaron Rodgers,QB,23,6,17.5,13.38793647
@@ -4164,12 +4164,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4572680,Tucker Kraft,TE,9,6,12.3,10.54297808
 4360234,Evan McPherson,K,4,6,3.0,7.39680142
 4241372,Hollywood Brown,WR,12,6,20.5,9.59948196
--16001,Falcons D/ST,D/ST,1,6,11.0,3.93550674
+-16001,Falcons D/ST,16,1,6,11.0,3.93550674
 4259147,Jake Tonges,TE,25,6,11.8,8.17762168
 3116406,Tyreek Hill,WR,0,6,0.0,0.0
 4241474,Brian Robinson Jr.,RB,25,6,3.8,4.66955352
 2985659,Wil Lutz,K,7,6,9.0,8.69680767
--16003,Bears D/ST,D/ST,3,6,9.0,3.47692562
+-16003,Bears D/ST,16,3,6,9.0,3.47692562
 4362887,Justin Fields,QB,20,6,4.9,17.55480425
 3045147,James Conner,RB,22,6,0.0,0.0
 4882093,Bhayshul Tuten,RB,30,6,4.8,4.54223329
@@ -4189,17 +4189,17 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4608810,Tez Johnson,WR,27,6,11.5,8.05143698
 4819231,Kaleb Johnson,RB,23,6,1.5,0.38594543
 3068267,Austin Ekeler,RB,28,6,0.0,0.0
--16015,Dolphins D/ST,D/ST,15,6,-1.0,4.08872388
+-16015,Dolphins D/ST,16,15,6,-1.0,4.08872388
 3123052,Michael Badgley,K,0,6,8.0,8.30487792
--16028,Commanders D/ST,D/ST,28,6,4.0,4.04099922
+-16028,Commanders D/ST,16,28,6,4.0,4.04099922
 4432762,Shedeur Sanders,QB,5,6,0.0,0.0
 4567096,John Metchie III,WR,20,6,0.0,0.41284224
 4569603,Malik Washington,WR,15,6,6.3,9.03117988
--16013,Raiders D/ST,D/ST,13,6,17.0,6.20898881
+-16013,Raiders D/ST,16,13,6,17.0,6.20898881
 4695883,Jalen Coker,WR,29,6,0.0,0.0
 4682745,Jaylen Wright,RB,15,6,0.0,0.0
 3054212,Jonnu Smith,TE,23,6,5.8,7.19350247
--16010,Titans D/ST,D/ST,10,6,6.0,5.52801983
+-16010,Titans D/ST,16,10,6,6.0,5.52801983
 4249087,Matt Gay,K,0,6,7.0,8.23553097
 4362478,Emari Demercado,RB,22,6,0.1,3.22838758
 4243389,Calvin Austin III,WR,23,6,0.0,0.0
@@ -4214,12 +4214,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 14880,Kirk Cousins,QB,1,6,0.0,0.0
 4369863,Cedric Tillman,WR,5,6,0.0,0.0
 4038441,Justice Hill,RB,33,6,9.4,8.13917543
--16020,Jets D/ST,D/ST,20,6,10.0,2.79670341
+-16020,Jets D/ST,16,20,6,10.0,2.79670341
 4360635,Chig Okonkwo,TE,10,6,10.6,6.9301371
 10621,Nick Folk,K,20,6,12.0,7.56593799
 3116389,Samaje Perine,RB,4,6,5.2,4.90538154
 15864,Geno Smith,QB,13,6,8.66,16.35754698
--16022,Cardinals D/ST,D/ST,22,6,1.0,4.5103768
+-16022,Cardinals D/ST,16,22,6,1.0,4.5103768
 4711533,Ollie Gordon II,RB,15,6,1.2,4.42264318
 4688380,Cam Ward,QB,10,6,6.88,12.54514209
 4427095,DeMario Douglas,WR,17,6,16.1,4.25375435
@@ -4227,7 +4227,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685247,Braelon Allen,RB,20,6,0.0,0.0
 4368003,Andrei Iosivas,WR,4,6,1.5,5.71727726
 4361411,Pat Freiermuth,TE,23,6,2.1,3.86324292
--16029,Panthers D/ST,D/ST,29,6,2.0,3.2881319
+-16029,Panthers D/ST,16,29,6,2.0,3.2881319
 3124679,Jason Sanders,K,15,6,0.0,0.0
 4241457,Najee Harris,RB,24,6,0.0,0.0
 2991662,Mack Hollins,WR,17,6,4.8,3.20792813
@@ -4246,7 +4246,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4613202,Kyle Williams,WR,17,6,0.0,1.15865457
 4243371,Riley Patterson,K,15,6,9.0,7.98874919
 3930086,Dawson Knox,TE,2,6,8.9,3.47301074
--16004,Bengals D/ST,D/ST,4,6,0.0,2.60109144
+-16004,Bengals D/ST,16,4,6,0.0,2.60109144
 15795,DeAndre Hopkins,WR,33,6,4.0,4.6745505
 3127586,Jeremy McNichols,RB,28,6,6.5,4.86695102
 3149687,Chris Brooks,RB,9,6,0.1,2.21964427
@@ -4711,7 +4711,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4047646,A.J. Brown,WR,21,7,28.1,14.89603029
 4047365,Josh Jacobs,RB,9,7,18.8,19.24877222
 4596448,Bucky Irving,RB,27,7,0.0,0.0
--16007,Broncos D/ST,D/ST,7,7,4.0,7.29264056
+-16007,Broncos D/ST,16,7,7,4.0,7.29264056
 4239993,Tee Higgins,WR,4,7,21.6,10.98771112
 4431459,Tyler Warren,TE,11,7,16.9,12.44897911
 4426388,Jameson Williams,WR,8,7,0.0,13.19697312
@@ -4719,7 +4719,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429615,Zay Flowers,WR,33,7,,0.0
 4239996,Travis Etienne Jr.,RB,30,7,6.5,13.37229347
 16800,Davante Adams,WR,14,7,26.5,19.27090844
--16034,Texans D/ST,D/ST,34,7,18.0,5.24143445
+-16034,Texans D/ST,16,34,7,18.0,5.24143445
 4259545,D'Andre Swift,RB,3,7,20.8,15.69867971
 4038815,Rico Dowdle,RB,29,7,10.6,14.6421109
 4612826,Ladd McConkey,WR,24,7,15.7,14.02115982
@@ -4746,7 +4746,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685382,Omarion Hampton,RB,24,7,0.0,0.0
 4035687,Michael Pittman Jr.,WR,11,7,20.8,12.74223058
 4567750,Emeka Egbuka,WR,27,7,9.8,12.79536681
--16026,Seahawks D/ST,D/ST,26,7,10.0,5.82884098
+-16026,Seahawks D/ST,16,26,7,10.0,5.82884098
 4362081,Cameron Dicker,K,24,7,7.0,8.16151684
 3126486,Deebo Samuel,WR,28,7,0.0,0.0
 3121023,Dallas Goedert,TE,21,7,4.8,11.69403888
@@ -4758,7 +4758,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4432773,Brian Thomas Jr.,WR,30,7,6.1,13.94107528
 4038941,Justin Herbert,QB,24,7,27.9,17.75756045
 4432708,Marvin Harrison Jr.,WR,22,7,7.8,12.49095746
--16017,Patriots D/ST,D/ST,17,7,20.0,6.72014293
+-16017,Patriots D/ST,16,17,7,20.0,6.72014293
 4569587,Wan'Dale Robinson,WR,19,7,15.5,11.34912049
 3886598,Jauan Jennings,WR,25,7,7.1,8.88703427
 3916433,Jakobi Meyers,WR,30,7,0.0,0.0
@@ -4789,23 +4789,23 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4373678,Khalil Shakir,WR,2,7,,0.0
 4429205,Jordan Addison,WR,16,7,21.8,11.92284353
 4360310,Trevor Lawrence,QB,30,7,17.64,15.08474348
--16008,Lions D/ST,D/ST,8,7,13.0,3.92891305
+-16008,Lions D/ST,16,8,7,13.0,3.92891305
 3150744,Chase McLaughlin,K,27,7,5.0,8.5829021
--16023,Steelers D/ST,D/ST,23,7,-4.0,7.85796708
+-16023,Steelers D/ST,16,23,7,-4.0,7.85796708
 4036378,Jordan Love,QB,9,7,13.36,17.35772048
 4685702,Quinshon Judkins,RB,5,7,26.4,16.29581483
 4248528,Christian Watson,WR,9,7,0.0,0.0
 3116165,Chris Godwin Jr.,WR,27,7,0.0,0.0
--16021,Eagles D/ST,D/ST,21,7,11.0,6.78188398
+-16021,Eagles D/ST,16,21,7,11.0,6.78188398
 4569618,Garrett Wilson,WR,20,7,0.0,0.0
 4385690,Dalton Kincaid,TE,2,7,,0.0
--16030,Jaguars D/ST,D/ST,30,7,-1.0,4.08778285
+-16030,Jaguars D/ST,16,30,7,-1.0,4.08778285
 2578570,Jacoby Brissett,QB,22,7,19.76,16.58270884
 4608686,Kyle Monangai,RB,3,7,17.4,4.59012189
 4426385,Zach Charbonnet,RB,26,7,19.5,9.70444366
 4241416,Chuba Hubbard,RB,29,7,7.5,8.54587978
 4361432,Romeo Doubs,WR,9,7,13.2,12.44463845
--16014,Rams D/ST,D/ST,14,7,9.0,6.69667136
+-16014,Rams D/ST,16,14,7,9.0,6.69667136
 3929645,Juwan Johnson,TE,18,7,12.9,7.49906117
 4429025,Quentin Johnston,WR,24,7,11.0,14.90058558
 4036133,T.J. Hockenson,TE,16,7,10.3,9.47850285
@@ -4834,15 +4834,15 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4574716,Harrison Mevis,K,14,7,,0.0
 4430968,Kimani Vidal,RB,24,7,7.5,12.19871192
 17427,Cairo Santos,K,3,7,0.0,0.0
--16005,Browns D/ST,D/ST,5,7,24.0,5.58183895
+-16005,Browns D/ST,16,5,7,24.0,5.58183895
 3912547,Sam Darnold,QB,26,7,8.62,14.8852237
--16009,Packers D/ST,D/ST,9,7,8.0,5.93202429
+-16009,Packers D/ST,16,9,7,8.0,5.93202429
 4575131,Jacory Croskey-Merritt,RB,28,7,4.2,16.07267078
 4686361,Cam Little,K,30,7,0.0,7.52885317
 2977187,Cooper Kupp,WR,26,7,2.2,10.71807338
--16018,Saints D/ST,D/ST,18,7,2.0,3.95728619
+-16018,Saints D/ST,16,18,7,2.0,3.95728619
 4688813,Josh Downs,WR,11,7,0.0,0.0
--16016,Vikings D/ST,D/ST,16,7,2.0,6.04115963
+-16016,Vikings D/ST,16,16,7,2.0,6.04115963
 4569923,Andy Borregales,K,17,7,7.0,8.36534786
 4040655,Darnell Mooney,WR,1,7,9.8,10.18360622
 3123076,David Njoku,TE,5,7,0.0,0.0
@@ -4853,10 +4853,10 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429096,Blake Corum,RB,14,7,5.3,5.30383694
 4576297,AJ Barner,TE,26,7,1.9,7.68140802
 4635008,Keon Coleman,WR,2,7,,0.0
--16024,Chargers D/ST,D/ST,24,7,-5.0,3.67040667
+-16024,Chargers D/ST,16,24,7,-5.0,3.67040667
 4428718,Tre Tucker,WR,13,7,8.3,12.18704271
 3917792,Daniel Jones,QB,11,7,22.22,18.37875168
--16011,Colts D/ST,D/ST,11,7,4.0,5.64058262
+-16011,Colts D/ST,16,11,7,4.0,5.64058262
 3051876,Evan Engram,TE,7,7,9.2,9.30447563
 3128720,Nick Chubb,RB,34,7,2.1,9.42854188
 4887558,Emanuel Wilson,RB,9,7,2.5,3.50742138
@@ -4864,7 +4864,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 15835,Zach Ertz,TE,28,7,12.7,11.21010407
 4597500,Adonai Mitchell,WR,20,7,1.8,6.61324286
 4362619,Chris Rodriguez Jr.,RB,28,7,7.2,0.8009221
--16027,Buccaneers D/ST,D/ST,27,7,7.0,3.11255724
+-16027,Buccaneers D/ST,16,27,7,7.0,3.11255724
 4429275,Trey Benson,RB,22,7,0.0,0.0
 4430539,Brenton Strange,TE,30,7,0.0,0.0
 4701936,Matthew Golden,WR,9,7,7.7,11.65573321
@@ -4875,18 +4875,18 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4428557,Tyjae Spears,RB,10,7,7.0,7.82985692
 4373626,Tyler Allgeier,RB,1,7,1.6,7.05004581
 5081397,Dylan Sampson,RB,5,7,2.7,3.85408152
--16012,Chiefs D/ST,D/ST,12,7,13.0,7.41104721
--16019,Giants D/ST,D/ST,19,7,-2.0,4.75474454
+-16012,Chiefs D/ST,16,12,7,13.0,7.41104721
+-16019,Giants D/ST,16,19,7,-2.0,4.75474454
 4433970,J.J. McCarthy,QB,16,7,0.0,0.0
 4685415,Travis Hunter,WR,30,7,24.1,9.88228794
 2468609,Taysom Hill,TE,18,7,2.8,4.4283906
 4242557,Colby Parkinson,TE,14,7,7.7,1.8828471
 4427728,Bam Knight,RB,22,7,9.4,9.90207138
 2576925,Darren Waller,TE,15,7,0.0,8.57449139
--16025,49ers D/ST,D/ST,25,7,9.0,3.32621385
+-16025,49ers D/ST,16,25,7,9.0,3.32621385
 4696981,Cam Skattebo,RB,19,7,18.4,14.01681903
 4243331,Cade Otton,TE,27,7,13.5,8.65000423
--16006,Cowboys D/ST,D/ST,6,7,14.0,3.18108043
+-16006,Cowboys D/ST,16,6,7,14.0,3.18108043
 4595348,Malik Nabers,WR,19,7,0.0,0.0
 4429022,Kayshon Boutte,WR,17,7,13.5,8.59336844
 8439,Aaron Rodgers,QB,23,7,22.56,17.43725709
@@ -4899,12 +4899,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4572680,Tucker Kraft,TE,9,7,16.8,9.39901866
 4360234,Evan McPherson,K,4,7,17.0,7.1148423
 4241372,Hollywood Brown,WR,12,7,9.4,6.67378352
--16001,Falcons D/ST,D/ST,1,7,3.0,6.47914956
+-16001,Falcons D/ST,16,1,7,3.0,6.47914956
 4259147,Jake Tonges,TE,25,7,0.0,1.06156257
 3116406,Tyreek Hill,WR,0,7,0.0,0.0
 4241474,Brian Robinson Jr.,RB,25,7,3.6,4.40854631
 2985659,Wil Lutz,K,7,7,5.0,8.06298461
--16003,Bears D/ST,D/ST,3,7,15.0,5.01855687
+-16003,Bears D/ST,16,3,7,15.0,5.01855687
 4362887,Justin Fields,QB,20,7,4.04,18.32547423
 3045147,James Conner,RB,22,7,0.0,0.0
 4882093,Bhayshul Tuten,RB,30,7,2.2,4.02292793
@@ -4924,17 +4924,17 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4608810,Tez Johnson,WR,27,7,15.8,6.06196878
 4819231,Kaleb Johnson,RB,23,7,0.0,2.23945835
 3068267,Austin Ekeler,RB,28,7,0.0,0.0
--16015,Dolphins D/ST,D/ST,15,7,4.0,4.6501148
+-16015,Dolphins D/ST,16,15,7,4.0,4.6501148
 3123052,Michael Badgley,K,0,7,6.0,8.41787674
--16028,Commanders D/ST,D/ST,28,7,-3.0,2.69853416
+-16028,Commanders D/ST,16,28,7,-3.0,2.69853416
 4432762,Shedeur Sanders,QB,5,7,0.0,0.0
 4567096,John Metchie III,WR,20,7,0.0,0.0
 4569603,Malik Washington,WR,15,7,8.0,9.6767528
--16013,Raiders D/ST,D/ST,13,7,-3.0,3.44541777
+-16013,Raiders D/ST,16,13,7,-3.0,3.44541777
 4695883,Jalen Coker,WR,29,7,0.0,5.81595421
 4682745,Jaylen Wright,RB,15,7,0.0,0.0
 3054212,Jonnu Smith,TE,23,7,11.8,7.44367446
--16010,Titans D/ST,D/ST,10,7,3.0,3.8316019
+-16010,Titans D/ST,16,10,7,3.0,3.8316019
 4249087,Matt Gay,K,0,7,2.0,8.56430743
 4362478,Emari Demercado,RB,22,7,0.0,0.0
 4243389,Calvin Austin III,WR,23,7,0.0,0.0
@@ -4949,12 +4949,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 14880,Kirk Cousins,QB,1,7,0.0,0.0
 4369863,Cedric Tillman,WR,5,7,0.0,0.0
 4038441,Justice Hill,RB,33,7,,0.0
--16020,Jets D/ST,D/ST,20,7,5.0,5.11216247
+-16020,Jets D/ST,16,20,7,5.0,5.11216247
 4360635,Chig Okonkwo,TE,10,7,0.0,8.92394325
 10621,Nick Folk,K,20,7,7.0,7.84235591
 3116389,Samaje Perine,RB,4,7,3.1,6.36845144
 15864,Geno Smith,QB,13,7,2.78,13.7451589
--16022,Cardinals D/ST,D/ST,22,7,3.0,3.42107589
+-16022,Cardinals D/ST,16,22,7,3.0,3.42107589
 4711533,Ollie Gordon II,RB,15,7,2.3,3.78582811
 4688380,Cam Ward,QB,10,7,10.2,12.81517501
 4427095,DeMario Douglas,WR,17,7,4.7,5.5698809
@@ -4962,7 +4962,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685247,Braelon Allen,RB,20,7,0.0,0.0
 4368003,Andrei Iosivas,WR,4,7,7.9,5.4903193
 4361411,Pat Freiermuth,TE,23,7,28.1,3.27732973
--16029,Panthers D/ST,D/ST,29,7,16.0,6.57336921
+-16029,Panthers D/ST,16,29,7,16.0,6.57336921
 3124679,Jason Sanders,K,15,7,0.0,0.0
 4241457,Najee Harris,RB,24,7,0.0,0.0
 2991662,Mack Hollins,WR,17,7,7.3,4.4722166
@@ -4981,7 +4981,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4613202,Kyle Williams,WR,17,7,0.0,1.75845742
 4243371,Riley Patterson,K,15,7,6.0,8.02217778
 3930086,Dawson Knox,TE,2,7,,0.0
--16004,Bengals D/ST,D/ST,4,7,2.0,3.31010702
+-16004,Bengals D/ST,16,4,7,2.0,3.31010702
 15795,DeAndre Hopkins,WR,33,7,,0.0
 3127586,Jeremy McNichols,RB,28,7,6.5,7.27220042
 3149687,Chris Brooks,RB,9,7,0.0,2.19629063
@@ -5453,7 +5453,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4047646,A.J. Brown,WR,21,8,0.0,0.0
 4047365,Josh Jacobs,RB,9,8,13.5,19.23991145
 4596448,Bucky Irving,RB,27,8,0.0,0.0
--16007,Broncos D/ST,D/ST,7,8,6.0,4.15091464
+-16007,Broncos D/ST,16,7,8,6.0,4.15091464
 4239993,Tee Higgins,WR,4,8,11.4,12.43152386
 4431459,Tyler Warren,TE,11,8,9.3,12.96114752
 4426388,Jameson Williams,WR,8,8,,0.0
@@ -5461,7 +5461,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429615,Zay Flowers,WR,33,8,14.1,12.79795233
 4239996,Travis Etienne Jr.,RB,30,8,,0.0
 16800,Davante Adams,WR,14,8,,0.0
--16034,Texans D/ST,D/ST,34,8,7.0,6.75957356
+-16034,Texans D/ST,16,34,8,7.0,6.75957356
 4259545,D'Andre Swift,RB,3,8,15.1,14.99985527
 4038815,Rico Dowdle,RB,29,8,5.4,12.74763484
 4612826,Ladd McConkey,WR,24,8,20.8,14.84083387
@@ -5499,7 +5499,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4432773,Brian Thomas Jr.,WR,30,8,,0.0
 4038941,Justin Herbert,QB,24,8,25.28,20.05668456
 4432708,Marvin Harrison Jr.,WR,22,8,,0.0
--16017,Patriots D/ST,D/ST,17,8,12.0,5.70973083
+-16017,Patriots D/ST,16,17,8,12.0,5.70973083
 4569587,Wan'Dale Robinson,WR,19,8,7.8,13.15603929
 3886598,Jauan Jennings,WR,25,8,8.5,9.04453336
 3916433,Jakobi Meyers,WR,30,8,,0.0
@@ -5531,12 +5531,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429205,Jordan Addison,WR,16,8,11.6,12.71433044
 4360310,Trevor Lawrence,QB,30,8,,0.0
 3150744,Chase McLaughlin,K,27,8,17.0,8.37145038
--16023,Steelers D/ST,D/ST,23,8,-8.0,3.56297501
+-16023,Steelers D/ST,16,23,8,-8.0,3.56297501
 4036378,Jordan Love,QB,9,8,28.3,17.15280819
 4685702,Quinshon Judkins,RB,5,8,4.7,12.36229323
 4248528,Christian Watson,WR,9,8,12.5,7.07896844
 3116165,Chris Godwin Jr.,WR,27,8,0.0,0.0
--16021,Eagles D/ST,D/ST,21,8,7.0,5.81853505
+-16021,Eagles D/ST,16,21,8,7.0,5.81853505
 4569618,Garrett Wilson,WR,20,8,0.0,0.0
 4385690,Dalton Kincaid,TE,2,8,3.3,9.80035669
 2578570,Jacoby Brissett,QB,22,8,,0.0
@@ -5550,7 +5550,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 3117256,Dalton Schultz,TE,34,8,4.4,9.67804273
 3139477,Patrick Mahomes,QB,12,8,22.96,24.46158408
 4431280,Troy Franklin,WR,7,8,26.9,10.8519838
--16002,Bills D/ST,D/ST,2,8,18.0,4.79153223
+-16002,Bills D/ST,16,2,8,18.0,4.79153223
 4430027,Sam LaPorta,TE,8,8,,0.0
 4697745,Tyler Loop,K,33,8,13.0,7.8780527
 4241463,Jerry Jeudy,WR,5,8,0.0,11.1074059
@@ -5573,17 +5573,17 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4574716,Harrison Mevis,K,14,8,,0.0
 4430968,Kimani Vidal,RB,24,8,19.7,12.7403058
 17427,Cairo Santos,K,3,8,10.0,8.52071286
--16005,Browns D/ST,D/ST,5,8,6.0,5.30886884
+-16005,Browns D/ST,16,5,8,6.0,5.30886884
 3912547,Sam Darnold,QB,26,8,,0.0
--16009,Packers D/ST,D/ST,9,8,7.0,5.38608859
+-16009,Packers D/ST,16,9,8,7.0,5.38608859
 4575131,Jacory Croskey-Merritt,RB,28,8,2.5,11.53117042
 4686361,Cam Little,K,30,8,,0.0
 2977187,Cooper Kupp,WR,26,8,,0.0
--16018,Saints D/ST,D/ST,18,8,8.0,3.28360693
+-16018,Saints D/ST,16,18,8,8.0,3.28360693
 4688813,Josh Downs,WR,11,8,12.9,10.87439559
--16016,Vikings D/ST,D/ST,16,8,-2.0,4.51207734
+-16016,Vikings D/ST,16,16,8,-2.0,4.51207734
 4569923,Andy Borregales,K,17,8,13.0,8.08920178
--16033,Ravens D/ST,D/ST,33,8,3.0,2.8761968
+-16033,Ravens D/ST,16,33,8,3.0,2.8761968
 4040655,Darnell Mooney,WR,1,8,2.1,12.24485076
 3123076,David Njoku,TE,5,8,13.7,10.24479457
 4685278,Luther Burden III,WR,3,8,0.9,4.79954484
@@ -5593,10 +5593,10 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429096,Blake Corum,RB,14,8,,0.0
 4576297,AJ Barner,TE,26,8,,0.0
 4635008,Keon Coleman,WR,2,8,6.0,10.20166321
--16024,Chargers D/ST,D/ST,24,8,13.0,5.76771029
+-16024,Chargers D/ST,16,24,8,13.0,5.76771029
 4428718,Tre Tucker,WR,13,8,,0.0
 3917792,Daniel Jones,QB,11,8,23.18,20.67538998
--16011,Colts D/ST,D/ST,11,8,7.0,6.50792893
+-16011,Colts D/ST,16,11,8,7.0,6.50792893
 3051876,Evan Engram,TE,7,8,7.6,9.8568224
 3128720,Nick Chubb,RB,34,8,8.9,9.28146186
 4887558,Emanuel Wilson,RB,9,8,11.7,4.62842281
@@ -5604,7 +5604,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 15835,Zach Ertz,TE,28,8,5.6,9.04897122
 4597500,Adonai Mitchell,WR,20,8,0.0,0.0
 4362619,Chris Rodriguez Jr.,RB,28,8,0.2,1.81875146
--16027,Buccaneers D/ST,D/ST,27,8,25.0,5.58283863
+-16027,Buccaneers D/ST,16,27,8,25.0,5.58283863
 4429275,Trey Benson,RB,22,8,,0.0
 4430539,Brenton Strange,TE,30,8,,0.0
 4701936,Matthew Golden,WR,9,8,3.4,10.2892623
@@ -5615,18 +5615,18 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4428557,Tyjae Spears,RB,10,8,17.2,9.51914404
 4373626,Tyler Allgeier,RB,1,8,9.4,8.03234053
 5081397,Dylan Sampson,RB,5,8,7.9,2.44898796
--16012,Chiefs D/ST,D/ST,12,8,11.0,6.25105972
--16019,Giants D/ST,D/ST,19,8,-2.0,4.73969885
+-16012,Chiefs D/ST,16,12,8,11.0,6.25105972
+-16019,Giants D/ST,16,19,8,-2.0,4.73969885
 4433970,J.J. McCarthy,QB,16,8,0.0,0.0
 4685415,Travis Hunter,WR,30,8,,0.0
 2468609,Taysom Hill,TE,18,8,2.2,4.78056515
 4242557,Colby Parkinson,TE,14,8,,0.0
 4427728,Bam Knight,RB,22,8,,0.0
 2576925,Darren Waller,TE,15,8,0.0,0.0
--16025,49ers D/ST,D/ST,25,8,-3.0,4.84098737
+-16025,49ers D/ST,16,25,8,-3.0,4.84098737
 4696981,Cam Skattebo,RB,19,8,10.0,14.3105831
 4243331,Cade Otton,TE,27,8,8.0,9.90681358
--16006,Cowboys D/ST,D/ST,6,8,-4.0,2.57699983
+-16006,Cowboys D/ST,16,6,8,-4.0,2.57699983
 4595348,Malik Nabers,WR,19,8,0.0,0.0
 4429022,Kayshon Boutte,WR,17,8,16.5,7.6436952
 8439,Aaron Rodgers,QB,23,8,16.76,16.21055943
@@ -5639,12 +5639,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4572680,Tucker Kraft,TE,9,8,33.3,10.36468106
 4360234,Evan McPherson,K,4,8,8.0,7.96753454
 4241372,Hollywood Brown,WR,12,8,0.0,6.58158568
--16001,Falcons D/ST,D/ST,1,8,0.0,6.66456958
+-16001,Falcons D/ST,16,1,8,0.0,6.66456958
 4259147,Jake Tonges,TE,25,8,7.2,0.99005973
 3116406,Tyreek Hill,WR,0,8,0.0,0.0
 4241474,Brian Robinson Jr.,RB,25,8,0.0,3.47054433
 2985659,Wil Lutz,K,7,8,9.0,8.49064889
--16003,Bears D/ST,D/ST,3,8,0.0,6.12456863
+-16003,Bears D/ST,16,3,8,0.0,6.12456863
 4362887,Justin Fields,QB,20,8,20.86,19.39835645
 3045147,James Conner,RB,22,8,,0.0
 4882093,Bhayshul Tuten,RB,30,8,,0.0
@@ -5664,16 +5664,16 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4608810,Tez Johnson,WR,27,8,9.3,8.91824132
 4819231,Kaleb Johnson,RB,23,8,0.0,0.76029634
 3068267,Austin Ekeler,RB,28,8,0.0,0.0
--16015,Dolphins D/ST,D/ST,15,8,8.0,3.87347884
+-16015,Dolphins D/ST,16,15,8,8.0,3.87347884
 3123052,Michael Badgley,K,0,8,9.0,8.89201619
--16028,Commanders D/ST,D/ST,28,8,3.0,1.92330041
+-16028,Commanders D/ST,16,28,8,3.0,1.92330041
 4432762,Shedeur Sanders,QB,5,8,0.0,0.0
 4567096,John Metchie III,WR,20,8,0.0,5.11995384
 4569603,Malik Washington,WR,15,8,13.6,8.96938909
 4695883,Jalen Coker,WR,29,8,6.6,6.59561518
 4682745,Jaylen Wright,RB,15,8,3.8,0.0
 3054212,Jonnu Smith,TE,23,8,3.7,8.1249254
--16010,Titans D/ST,D/ST,10,8,-3.0,1.81455965
+-16010,Titans D/ST,16,10,8,-3.0,1.81455965
 4249087,Matt Gay,K,0,8,0.0,0.0
 4362478,Emari Demercado,RB,22,8,,0.0
 4243389,Calvin Austin III,WR,23,8,6.8,8.20607884
@@ -5688,7 +5688,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 14880,Kirk Cousins,QB,1,8,7.12,14.79023977
 4369863,Cedric Tillman,WR,5,8,0.0,0.0
 4038441,Justice Hill,RB,33,8,0.2,7.97864809
--16020,Jets D/ST,D/ST,20,8,-3.0,5.81627897
+-16020,Jets D/ST,16,20,8,-3.0,5.81627897
 4360635,Chig Okonkwo,TE,10,8,9.3,8.16152658
 10621,Nick Folk,K,20,8,12.0,7.96423605
 3116389,Samaje Perine,RB,4,8,17.0,7.14019339
@@ -5700,7 +5700,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685247,Braelon Allen,RB,20,8,0.0,0.0
 4368003,Andrei Iosivas,WR,4,8,0.0,5.44938668
 4361411,Pat Freiermuth,TE,23,8,4.3,5.1470044
--16029,Panthers D/ST,D/ST,29,8,-4.0,3.76026602
+-16029,Panthers D/ST,16,29,8,-4.0,3.76026602
 3124679,Jason Sanders,K,15,8,0.0,0.0
 4241457,Najee Harris,RB,24,8,0.0,0.0
 2991662,Mack Hollins,WR,17,8,15.9,4.36873284
@@ -5719,7 +5719,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4613202,Kyle Williams,WR,17,8,0.0,2.15909479
 4243371,Riley Patterson,K,15,8,10.0,7.38086732
 3930086,Dawson Knox,TE,2,8,2.5,3.70066527
--16004,Bengals D/ST,D/ST,4,8,-9.0,5.34974233
+-16004,Bengals D/ST,16,4,8,-9.0,5.34974233
 15795,DeAndre Hopkins,WR,33,8,2.4,4.74175319
 3127586,Jeremy McNichols,RB,28,8,11.8,5.57546604
 3149687,Chris Brooks,RB,9,8,0.0,1.7322248
@@ -6190,7 +6190,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4047646,A.J. Brown,WR,21,9,,0.0
 4047365,Josh Jacobs,RB,9,9,20.0,18.72596621
 4596448,Bucky Irving,RB,27,9,,0.0
--16007,Broncos D/ST,D/ST,7,9,7.0,6.29293892
+-16007,Broncos D/ST,16,7,9,7.0,6.29293892
 4239993,Tee Higgins,WR,4,9,33.1,12.91191387
 4431459,Tyler Warren,TE,11,9,7.6,13.64573684
 4426388,Jameson Williams,WR,8,9,16.6,10.99972661
@@ -6198,7 +6198,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429615,Zay Flowers,WR,33,9,11.4,16.13147196
 4239996,Travis Etienne Jr.,RB,30,9,16.5,13.68102789
 16800,Davante Adams,WR,14,9,23.0,16.14380527
--16034,Texans D/ST,D/ST,34,9,9.0,5.488908
+-16034,Texans D/ST,16,34,9,9.0,5.488908
 4259545,D'Andre Swift,RB,3,9,0.0,0.0
 4038815,Rico Dowdle,RB,29,9,28.1,11.65707535
 4612826,Ladd McConkey,WR,24,9,9.6,16.08931425
@@ -6225,7 +6225,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685382,Omarion Hampton,RB,24,9,0.0,0.0
 4035687,Michael Pittman Jr.,WR,11,9,20.5,16.31363808
 4567750,Emeka Egbuka,WR,27,9,,0.0
--16026,Seahawks D/ST,D/ST,26,9,11.0,6.1025101
+-16026,Seahawks D/ST,16,26,9,11.0,6.1025101
 4362081,Cameron Dicker,K,24,9,11.0,9.08886803
 3126486,Deebo Samuel,WR,28,9,9.4,14.43105455
 3121023,Dallas Goedert,TE,21,9,,0.0
@@ -6237,7 +6237,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4432773,Brian Thomas Jr.,WR,30,9,8.5,13.90869958
 4038941,Justin Herbert,QB,24,9,27.7,21.62898828
 4432708,Marvin Harrison Jr.,WR,22,9,22.6,13.25907949
--16017,Patriots D/ST,D/ST,17,9,3.0,4.69040323
+-16017,Patriots D/ST,16,17,9,3.0,4.69040323
 4569587,Wan'Dale Robinson,WR,19,9,13.6,13.14604416
 3886598,Jauan Jennings,WR,25,9,14.1,12.04480504
 3916433,Jakobi Meyers,WR,30,9,6.3,11.5112713
@@ -6268,29 +6268,29 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4373678,Khalil Shakir,WR,2,9,11.3,12.76398418
 4429205,Jordan Addison,WR,16,9,8.4,12.55342819
 4360310,Trevor Lawrence,QB,30,9,21.2,16.91011031
--16008,Lions D/ST,D/ST,8,9,9.0,8.03738638
+-16008,Lions D/ST,16,8,9,9.0,8.03738638
 3150744,Chase McLaughlin,K,27,9,,0.0
--16023,Steelers D/ST,D/ST,23,9,16.0,3.14582929
+-16023,Steelers D/ST,16,23,9,16.0,3.14582929
 4036378,Jordan Love,QB,9,9,9.02,18.08753081
 4685702,Quinshon Judkins,RB,5,9,,0.0
 4248528,Christian Watson,WR,9,9,7.8,8.77962105
 3116165,Chris Godwin Jr.,WR,27,9,,0.0
 4569618,Garrett Wilson,WR,20,9,,0.0
 4385690,Dalton Kincaid,TE,2,9,22.1,8.98448286
--16030,Jaguars D/ST,D/ST,30,9,3.0,7.43253604
+-16030,Jaguars D/ST,16,30,9,3.0,7.43253604
 2578570,Jacoby Brissett,QB,22,9,24.84,19.44421928
 4608686,Kyle Monangai,RB,3,9,22.8,15.36199396
 4426385,Zach Charbonnet,RB,26,9,5.6,11.14653654
 4241416,Chuba Hubbard,RB,29,9,1.7,7.78916555
 4361432,Romeo Doubs,WR,9,9,16.1,11.59780714
--16014,Rams D/ST,D/ST,14,9,10.0,8.17763883
+-16014,Rams D/ST,16,14,9,10.0,8.17763883
 3929645,Juwan Johnson,TE,18,9,12.1,8.29856363
 4429025,Quentin Johnston,WR,24,9,15.3,12.31912389
 4036133,T.J. Hockenson,TE,16,9,9.1,9.53066708
 3117256,Dalton Schultz,TE,34,9,13.7,8.32397383
 3139477,Patrick Mahomes,QB,12,9,10.5,23.27994134
 4431280,Troy Franklin,WR,7,9,8.3,10.60418773
--16002,Bills D/ST,D/ST,2,9,5.0,3.36486149
+-16002,Bills D/ST,16,2,9,5.0,3.36486149
 4430027,Sam LaPorta,TE,8,9,21.7,11.80247141
 4697745,Tyler Loop,K,33,9,4.0,8.53695813
 4241463,Jerry Jeudy,WR,5,9,,0.0
@@ -6314,15 +6314,15 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4430968,Kimani Vidal,RB,24,9,3.0,15.63112961
 17427,Cairo Santos,K,3,9,10.0,8.60158329
 3912547,Sam Darnold,QB,26,9,27.2,18.2548861
--16009,Packers D/ST,D/ST,9,9,6.0,6.26453811
+-16009,Packers D/ST,16,9,9,6.0,6.26453811
 4575131,Jacory Croskey-Merritt,RB,28,9,5.1,10.2219246
 4686361,Cam Little,K,30,9,16.0,7.81667789
 2977187,Cooper Kupp,WR,26,9,0.0,0.0
--16018,Saints D/ST,D/ST,18,9,-2.0,3.48987395
+-16018,Saints D/ST,16,18,9,-2.0,3.48987395
 4688813,Josh Downs,WR,11,9,15.7,11.09683943
--16016,Vikings D/ST,D/ST,16,9,9.0,3.13989212
+-16016,Vikings D/ST,16,16,9,9.0,3.13989212
 4569923,Andy Borregales,K,17,9,6.0,8.48182627
--16033,Ravens D/ST,D/ST,33,9,12.0,5.34135615
+-16033,Ravens D/ST,16,33,9,12.0,5.34135615
 4040655,Darnell Mooney,WR,1,9,2.5,9.72668681
 3123076,David Njoku,TE,5,9,,0.0
 4685278,Luther Burden III,WR,3,9,0.0,0.0
@@ -6332,10 +6332,10 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429096,Blake Corum,RB,14,9,5.8,5.24530614
 4576297,AJ Barner,TE,26,9,11.5,8.98264233
 4635008,Keon Coleman,WR,2,9,3.7,9.81999844
--16024,Chargers D/ST,D/ST,24,9,7.0,6.98177266
+-16024,Chargers D/ST,16,24,9,7.0,6.98177266
 4428718,Tre Tucker,WR,13,9,6.8,9.40037755
 3917792,Daniel Jones,QB,11,9,14.08,21.72112593
--16011,Colts D/ST,D/ST,11,9,7.0,5.30036802
+-16011,Colts D/ST,16,11,9,7.0,5.30036802
 3051876,Evan Engram,TE,7,9,0.0,7.88566882
 3128720,Nick Chubb,RB,34,9,3.4,8.4932101
 4887558,Emanuel Wilson,RB,9,9,2.7,7.18672752
@@ -6353,18 +6353,18 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4428557,Tyjae Spears,RB,10,9,9.2,9.54296227
 4373626,Tyler Allgeier,RB,1,9,0.6,5.39276375
 5081397,Dylan Sampson,RB,5,9,,0.0
--16012,Chiefs D/ST,D/ST,12,9,-1.0,4.67955913
--16019,Giants D/ST,D/ST,19,9,2.0,4.93760896
+-16012,Chiefs D/ST,16,12,9,-1.0,4.67955913
+-16019,Giants D/ST,16,19,9,2.0,4.93760896
 4433970,J.J. McCarthy,QB,16,9,18.92,14.38657215
 4685415,Travis Hunter,WR,30,9,0.0,0.0
 2468609,Taysom Hill,TE,18,9,3.0,3.08490009
 4242557,Colby Parkinson,TE,14,9,3.0,1.23251646
 4427728,Bam Knight,RB,22,9,6.7,11.97399472
 2576925,Darren Waller,TE,15,9,0.0,0.0
--16025,49ers D/ST,D/ST,25,9,4.0,4.96498364
+-16025,49ers D/ST,16,25,9,4.0,4.96498364
 4696981,Cam Skattebo,RB,19,9,0.0,0.0
 4243331,Cade Otton,TE,27,9,,0.0
--16006,Cowboys D/ST,D/ST,6,9,13.0,4.98887269
+-16006,Cowboys D/ST,16,6,9,13.0,4.98887269
 4595348,Malik Nabers,WR,19,9,0.0,0.0
 4429022,Kayshon Boutte,WR,17,9,0.0,9.82878739
 8439,Aaron Rodgers,QB,23,9,12.12,17.4743836
@@ -6377,12 +6377,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4572680,Tucker Kraft,TE,9,9,4.0,11.31467942
 4360234,Evan McPherson,K,4,9,10.0,8.27920653
 4241372,Hollywood Brown,WR,12,9,9.3,5.20238591
--16001,Falcons D/ST,D/ST,1,9,10.0,4.68054643
+-16001,Falcons D/ST,16,1,9,10.0,4.68054643
 4259147,Jake Tonges,TE,25,9,0.0,0.58339669
 3116406,Tyreek Hill,WR,0,9,0.0,0.0
 4241474,Brian Robinson Jr.,RB,25,9,11.3,4.77210694
 2985659,Wil Lutz,K,7,9,3.0,7.93111494
--16003,Bears D/ST,D/ST,3,9,1.0,5.13587645
+-16003,Bears D/ST,16,3,9,1.0,5.13587645
 4362887,Justin Fields,QB,20,9,,0.0
 3045147,James Conner,RB,22,9,0.0,0.0
 4882093,Bhayshul Tuten,RB,30,9,9.6,5.40808598
@@ -6402,17 +6402,17 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4608810,Tez Johnson,WR,27,9,,0.0
 4819231,Kaleb Johnson,RB,23,9,2.3,0.0
 3068267,Austin Ekeler,RB,28,9,0.0,0.0
--16015,Dolphins D/ST,D/ST,15,9,1.0,3.66582037
+-16015,Dolphins D/ST,16,15,9,1.0,3.66582037
 3123052,Michael Badgley,K,0,9,12.0,8.83862603
--16028,Commanders D/ST,D/ST,28,9,-4.0,3.66627514
+-16028,Commanders D/ST,16,28,9,-4.0,3.66627514
 4432762,Shedeur Sanders,QB,5,9,,0.0
 4567096,John Metchie III,WR,20,9,,0.0
 4569603,Malik Washington,WR,15,9,7.1,10.91623809
--16013,Raiders D/ST,D/ST,13,9,1.0,5.69901762
+-16013,Raiders D/ST,16,13,9,1.0,5.69901762
 4695883,Jalen Coker,WR,29,9,1.9,6.24666015
 4682745,Jaylen Wright,RB,15,9,0.0,2.79911488
 3054212,Jonnu Smith,TE,23,9,5.5,8.7296643
--16010,Titans D/ST,D/ST,10,9,20.0,3.02062176
+-16010,Titans D/ST,16,10,9,20.0,3.02062176
 4249087,Matt Gay,K,0,9,2.0,7.93279575
 4362478,Emari Demercado,RB,22,9,8.8,3.41350327
 4243389,Calvin Austin III,WR,23,9,10.6,10.67084197
@@ -6431,7 +6431,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 10621,Nick Folk,K,20,9,,0.0
 3116389,Samaje Perine,RB,4,9,0.5,8.64189074
 15864,Geno Smith,QB,13,9,26.26,13.01881312
--16022,Cardinals D/ST,D/ST,22,9,12.0,3.67539501
+-16022,Cardinals D/ST,16,22,9,12.0,3.67539501
 4711533,Ollie Gordon II,RB,15,9,1.9,6.65602079
 4688380,Cam Ward,QB,10,9,6.4,12.63650956
 4427095,DeMario Douglas,WR,17,9,20.0,5.4634476
@@ -6439,7 +6439,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685247,Braelon Allen,RB,20,9,,0.0
 4368003,Andrei Iosivas,WR,4,9,18.0,5.88201564
 4361411,Pat Freiermuth,TE,23,9,11.7,6.73982782
--16029,Panthers D/ST,D/ST,29,9,7.0,2.44341456
+-16029,Panthers D/ST,16,29,9,7.0,2.44341456
 3124679,Jason Sanders,K,15,9,0.0,0.0
 4241457,Najee Harris,RB,24,9,0.0,0.0
 2991662,Mack Hollins,WR,17,9,2.9,6.37217162
@@ -6458,7 +6458,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4613202,Kyle Williams,WR,17,9,0.0,1.21013985
 4243371,Riley Patterson,K,15,9,7.0,8.22788482
 3930086,Dawson Knox,TE,2,9,4.0,3.80228183
--16004,Bengals D/ST,D/ST,4,9,-2.0,2.56486473
+-16004,Bengals D/ST,16,4,9,-2.0,2.56486473
 15795,DeAndre Hopkins,WR,33,9,0.0,5.28096694
 3127586,Jeremy McNichols,RB,28,9,0.0,6.67908048
 3149687,Chris Brooks,RB,9,9,4.4,0.88738315
@@ -6940,7 +6940,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4047646,A.J. Brown,WR,21,10,3.3,17.1642835
 4047365,Josh Jacobs,RB,9,10,19.7,18.10354946
 4596448,Bucky Irving,RB,27,10,0.0,0.0
--16007,Broncos D/ST,D/ST,7,10,16.0,8.23833951
+-16007,Broncos D/ST,16,7,10,16.0,8.23833951
 4239993,Tee Higgins,WR,4,10,,0.0
 4431459,Tyler Warren,TE,11,10,17.9,12.44376179
 4426388,Jameson Williams,WR,8,10,23.9,12.07815026
@@ -6948,7 +6948,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429615,Zay Flowers,WR,33,10,12.1,15.63157346
 4239996,Travis Etienne Jr.,RB,30,10,15.7,12.68241202
 16800,Davante Adams,WR,14,10,19.7,16.47167969
--16034,Texans D/ST,D/ST,34,10,16.0,6.77038401
+-16034,Texans D/ST,16,34,10,16.0,6.77038401
 4259545,D'Andre Swift,RB,3,10,14.8,13.59317428
 4038815,Rico Dowdle,RB,29,10,15.3,18.22333087
 4612826,Ladd McConkey,WR,24,10,20.7,15.27365189
@@ -6975,7 +6975,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685382,Omarion Hampton,RB,24,10,0.0,0.0
 4035687,Michael Pittman Jr.,WR,11,10,3.9,14.99463175
 4567750,Emeka Egbuka,WR,27,10,23.5,15.62796242
--16026,Seahawks D/ST,D/ST,26,10,21.0,6.5951265
+-16026,Seahawks D/ST,16,26,10,21.0,6.5951265
 4362081,Cameron Dicker,K,24,10,13.0,8.75782157
 3126486,Deebo Samuel,WR,28,10,12.9,13.98046065
 3121023,Dallas Goedert,TE,21,10,8.3,10.80796639
@@ -6987,7 +6987,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4432773,Brian Thomas Jr.,WR,30,10,0.0,0.0
 4038941,Justin Herbert,QB,24,10,14.7,20.12672663
 4432708,Marvin Harrison Jr.,WR,22,10,14.3,13.30212418
--16017,Patriots D/ST,D/ST,17,10,1.0,4.53871274
+-16017,Patriots D/ST,16,17,10,1.0,4.53871274
 4569587,Wan'Dale Robinson,WR,19,10,12.2,14.07931085
 3886598,Jauan Jennings,WR,25,10,17.1,11.87950439
 3916433,Jakobi Meyers,WR,30,10,7.1,8.49078692
@@ -7018,30 +7018,30 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4373678,Khalil Shakir,WR,2,10,12.8,12.70905035
 4429205,Jordan Addison,WR,16,10,6.5,12.78815989
 4360310,Trevor Lawrence,QB,30,10,9.82,13.22683153
--16008,Lions D/ST,D/ST,8,10,4.0,7.06251422
+-16008,Lions D/ST,16,8,10,4.0,7.06251422
 3150744,Chase McLaughlin,K,27,10,5.0,8.18067098
--16023,Steelers D/ST,D/ST,23,10,5.0,5.31226756
+-16023,Steelers D/ST,16,23,10,5.0,5.31226756
 4036378,Jordan Love,QB,9,10,7.84,16.98730399
 4685702,Quinshon Judkins,RB,5,10,10.5,15.10437188
 4248528,Christian Watson,WR,9,10,6.5,9.55925077
 3116165,Chris Godwin Jr.,WR,27,10,0.0,0.0
--16021,Eagles D/ST,D/ST,21,10,12.0,3.72452995
+-16021,Eagles D/ST,16,21,10,12.0,3.72452995
 4569618,Garrett Wilson,WR,20,10,0.0,13.73238714
 4385690,Dalton Kincaid,TE,2,10,5.7,9.78929279
--16030,Jaguars D/ST,D/ST,30,10,8.0,6.02937635
+-16030,Jaguars D/ST,16,30,10,8.0,6.02937635
 2578570,Jacoby Brissett,QB,22,10,19.42,15.26679091
 4608686,Kyle Monangai,RB,3,10,8.8,11.40465644
 4426385,Zach Charbonnet,RB,26,10,14.3,9.88582368
 4241416,Chuba Hubbard,RB,29,10,2.5,6.18412029
 4361432,Romeo Doubs,WR,9,10,1.5,12.84428435
--16014,Rams D/ST,D/ST,14,10,5.0,6.38741702
+-16014,Rams D/ST,16,14,10,5.0,6.38741702
 3929645,Juwan Johnson,TE,18,10,19.2,8.95344612
 4429025,Quentin Johnston,WR,24,10,9.2,11.69348466
 4036133,T.J. Hockenson,TE,16,10,2.8,9.5854527
 3117256,Dalton Schultz,TE,34,10,18.3,9.35643245
 3139477,Patrick Mahomes,QB,12,10,,0.0
 4431280,Troy Franklin,WR,7,10,15.0,12.34834768
--16002,Bills D/ST,D/ST,2,10,2.0,6.30562334
+-16002,Bills D/ST,16,2,10,2.0,6.30562334
 4430027,Sam LaPorta,TE,8,10,10.3,13.0500288
 4697745,Tyler Loop,K,33,10,13.0,8.60690161
 4241463,Jerry Jeudy,WR,5,10,19.8,9.5873554
@@ -7064,17 +7064,17 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4574716,Harrison Mevis,K,14,10,6.0,8.58781808
 4430968,Kimani Vidal,RB,24,10,17.8,11.65140812
 17427,Cairo Santos,K,3,10,6.0,8.31017974
--16005,Browns D/ST,D/ST,5,10,8.0,6.49701157
+-16005,Browns D/ST,16,5,10,8.0,6.49701157
 3912547,Sam Darnold,QB,26,10,4.92,16.62803412
--16009,Packers D/ST,D/ST,9,10,7.0,4.9922106
+-16009,Packers D/ST,16,9,10,7.0,4.9922106
 4575131,Jacory Croskey-Merritt,RB,28,10,3.0,9.37646869
 4686361,Cam Little,K,30,10,13.0,7.53881762
 2977187,Cooper Kupp,WR,26,10,9.4,8.6221943
--16018,Saints D/ST,D/ST,18,10,14.0,4.84796418
+-16018,Saints D/ST,16,18,10,14.0,4.84796418
 4688813,Josh Downs,WR,11,10,1.3,11.21300166
--16016,Vikings D/ST,D/ST,16,10,1.0,3.69345397
+-16016,Vikings D/ST,16,16,10,1.0,3.69345397
 4569923,Andy Borregales,K,17,10,4.0,8.21970382
--16033,Ravens D/ST,D/ST,33,10,6.0,6.13949327
+-16033,Ravens D/ST,16,33,10,6.0,6.13949327
 4040655,Darnell Mooney,WR,1,10,2.7,8.67633077
 3123076,David Njoku,TE,5,10,10.1,9.15375183
 4685278,Luther Burden III,WR,3,10,8.1,3.392115
@@ -7084,10 +7084,10 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429096,Blake Corum,RB,14,10,5.6,5.72409699
 4576297,AJ Barner,TE,26,10,0.3,7.92746344
 4635008,Keon Coleman,WR,2,10,13.6,8.92066849
--16024,Chargers D/ST,D/ST,24,10,16.0,5.60033706
+-16024,Chargers D/ST,16,24,10,16.0,5.60033706
 4428718,Tre Tucker,WR,13,10,5.5,10.22088535
 3917792,Daniel Jones,QB,11,10,15.5,19.95281178
--16011,Colts D/ST,D/ST,11,10,7.0,4.39310189
+-16011,Colts D/ST,16,11,10,7.0,4.39310189
 3051876,Evan Engram,TE,7,10,3.2,7.31271104
 3128720,Nick Chubb,RB,34,10,6.2,8.90449872
 4887558,Emanuel Wilson,RB,9,10,1.4,6.51555328
@@ -7095,7 +7095,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 15835,Zach Ertz,TE,28,10,9.4,9.53386573
 4597500,Adonai Mitchell,WR,20,10,0.0,0.0
 4362619,Chris Rodriguez Jr.,RB,28,10,7.6,4.38731334
--16027,Buccaneers D/ST,D/ST,27,10,-1.0,5.25510271
+-16027,Buccaneers D/ST,16,27,10,-1.0,5.25510271
 4429275,Trey Benson,RB,22,10,0.0,0.0
 4430539,Brenton Strange,TE,30,10,0.0,0.0
 4701936,Matthew Golden,WR,9,10,0.0,0.0
@@ -7106,14 +7106,14 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4428557,Tyjae Spears,RB,10,10,,0.0
 4373626,Tyler Allgeier,RB,1,10,17.7,4.93220966
 5081397,Dylan Sampson,RB,5,10,0.9,4.8825456
--16019,Giants D/ST,D/ST,19,10,-1.0,3.04460448
+-16019,Giants D/ST,16,19,10,-1.0,3.04460448
 4433970,J.J. McCarthy,QB,16,10,14.72,17.65074206
 4685415,Travis Hunter,WR,30,10,0.0,0.0
 2468609,Taysom Hill,TE,18,10,2.0,4.4157019
 4242557,Colby Parkinson,TE,14,10,14.1,1.9590374
 4427728,Bam Knight,RB,22,10,4.3,9.55483802
 2576925,Darren Waller,TE,15,10,0.0,0.0
--16025,49ers D/ST,D/ST,25,10,-5.0,2.74158553
+-16025,49ers D/ST,16,25,10,-5.0,2.74158553
 4696981,Cam Skattebo,RB,19,10,0.0,0.0
 4243331,Cade Otton,TE,27,10,17.2,9.62323203
 4595348,Malik Nabers,WR,19,10,0.0,0.0
@@ -7128,12 +7128,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4572680,Tucker Kraft,TE,9,10,0.0,0.0
 4360234,Evan McPherson,K,4,10,,0.0
 4241372,Hollywood Brown,WR,12,10,,0.0
--16001,Falcons D/ST,D/ST,1,10,4.0,3.61733046
+-16001,Falcons D/ST,16,1,10,4.0,3.61733046
 4259147,Jake Tonges,TE,25,10,0.0,0.54144306
 3116406,Tyreek Hill,WR,0,10,0.0,0.0
 4241474,Brian Robinson Jr.,RB,25,10,11.5,3.05700446
 2985659,Wil Lutz,K,7,10,3.0,8.41950168
--16003,Bears D/ST,D/ST,3,10,3.0,4.43582442
+-16003,Bears D/ST,16,3,10,3.0,4.43582442
 4362887,Justin Fields,QB,20,10,6.96,16.71978306
 3045147,James Conner,RB,22,10,0.0,0.0
 4882093,Bhayshul Tuten,RB,30,10,2.0,4.45442475
@@ -7153,13 +7153,13 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4608810,Tez Johnson,WR,27,10,20.2,9.54429233
 4819231,Kaleb Johnson,RB,23,10,0.3,0.91574856
 3068267,Austin Ekeler,RB,28,10,0.0,0.0
--16015,Dolphins D/ST,D/ST,15,10,11.0,2.58788783
+-16015,Dolphins D/ST,16,15,10,11.0,2.58788783
 3123052,Michael Badgley,K,0,10,7.0,8.67259803
--16028,Commanders D/ST,D/ST,28,10,-7.0,2.6153565
+-16028,Commanders D/ST,16,28,10,-7.0,2.6153565
 4432762,Shedeur Sanders,QB,5,10,0.0,0.0
 4567096,John Metchie III,WR,20,10,0.6,1.66979951
 4569603,Malik Washington,WR,15,10,9.3,9.23681208
--16013,Raiders D/ST,D/ST,13,10,11.0,3.27830424
+-16013,Raiders D/ST,16,13,10,11.0,3.27830424
 4695883,Jalen Coker,WR,29,10,5.1,5.36975091
 4682745,Jaylen Wright,RB,15,10,1.7,0.06871242
 3054212,Jonnu Smith,TE,23,10,1.4,8.00479824
@@ -7177,12 +7177,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 14880,Kirk Cousins,QB,1,10,0.0,0.0
 4369863,Cedric Tillman,WR,5,10,3.1,6.94730942
 4038441,Justice Hill,RB,33,10,8.3,6.19819699
--16020,Jets D/ST,D/ST,20,10,20.0,5.74326603
+-16020,Jets D/ST,16,20,10,20.0,5.74326603
 4360635,Chig Okonkwo,TE,10,10,,0.0
 10621,Nick Folk,K,20,10,9.0,7.56244593
 3116389,Samaje Perine,RB,4,10,,0.0
 15864,Geno Smith,QB,13,10,4.42,12.07284813
--16022,Cardinals D/ST,D/ST,22,10,5.0,4.05678832
+-16022,Cardinals D/ST,16,22,10,5.0,4.05678832
 4711533,Ollie Gordon II,RB,15,10,-0.3,5.14324351
 4688380,Cam Ward,QB,10,10,,0.0
 4427095,DeMario Douglas,WR,17,10,5.4,9.04671899
@@ -7190,7 +7190,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685247,Braelon Allen,RB,20,10,0.0,0.0
 4368003,Andrei Iosivas,WR,4,10,,0.0
 4361411,Pat Freiermuth,TE,23,10,6.3,6.22575378
--16029,Panthers D/ST,D/ST,29,10,4.0,6.28726173
+-16029,Panthers D/ST,16,29,10,4.0,6.28726173
 3124679,Jason Sanders,K,15,10,0.0,0.0
 4241457,Najee Harris,RB,24,10,0.0,0.0
 2991662,Mack Hollins,WR,17,10,16.6,7.53675307
@@ -7694,7 +7694,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4047646,A.J. Brown,WR,21,11,11.9,15.70340964
 4047365,Josh Jacobs,RB,9,11,4.0,21.90200219
 4596448,Bucky Irving,RB,27,11,0.0,0.0
--16007,Broncos D/ST,D/ST,7,11,7.0,5.8305791
+-16007,Broncos D/ST,16,7,11,7.0,5.8305791
 4239993,Tee Higgins,WR,4,11,15.3,13.57202704
 4431459,Tyler Warren,TE,11,11,,0.0
 4426388,Jameson Williams,WR,8,11,19.7,12.59293328
@@ -7702,7 +7702,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429615,Zay Flowers,WR,33,11,11.3,13.11048009
 4239996,Travis Etienne Jr.,RB,30,11,19.3,14.55059447
 16800,Davante Adams,WR,14,11,7.1,15.70296068
--16034,Texans D/ST,D/ST,34,11,10.0,7.68078102
+-16034,Texans D/ST,16,34,11,10.0,7.68078102
 4259545,D'Andre Swift,RB,3,11,9.0,14.6664785
 4038815,Rico Dowdle,RB,29,11,15.0,19.44007813
 4612826,Ladd McConkey,WR,24,11,4.3,15.25018722
@@ -7729,7 +7729,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685382,Omarion Hampton,RB,24,11,0.0,0.0
 4035687,Michael Pittman Jr.,WR,11,11,,0.0
 4567750,Emeka Egbuka,WR,27,11,9.0,16.55411146
--16026,Seahawks D/ST,D/ST,26,11,4.0,3.79492032
+-16026,Seahawks D/ST,16,26,11,4.0,3.79492032
 4362081,Cameron Dicker,K,24,11,8.0,8.72018463
 3126486,Deebo Samuel,WR,28,11,20.7,13.88552369
 3121023,Dallas Goedert,TE,21,11,4.4,11.11099219
@@ -7741,7 +7741,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4432773,Brian Thomas Jr.,WR,30,11,0.0,0.0
 4038941,Justin Herbert,QB,24,11,3.34,19.56706361
 4432708,Marvin Harrison Jr.,WR,22,11,0.0,0.0
--16017,Patriots D/ST,D/ST,17,11,7.0,7.29469003
+-16017,Patriots D/ST,16,17,11,7.0,7.29469003
 4569587,Wan'Dale Robinson,WR,19,11,7.6,14.85655621
 3886598,Jauan Jennings,WR,25,11,9.4,14.22100012
 3916433,Jakobi Meyers,WR,30,11,11.4,9.71104889
@@ -7772,30 +7772,30 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4373678,Khalil Shakir,WR,2,11,0.7,12.8706936
 4429205,Jordan Addison,WR,16,11,10.0,12.77294619
 4360310,Trevor Lawrence,QB,30,11,15.02,15.2292491
--16008,Lions D/ST,D/ST,8,11,4.0,5.49616936
+-16008,Lions D/ST,16,8,11,4.0,5.49616936
 3150744,Chase McLaughlin,K,27,11,8.0,8.18774614
--16023,Steelers D/ST,D/ST,23,11,22.0,6.30141224
+-16023,Steelers D/ST,16,23,11,22.0,6.30141224
 4036378,Jordan Love,QB,9,11,17.66,16.33848409
 4685702,Quinshon Judkins,RB,5,11,5.9,14.06457137
 4248528,Christian Watson,WR,9,11,20.6,8.9366819
 3116165,Chris Godwin Jr.,WR,27,11,0.0,0.0
--16021,Eagles D/ST,D/ST,21,11,7.0,3.87012374
+-16021,Eagles D/ST,16,21,11,7.0,3.87012374
 4569618,Garrett Wilson,WR,20,11,0.0,0.0
 4385690,Dalton Kincaid,TE,2,11,0.0,0.0
--16030,Jaguars D/ST,D/ST,30,11,12.0,5.66112733
+-16030,Jaguars D/ST,16,30,11,12.0,5.66112733
 2578570,Jacoby Brissett,QB,22,11,21.88,17.93361507
 4608686,Kyle Monangai,RB,3,11,10.7,8.91030764
 4426385,Zach Charbonnet,RB,26,11,6.7,8.51786995
 4241416,Chuba Hubbard,RB,29,11,3.8,5.18549299
 4361432,Romeo Doubs,WR,9,11,9.3,11.89728563
--16014,Rams D/ST,D/ST,14,11,5.0,5.41594116
+-16014,Rams D/ST,16,14,11,5.0,5.41594116
 3929645,Juwan Johnson,TE,18,11,,0.0
 4429025,Quentin Johnston,WR,24,11,0.0,12.54823098
 4036133,T.J. Hockenson,TE,16,11,6.9,8.54943311
 3117256,Dalton Schultz,TE,34,11,11.1,10.20570486
 3139477,Patrick Mahomes,QB,12,11,13.34,18.01846912
 4431280,Troy Franklin,WR,7,11,12.4,12.84375365
--16002,Bills D/ST,D/ST,2,11,3.0,4.47748685
+-16002,Bills D/ST,16,2,11,3.0,4.47748685
 4430027,Sam LaPorta,TE,8,11,0.0,0.0
 4697745,Tyler Loop,K,33,11,12.0,7.85333546
 4241463,Jerry Jeudy,WR,5,11,5.1,10.54114799
@@ -7818,16 +7818,16 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4574716,Harrison Mevis,K,14,11,3.0,8.49466544
 4430968,Kimani Vidal,RB,24,11,3.2,12.76131936
 17427,Cairo Santos,K,3,11,15.0,8.26024503
--16005,Browns D/ST,D/ST,5,11,16.0,5.07517192
+-16005,Browns D/ST,16,5,11,16.0,5.07517192
 3912547,Sam Darnold,QB,26,11,4.26,15.0125218
--16009,Packers D/ST,D/ST,9,11,6.0,8.11919544
+-16009,Packers D/ST,16,9,11,6.0,8.11919544
 4575131,Jacory Croskey-Merritt,RB,28,11,4.3,8.55054524
 4686361,Cam Little,K,30,11,5.0,7.78754782
 2977187,Cooper Kupp,WR,26,11,5.3,8.03403226
 4688813,Josh Downs,WR,11,11,,0.0
--16016,Vikings D/ST,D/ST,16,11,2.0,3.4781663
+-16016,Vikings D/ST,16,16,11,2.0,3.4781663
 4569923,Andy Borregales,K,17,11,9.0,8.86168672
--16033,Ravens D/ST,D/ST,33,11,11.0,6.250684
+-16033,Ravens D/ST,16,33,11,11.0,6.250684
 4040655,Darnell Mooney,WR,1,11,6.4,9.27043122
 3123076,David Njoku,TE,5,11,1.7,8.2539292
 4685278,Luther Burden III,WR,3,11,5.7,6.1690347
@@ -7837,7 +7837,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429096,Blake Corum,RB,14,11,1.5,5.76815
 4576297,AJ Barner,TE,26,11,17.1,7.71078624
 4635008,Keon Coleman,WR,2,11,0.0,0.0
--16024,Chargers D/ST,D/ST,24,11,-1.0,7.17911852
+-16024,Chargers D/ST,16,24,11,-1.0,7.17911852
 4428718,Tre Tucker,WR,13,11,14.7,11.00551393
 3917792,Daniel Jones,QB,11,11,,0.0
 3051876,Evan Engram,TE,7,11,7.3,8.28450885
@@ -7847,7 +7847,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 15835,Zach Ertz,TE,28,11,8.2,9.96838586
 4597500,Adonai Mitchell,WR,20,11,2.0,1.24550205
 4362619,Chris Rodriguez Jr.,RB,28,11,9.5,8.13586612
--16027,Buccaneers D/ST,D/ST,27,11,0.0,3.80062034
+-16027,Buccaneers D/ST,16,27,11,0.0,3.80062034
 4429275,Trey Benson,RB,22,11,0.0,0.0
 4430539,Brenton Strange,TE,30,11,0.0,0.0
 4701936,Matthew Golden,WR,9,11,3.4,7.60653984
@@ -7858,18 +7858,18 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4428557,Tyjae Spears,RB,10,11,8.4,8.98829105
 4373626,Tyler Allgeier,RB,1,11,9.6,6.85001635
 5081397,Dylan Sampson,RB,5,11,1.9,4.62780982
--16012,Chiefs D/ST,D/ST,12,11,2.0,5.15568786
--16019,Giants D/ST,D/ST,19,11,4.0,3.16654876
+-16012,Chiefs D/ST,16,12,11,2.0,5.15568786
+-16019,Giants D/ST,16,19,11,4.0,3.16654876
 4433970,J.J. McCarthy,QB,16,11,6.0,18.41078215
 4685415,Travis Hunter,WR,30,11,0.0,0.0
 2468609,Taysom Hill,TE,18,11,,0.0
 4242557,Colby Parkinson,TE,14,11,9.4,3.09005729
 4427728,Bam Knight,RB,22,11,14.5,11.157867
 2576925,Darren Waller,TE,15,11,0.0,0.0
--16025,49ers D/ST,D/ST,25,11,1.0,5.28546431
+-16025,49ers D/ST,16,25,11,1.0,5.28546431
 4696981,Cam Skattebo,RB,19,11,0.0,0.0
 4243331,Cade Otton,TE,27,11,4.8,9.67686791
--16006,Cowboys D/ST,D/ST,6,11,11.0,6.56094394
+-16006,Cowboys D/ST,16,6,11,11.0,6.56094394
 4595348,Malik Nabers,WR,19,11,0.0,0.0
 4429022,Kayshon Boutte,WR,17,11,0.0,0.0
 8439,Aaron Rodgers,QB,23,11,9.44,18.91429545
@@ -7882,12 +7882,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4572680,Tucker Kraft,TE,9,11,0.0,0.0
 4360234,Evan McPherson,K,4,11,8.0,7.96245878
 4241372,Hollywood Brown,WR,12,11,8.0,3.94424586
--16001,Falcons D/ST,D/ST,1,11,-1.0,5.93648147
+-16001,Falcons D/ST,16,1,11,-1.0,5.93648147
 4259147,Jake Tonges,TE,25,11,0.0,0.0
 3116406,Tyreek Hill,WR,0,11,0.0,0.0
 4241474,Brian Robinson Jr.,RB,25,11,2.4,4.53078154
 2985659,Wil Lutz,K,7,11,18.0,7.6929949
--16003,Bears D/ST,D/ST,3,11,7.0,5.70259832
+-16003,Bears D/ST,16,3,11,7.0,5.70259832
 4362887,Justin Fields,QB,20,11,19.34,16.28289099
 3045147,James Conner,RB,22,11,0.0,0.0
 4882093,Bhayshul Tuten,RB,30,11,13.4,4.77653746
@@ -7907,17 +7907,17 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4608810,Tez Johnson,WR,27,11,1.6,9.21994491
 4819231,Kaleb Johnson,RB,23,11,1.5,2.28557283
 3068267,Austin Ekeler,RB,28,11,0.0,0.0
--16015,Dolphins D/ST,D/ST,15,11,7.0,5.64367569
+-16015,Dolphins D/ST,16,15,11,7.0,5.64367569
 3123052,Michael Badgley,K,0,11,,0.0
--16028,Commanders D/ST,D/ST,28,11,4.0,3.60309663
+-16028,Commanders D/ST,16,28,11,4.0,3.60309663
 4432762,Shedeur Sanders,QB,5,11,1.48,0.0
 4567096,John Metchie III,WR,20,11,13.5,2.00572161
 4569603,Malik Washington,WR,15,11,7.2,10.58231534
--16013,Raiders D/ST,D/ST,13,11,1.0,4.08499461
+-16013,Raiders D/ST,16,13,11,1.0,4.08499461
 4695883,Jalen Coker,WR,29,11,11.2,5.68778907
 4682745,Jaylen Wright,RB,15,11,0.4,2.84969192
 3054212,Jonnu Smith,TE,23,11,0.0,8.30878411
--16010,Titans D/ST,D/ST,10,11,5.0,4.4898933
+-16010,Titans D/ST,16,10,11,5.0,4.4898933
 4249087,Matt Gay,K,0,11,5.0,7.73899119
 4362478,Emari Demercado,RB,22,11,4.0,9.7901898
 4243389,Calvin Austin III,WR,23,11,1.5,11.51694855
@@ -7932,12 +7932,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 14880,Kirk Cousins,QB,1,11,2.12,0.0
 4369863,Cedric Tillman,WR,5,11,8.2,6.52366693
 4038441,Justice Hill,RB,33,11,0.0,0.0
--16020,Jets D/ST,D/ST,20,11,1.0,3.69499706
+-16020,Jets D/ST,16,20,11,1.0,3.69499706
 4360635,Chig Okonkwo,TE,10,11,8.6,6.44068456
 10621,Nick Folk,K,20,11,2.0,7.62242915
 3116389,Samaje Perine,RB,4,11,0.0,0.0
 15864,Geno Smith,QB,13,11,12.92,16.57997297
--16022,Cardinals D/ST,D/ST,22,11,2.0,4.12218756
+-16022,Cardinals D/ST,16,22,11,2.0,4.12218756
 4711533,Ollie Gordon II,RB,15,11,10.5,1.80276707
 4688380,Cam Ward,QB,10,11,13.06,9.92236274
 4427095,DeMario Douglas,WR,17,11,6.1,7.61471942
@@ -7945,7 +7945,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685247,Braelon Allen,RB,20,11,0.0,0.0
 4368003,Andrei Iosivas,WR,4,11,5.0,6.43120947
 4361411,Pat Freiermuth,TE,23,11,2.9,7.03641648
--16029,Panthers D/ST,D/ST,29,11,2.0,3.78212368
+-16029,Panthers D/ST,16,29,11,2.0,3.78212368
 3124679,Jason Sanders,K,15,11,0.0,0.0
 4241457,Najee Harris,RB,24,11,0.0,0.0
 2991662,Mack Hollins,WR,17,11,10.4,10.25955623
@@ -7964,7 +7964,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4613202,Kyle Williams,WR,17,11,0.0,6.66414804
 4243371,Riley Patterson,K,15,11,11.0,8.2828865
 3930086,Dawson Knox,TE,2,11,3.3,7.02421303
--16004,Bengals D/ST,D/ST,4,11,1.0,3.05250719
+-16004,Bengals D/ST,16,4,11,1.0,3.05250719
 15795,DeAndre Hopkins,WR,33,11,2.1,7.22166423
 3127586,Jeremy McNichols,RB,28,11,4.9,5.0667349
 3149687,Chris Brooks,RB,9,11,0.8,0.90378138
@@ -8467,7 +8467,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429615,Zay Flowers,WR,33,12,11.9,13.19874408
 4239996,Travis Etienne Jr.,RB,30,12,20.6,13.5890271
 16800,Davante Adams,WR,14,12,23.2,16.77640041
--16034,Texans D/ST,D/ST,34,12,14.0,5.26525573
+-16034,Texans D/ST,16,34,12,14.0,5.26525573
 4259545,D'Andre Swift,RB,3,12,1.9,14.8127516
 4038815,Rico Dowdle,RB,29,12,11.4,18.68989632
 4612826,Ladd McConkey,WR,24,12,,0.0
@@ -8494,7 +8494,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685382,Omarion Hampton,RB,24,12,,0.0
 4035687,Michael Pittman Jr.,WR,11,12,13.7,15.55749647
 4567750,Emeka Egbuka,WR,27,12,6.2,16.83996858
--16026,Seahawks D/ST,D/ST,26,12,6.0,7.07807253
+-16026,Seahawks D/ST,16,26,12,6.0,7.07807253
 4362081,Cameron Dicker,K,24,12,,0.0
 3126486,Deebo Samuel,WR,28,12,,0.0
 3121023,Dallas Goedert,TE,21,12,4.0,11.28920695
@@ -8506,7 +8506,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4432773,Brian Thomas Jr.,WR,30,12,0.0,0.0
 4038941,Justin Herbert,QB,24,12,,0.0
 4432708,Marvin Harrison Jr.,WR,22,12,0.0,0.0
--16017,Patriots D/ST,D/ST,17,12,10.0,5.8516285
+-16017,Patriots D/ST,16,17,12,10.0,5.8516285
 4569587,Wan'Dale Robinson,WR,19,12,30.6,14.09596314
 3886598,Jauan Jennings,WR,25,12,15.1,14.04748128
 3916433,Jakobi Meyers,WR,30,12,15.0,10.42302815
@@ -8537,30 +8537,30 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4373678,Khalil Shakir,WR,2,12,17.0,11.51978548
 4429205,Jordan Addison,WR,16,12,0.0,11.91268454
 4360310,Trevor Lawrence,QB,30,12,17.14,15.34701811
--16008,Lions D/ST,D/ST,8,12,-3.0,7.66440905
+-16008,Lions D/ST,16,8,12,-3.0,7.66440905
 3150744,Chase McLaughlin,K,27,12,1.0,7.75486297
--16023,Steelers D/ST,D/ST,23,12,10.0,4.26245859
+-16023,Steelers D/ST,16,23,12,10.0,4.26245859
 4036378,Jordan Love,QB,9,12,7.06,17.4114783
 4685702,Quinshon Judkins,RB,5,12,16.7,13.94342398
 4248528,Christian Watson,WR,9,12,9.9,11.65118458
 3116165,Chris Godwin Jr.,WR,27,12,2.9,7.49268718
--16021,Eagles D/ST,D/ST,21,12,0.0,4.25292356
+-16021,Eagles D/ST,16,21,12,0.0,4.25292356
 4569618,Garrett Wilson,WR,20,12,0.0,0.0
 4385690,Dalton Kincaid,TE,2,12,0.0,0.0
--16030,Jaguars D/ST,D/ST,30,12,6.0,6.25754113
+-16030,Jaguars D/ST,16,30,12,6.0,6.25754113
 2578570,Jacoby Brissett,QB,22,12,18.68,16.73763122
 4608686,Kyle Monangai,RB,3,12,10.8,7.85161556
 4426385,Zach Charbonnet,RB,26,12,9.5,9.82396633
 4241416,Chuba Hubbard,RB,29,12,8.3,4.84684421
 4361432,Romeo Doubs,WR,9,12,4.3,12.36126501
--16014,Rams D/ST,D/ST,14,12,20.0,5.65663089
+-16014,Rams D/ST,16,14,12,20.0,5.65663089
 3929645,Juwan Johnson,TE,18,12,10.6,9.25756974
 4429025,Quentin Johnston,WR,24,12,,0.0
 4036133,T.J. Hockenson,TE,16,12,5.9,8.15940645
 3117256,Dalton Schultz,TE,34,12,1.8,10.2456512
 3139477,Patrick Mahomes,QB,12,12,17.08,21.06533733
 4431280,Troy Franklin,WR,7,12,,0.0
--16002,Bills D/ST,D/ST,2,12,8.0,5.19359612
+-16002,Bills D/ST,16,2,12,8.0,5.19359612
 4430027,Sam LaPorta,TE,8,12,0.0,0.0
 4697745,Tyler Loop,K,33,12,11.0,8.69699051
 4241463,Jerry Jeudy,WR,5,12,2.9,9.93534091
@@ -8583,17 +8583,17 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4574716,Harrison Mevis,K,14,12,13.0,8.67245006
 4430968,Kimani Vidal,RB,24,12,,0.0
 17427,Cairo Santos,K,3,12,8.0,8.19819102
--16005,Browns D/ST,D/ST,5,12,17.0,7.72402311
+-16005,Browns D/ST,16,5,12,17.0,7.72402311
 3912547,Sam Darnold,QB,26,12,17.66,15.16110536
--16009,Packers D/ST,D/ST,9,12,18.0,7.47970092
+-16009,Packers D/ST,16,9,12,18.0,7.47970092
 4575131,Jacory Croskey-Merritt,RB,28,12,,0.0
 4686361,Cam Little,K,30,12,13.0,7.95315239
 2977187,Cooper Kupp,WR,26,12,4.4,8.72862697
--16018,Saints D/ST,D/ST,18,12,11.0,4.88189039
+-16018,Saints D/ST,16,18,12,11.0,4.88189039
 4688813,Josh Downs,WR,11,12,3.0,10.73146469
--16016,Vikings D/ST,D/ST,16,12,3.0,3.18993743
+-16016,Vikings D/ST,16,16,12,3.0,3.18993743
 4569923,Andy Borregales,K,17,12,18.0,8.96164495
--16033,Ravens D/ST,D/ST,33,12,12.0,6.59582369
+-16033,Ravens D/ST,16,33,12,12.0,6.59582369
 4040655,Darnell Mooney,WR,1,12,16.4,11.17469271
 3123076,David Njoku,TE,5,12,0.0,6.65839818
 4685278,Luther Burden III,WR,3,12,9.1,7.58970475
@@ -8605,7 +8605,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4635008,Keon Coleman,WR,2,12,0.0,0.0
 4428718,Tre Tucker,WR,13,12,5.8,9.64351792
 3917792,Daniel Jones,QB,11,12,16.84,19.93395288
--16011,Colts D/ST,D/ST,11,12,3.0,3.95576832
+-16011,Colts D/ST,16,11,12,3.0,3.95576832
 3051876,Evan Engram,TE,7,12,,0.0
 3128720,Nick Chubb,RB,34,12,2.5,6.35827134
 4887558,Emanuel Wilson,RB,9,12,26.5,14.5314294
@@ -8613,7 +8613,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 15835,Zach Ertz,TE,28,12,,0.0
 4597500,Adonai Mitchell,WR,20,12,6.2,7.56710143
 4362619,Chris Rodriguez Jr.,RB,28,12,,0.0
--16027,Buccaneers D/ST,D/ST,27,12,0.0,2.69361907
+-16027,Buccaneers D/ST,16,27,12,0.0,2.69361907
 4429275,Trey Benson,RB,22,12,0.0,0.0
 4430539,Brenton Strange,TE,30,12,14.3,7.67516232
 4701936,Matthew Golden,WR,9,12,0.0,0.0
@@ -8624,18 +8624,18 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4428557,Tyjae Spears,RB,10,12,6.5,9.57917181
 4373626,Tyler Allgeier,RB,1,12,5.9,6.79247861
 5081397,Dylan Sampson,RB,5,12,16.2,3.09209669
--16012,Chiefs D/ST,D/ST,12,12,2.0,3.89753657
--16019,Giants D/ST,D/ST,19,12,-1.0,2.81342596
+-16012,Chiefs D/ST,16,12,12,2.0,3.89753657
+-16019,Giants D/ST,16,19,12,-1.0,2.81342596
 4433970,J.J. McCarthy,QB,16,12,0.48,14.17655982
 4685415,Travis Hunter,WR,30,12,0.0,0.0
 2468609,Taysom Hill,TE,18,12,1.7,5.94618896
 4242557,Colby Parkinson,TE,14,12,14.1,5.2146458
 4427728,Bam Knight,RB,22,12,13.2,11.41952099
 2576925,Darren Waller,TE,15,12,,0.0
--16025,49ers D/ST,D/ST,25,12,10.0,5.04082535
+-16025,49ers D/ST,16,25,12,10.0,5.04082535
 4696981,Cam Skattebo,RB,19,12,0.0,0.0
 4243331,Cade Otton,TE,27,12,6.1,9.49468641
--16006,Cowboys D/ST,D/ST,6,12,5.0,4.22135705
+-16006,Cowboys D/ST,16,6,12,5.0,4.22135705
 4595348,Malik Nabers,WR,19,12,0.0,0.0
 4429022,Kayshon Boutte,WR,17,12,3.5,9.7047754
 8439,Aaron Rodgers,QB,23,12,0.0,0.0
@@ -8648,12 +8648,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4572680,Tucker Kraft,TE,9,12,0.0,0.0
 4360234,Evan McPherson,K,4,12,13.0,7.86755891
 4241372,Hollywood Brown,WR,12,12,2.0,5.08673807
--16001,Falcons D/ST,D/ST,1,12,15.0,5.08874954
+-16001,Falcons D/ST,16,1,12,15.0,5.08874954
 4259147,Jake Tonges,TE,25,12,0.0,0.0
 3116406,Tyreek Hill,WR,0,12,,0.0
 4241474,Brian Robinson Jr.,RB,25,12,5.4,4.87283541
 2985659,Wil Lutz,K,7,12,,0.0
--16003,Bears D/ST,D/ST,3,12,6.0,4.74049638
+-16003,Bears D/ST,16,3,12,6.0,4.74049638
 4362887,Justin Fields,QB,20,12,0.0,0.0
 3045147,James Conner,RB,22,12,0.0,0.0
 4882093,Bhayshul Tuten,RB,30,12,1.7,7.40177583
@@ -8677,11 +8677,11 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4432762,Shedeur Sanders,QB,5,12,10.26,10.70291229
 4567096,John Metchie III,WR,20,12,18.5,6.75699462
 4569603,Malik Washington,WR,15,12,,0.0
--16013,Raiders D/ST,D/ST,13,12,7.0,7.08444255
+-16013,Raiders D/ST,16,13,12,7.0,7.08444255
 4695883,Jalen Coker,WR,29,12,6.2,5.93551226
 4682745,Jaylen Wright,RB,15,12,,0.0
 3054212,Jonnu Smith,TE,23,12,5.8,7.57753219
--16010,Titans D/ST,D/ST,10,12,5.0,3.62683789
+-16010,Titans D/ST,16,10,12,5.0,3.62683789
 4249087,Matt Gay,K,0,12,9.0,8.03787446
 4362478,Emari Demercado,RB,22,12,0.0,0.0
 4243389,Calvin Austin III,WR,23,12,7.6,5.17683324
@@ -8696,12 +8696,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 14880,Kirk Cousins,QB,1,12,14.46,12.34595351
 4369863,Cedric Tillman,WR,5,12,1.5,6.34270218
 4038441,Justice Hill,RB,33,12,0.0,4.49838638
--16020,Jets D/ST,D/ST,20,12,3.0,3.73544182
+-16020,Jets D/ST,16,20,12,3.0,3.73544182
 4360635,Chig Okonkwo,TE,10,12,7.0,7.39839379
 10621,Nick Folk,K,20,12,5.0,7.59043891
 3116389,Samaje Perine,RB,4,12,0.0,0.0
 15864,Geno Smith,QB,13,12,14.2,12.60143076
--16022,Cardinals D/ST,D/ST,22,12,16.0,5.58534198
+-16022,Cardinals D/ST,16,22,12,16.0,5.58534198
 4711533,Ollie Gordon II,RB,15,12,,0.0
 4688380,Cam Ward,QB,10,12,23.94,10.82869825
 4427095,DeMario Douglas,WR,17,12,6.1,6.66460193
@@ -8709,7 +8709,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685247,Braelon Allen,RB,20,12,0.0,0.0
 4368003,Andrei Iosivas,WR,4,12,10.6,8.70874422
 4361411,Pat Freiermuth,TE,23,12,10.9,5.90505037
--16029,Panthers D/ST,D/ST,29,12,6.0,2.93589144
+-16029,Panthers D/ST,16,29,12,6.0,2.93589144
 3124679,Jason Sanders,K,15,12,,0.0
 4241457,Najee Harris,RB,24,12,,0.0
 2991662,Mack Hollins,WR,17,12,5.0,6.8387982
@@ -8728,7 +8728,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4613202,Kyle Williams,WR,17,12,2.8,2.06706014
 4243371,Riley Patterson,K,15,12,,0.0
 3930086,Dawson Knox,TE,2,12,4.7,5.06130988
--16004,Bengals D/ST,D/ST,4,12,8.0,3.0405368
+-16004,Bengals D/ST,16,4,12,8.0,3.0405368
 15795,DeAndre Hopkins,WR,33,12,3.3,7.2003482
 3127586,Jeremy McNichols,RB,28,12,,0.0
 3149687,Chris Brooks,RB,9,12,3.6,8.23077164
@@ -9225,7 +9225,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4047646,A.J. Brown,WR,21,13,35.2,16.77464769
 4047365,Josh Jacobs,RB,9,13,10.1,19.31310204
 4596448,Bucky Irving,RB,27,13,16.1,11.78402775
--16007,Broncos D/ST,D/ST,7,13,1.0,7.16092655
+-16007,Broncos D/ST,16,7,13,1.0,7.16092655
 4239993,Tee Higgins,WR,4,13,0.0,0.0
 4431459,Tyler Warren,TE,11,13,11.2,13.29335591
 4426388,Jameson Williams,WR,8,13,26.9,11.83893554
@@ -9233,7 +9233,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429615,Zay Flowers,WR,33,13,0.6,14.13588793
 4239996,Travis Etienne Jr.,RB,30,13,5.1,15.1392137
 16800,Davante Adams,WR,14,13,21.8,16.48556163
--16034,Texans D/ST,D/ST,34,13,4.0,5.16914778
+-16034,Texans D/ST,16,34,13,4.0,5.16914778
 4259545,D'Andre Swift,RB,3,13,20.8,11.39960331
 4038815,Rico Dowdle,RB,29,13,9.9,15.1985788
 4612826,Ladd McConkey,WR,24,13,13.9,13.19611382
@@ -9260,7 +9260,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685382,Omarion Hampton,RB,24,13,0.0,0.0
 4035687,Michael Pittman Jr.,WR,11,13,2.3,13.31734121
 4567750,Emeka Egbuka,WR,27,13,8.2,14.03827418
--16026,Seahawks D/ST,D/ST,26,13,28.0,8.53268545
+-16026,Seahawks D/ST,16,26,13,28.0,8.53268545
 4362081,Cameron Dicker,K,24,13,9.0,8.51375996
 3126486,Deebo Samuel,WR,28,13,11.1,11.5555395
 3121023,Dallas Goedert,TE,21,13,4.7,10.79200669
@@ -9272,7 +9272,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4432773,Brian Thomas Jr.,WR,30,13,4.8,11.85811843
 4038941,Justin Herbert,QB,24,13,12.84,18.20216319
 4432708,Marvin Harrison Jr.,WR,22,13,12.9,13.66798865
--16017,Patriots D/ST,D/ST,17,13,13.0,5.94716027
+-16017,Patriots D/ST,16,17,13,13.0,5.94716027
 4569587,Wan'Dale Robinson,WR,19,13,10.4,13.90093015
 3886598,Jauan Jennings,WR,25,13,13.9,11.13033914
 3916433,Jakobi Meyers,WR,30,13,21.3,10.24348323
@@ -9303,30 +9303,30 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4373678,Khalil Shakir,WR,2,13,1.5,12.11644778
 4429205,Jordan Addison,WR,16,13,8.6,8.53071719
 4360310,Trevor Lawrence,QB,30,13,21.66,16.53097553
--16008,Lions D/ST,D/ST,8,13,-2.0,4.38185033
+-16008,Lions D/ST,16,8,13,-2.0,4.38185033
 3150744,Chase McLaughlin,K,27,13,10.0,8.01404775
--16023,Steelers D/ST,D/ST,23,13,3.0,4.61753327
+-16023,Steelers D/ST,16,23,13,3.0,4.61753327
 4036378,Jordan Love,QB,9,13,25.76,15.72152026
 4685702,Quinshon Judkins,RB,5,13,15.9,13.12994692
 4248528,Christian Watson,WR,9,13,18.3,12.25307068
 3116165,Chris Godwin Jr.,WR,27,13,10.8,8.20662141
--16021,Eagles D/ST,D/ST,21,13,1.0,4.09494567
+-16021,Eagles D/ST,16,21,13,1.0,4.09494567
 4569618,Garrett Wilson,WR,20,13,0.0,0.0
 4385690,Dalton Kincaid,TE,2,13,0.0,0.0
--16030,Jaguars D/ST,D/ST,30,13,14.0,7.15453514
+-16030,Jaguars D/ST,16,30,13,14.0,7.15453514
 2578570,Jacoby Brissett,QB,22,13,19.64,17.22518303
 4608686,Kyle Monangai,RB,3,13,19.0,8.07309746
 4426385,Zach Charbonnet,RB,26,13,11.2,8.41242884
 4241416,Chuba Hubbard,RB,29,13,20.4,6.0192293
 4361432,Romeo Doubs,WR,9,13,12.0,10.97360022
--16014,Rams D/ST,D/ST,14,13,1.0,7.49586498
+-16014,Rams D/ST,16,14,13,1.0,7.49586498
 3929645,Juwan Johnson,TE,18,13,8.9,8.66108342
 4429025,Quentin Johnston,WR,24,13,11.3,10.02354492
 4036133,T.J. Hockenson,TE,16,13,11.9,6.63480079
 3117256,Dalton Schultz,TE,34,13,12.5,8.91164606
 3139477,Patrick Mahomes,QB,12,13,29.44,21.66455916
 4431280,Troy Franklin,WR,7,13,4.1,12.95258179
--16002,Bills D/ST,D/ST,2,13,17.0,5.94682488
+-16002,Bills D/ST,16,2,13,17.0,5.94682488
 4430027,Sam LaPorta,TE,8,13,0.0,0.0
 4697745,Tyler Loop,K,33,13,2.0,8.7316287
 4241463,Jerry Jeudy,WR,5,13,5.6,9.08801309
@@ -9349,17 +9349,17 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4574716,Harrison Mevis,K,14,13,4.0,8.59439867
 4430968,Kimani Vidal,RB,24,13,20.7,12.51628791
 17427,Cairo Santos,K,3,13,6.0,7.91167716
--16005,Browns D/ST,D/ST,5,13,3.0,5.42842522
+-16005,Browns D/ST,16,5,13,3.0,5.42842522
 3912547,Sam Darnold,QB,26,13,3.12,15.16578737
--16009,Packers D/ST,D/ST,9,13,2.0,3.84088369
+-16009,Packers D/ST,16,9,13,2.0,3.84088369
 4575131,Jacory Croskey-Merritt,RB,28,13,2.0,5.45008941
 4686361,Cam Little,K,30,13,6.0,8.1354481
 2977187,Cooper Kupp,WR,26,13,5.4,8.41517913
--16018,Saints D/ST,D/ST,18,13,8.0,5.7876736
+-16018,Saints D/ST,16,18,13,8.0,5.7876736
 4688813,Josh Downs,WR,11,13,6.4,8.93664698
--16016,Vikings D/ST,D/ST,16,13,8.0,3.7717115
+-16016,Vikings D/ST,16,16,13,8.0,3.7717115
 4569923,Andy Borregales,K,17,13,14.0,8.81498346
--16033,Ravens D/ST,D/ST,33,13,1.0,5.69329599
+-16033,Ravens D/ST,16,33,13,1.0,5.69329599
 4040655,Darnell Mooney,WR,1,13,4.5,10.40295675
 3123076,David Njoku,TE,5,13,2.4,5.16282072
 4685278,Luther Burden III,WR,3,13,7.6,8.28020908
@@ -9369,10 +9369,10 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429096,Blake Corum,RB,14,13,14.1,6.59574974
 4576297,AJ Barner,TE,26,13,7.7,7.65047315
 4635008,Keon Coleman,WR,2,13,8.9,4.6171137
--16024,Chargers D/ST,D/ST,24,13,11.0,9.09537278
+-16024,Chargers D/ST,16,24,13,11.0,9.09537278
 4428718,Tre Tucker,WR,13,13,5.0,10.45779567
 3917792,Daniel Jones,QB,11,13,16.14,17.22202789
--16011,Colts D/ST,D/ST,11,13,3.0,5.7642897
+-16011,Colts D/ST,16,11,13,3.0,5.7642897
 3051876,Evan Engram,TE,7,13,13.9,8.08280806
 3128720,Nick Chubb,RB,34,13,9.4,5.39450478
 4887558,Emanuel Wilson,RB,9,13,1.4,5.59631897
@@ -9380,7 +9380,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 15835,Zach Ertz,TE,28,13,20.6,8.72938393
 4597500,Adonai Mitchell,WR,20,13,24.2,8.80820601
 4362619,Chris Rodriguez Jr.,RB,28,13,10.1,6.99917151
--16027,Buccaneers D/ST,D/ST,27,13,6.0,5.93170372
+-16027,Buccaneers D/ST,16,27,13,6.0,5.93170372
 4429275,Trey Benson,RB,22,13,0.0,0.0
 4430539,Brenton Strange,TE,30,13,13.5,8.77276803
 4701936,Matthew Golden,WR,9,13,0.0,0.0
@@ -9391,18 +9391,18 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4428557,Tyjae Spears,RB,10,13,8.4,9.89241609
 4373626,Tyler Allgeier,RB,1,13,13.5,7.91656328
 5081397,Dylan Sampson,RB,5,13,2.3,5.41287375
--16012,Chiefs D/ST,D/ST,12,13,-4.0,3.39116766
--16019,Giants D/ST,D/ST,19,13,1.0,3.16872923
+-16012,Chiefs D/ST,16,12,13,-4.0,3.39116766
+-16019,Giants D/ST,16,19,13,1.0,3.16872923
 4433970,J.J. McCarthy,QB,16,13,0.0,0.0
 4685415,Travis Hunter,WR,30,13,0.0,0.0
 2468609,Taysom Hill,TE,18,13,1.7,7.60342532
 4242557,Colby Parkinson,TE,14,13,6.7,7.79769543
 4427728,Bam Knight,RB,22,13,16.8,12.22841465
 2576925,Darren Waller,TE,15,13,6.7,4.87423147
--16025,49ers D/ST,D/ST,25,13,12.0,7.01563509
+-16025,49ers D/ST,16,25,13,12.0,7.01563509
 4696981,Cam Skattebo,RB,19,13,0.0,0.0
 4243331,Cade Otton,TE,27,13,2.9,8.08289962
--16006,Cowboys D/ST,D/ST,6,13,1.0,3.24560936
+-16006,Cowboys D/ST,16,6,13,1.0,3.24560936
 4595348,Malik Nabers,WR,19,13,0.0,0.0
 4429022,Kayshon Boutte,WR,17,13,13.5,8.11911858
 8439,Aaron Rodgers,QB,23,13,2.68,14.26955753
@@ -9415,12 +9415,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4572680,Tucker Kraft,TE,9,13,0.0,0.0
 4360234,Evan McPherson,K,4,13,24.0,7.94368697
 4241372,Hollywood Brown,WR,12,13,10.0,4.50664411
--16001,Falcons D/ST,D/ST,1,13,4.0,6.73186079
+-16001,Falcons D/ST,16,1,13,4.0,6.73186079
 4259147,Jake Tonges,TE,25,13,0.0,0.0
 3116406,Tyreek Hill,WR,0,13,0.0,0.0
 4241474,Brian Robinson Jr.,RB,25,13,2.6,5.37153025
 2985659,Wil Lutz,K,7,13,9.0,8.07669437
--16003,Bears D/ST,D/ST,3,13,5.0,3.51117001
+-16003,Bears D/ST,16,3,13,5.0,3.51117001
 4362887,Justin Fields,QB,20,13,0.0,0.0
 3045147,James Conner,RB,22,13,0.0,0.0
 4882093,Bhayshul Tuten,RB,30,13,8.9,7.06111315
@@ -9440,17 +9440,17 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4608810,Tez Johnson,WR,27,13,1.5,6.38332051
 4819231,Kaleb Johnson,RB,23,13,0.3,0.50684274
 3068267,Austin Ekeler,RB,28,13,0.0,0.0
--16015,Dolphins D/ST,D/ST,15,13,13.0,6.57525225
+-16015,Dolphins D/ST,16,15,13,13.0,6.57525225
 3123052,Michael Badgley,K,0,13,5.0,8.14415858
--16028,Commanders D/ST,D/ST,28,13,0.0,2.79831569
+-16028,Commanders D/ST,16,28,13,0.0,2.79831569
 4432762,Shedeur Sanders,QB,5,13,10.56,10.78892616
 4567096,John Metchie III,WR,20,13,5.7,9.01405488
 4569603,Malik Washington,WR,15,13,7.0,8.22825698
--16013,Raiders D/ST,D/ST,13,13,4.0,5.70264473
+-16013,Raiders D/ST,16,13,13,4.0,5.70264473
 4695883,Jalen Coker,WR,29,13,17.4,5.18528595
 4682745,Jaylen Wright,RB,15,13,1.6,0.47245335
 3054212,Jonnu Smith,TE,23,13,1.6,5.69454648
--16010,Titans D/ST,D/ST,10,13,5.0,4.92453081
+-16010,Titans D/ST,16,10,13,5.0,4.92453081
 4249087,Matt Gay,K,0,13,8.0,7.33980984
 4362478,Emari Demercado,RB,22,13,0.0,0.0
 4243389,Calvin Austin III,WR,23,13,0.0,7.15386599
@@ -9465,12 +9465,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 14880,Kirk Cousins,QB,1,13,13.36,12.35233171
 4369863,Cedric Tillman,WR,5,13,0.0,7.19489659
 4038441,Justice Hill,RB,33,13,0.0,0.0
--16020,Jets D/ST,D/ST,20,13,3.0,5.7048401
+-16020,Jets D/ST,16,20,13,3.0,5.7048401
 4360635,Chig Okonkwo,TE,10,13,6.9,6.19509849
 10621,Nick Folk,K,20,13,10.0,7.63637408
 3116389,Samaje Perine,RB,4,13,5.4,5.13440796
 15864,Geno Smith,QB,13,13,12.0,11.20324404
--16022,Cardinals D/ST,D/ST,22,13,4.0,4.65099035
+-16022,Cardinals D/ST,16,22,13,4.0,4.65099035
 4711533,Ollie Gordon II,RB,15,13,1.0,4.62550924
 4688380,Cam Ward,QB,10,13,6.34,13.3112271
 4427095,DeMario Douglas,WR,17,13,6.3,5.81667058
@@ -9478,7 +9478,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685247,Braelon Allen,RB,20,13,0.0,0.0
 4368003,Andrei Iosivas,WR,4,13,9.9,8.95937762
 4361411,Pat Freiermuth,TE,23,13,0.0,5.34688282
--16029,Panthers D/ST,D/ST,29,13,12.0,2.05750947
+-16029,Panthers D/ST,16,29,13,12.0,2.05750947
 3124679,Jason Sanders,K,15,13,0.0,0.0
 4241457,Najee Harris,RB,24,13,0.0,0.0
 2991662,Mack Hollins,WR,17,13,5.3,7.33031365
@@ -9497,7 +9497,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4613202,Kyle Williams,WR,17,13,10.3,1.86550377
 4243371,Riley Patterson,K,15,13,14.0,7.94899408
 3930086,Dawson Knox,TE,2,13,5.8,6.34538771
--16004,Bengals D/ST,D/ST,4,13,11.0,2.74311257
+-16004,Bengals D/ST,16,4,13,11.0,2.74311257
 15795,DeAndre Hopkins,WR,33,13,4.5,3.73506383
 3127586,Jeremy McNichols,RB,28,13,5.0,4.14572627
 3149687,Chris Brooks,RB,9,13,2.9,0.45406583
@@ -10006,7 +10006,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4047646,A.J. Brown,WR,21,14,16.0,16.32619108
 4047365,Josh Jacobs,RB,9,14,17.2,21.3195542
 4596448,Bucky Irving,RB,27,14,16.1,16.36311153
--16007,Broncos D/ST,D/ST,7,14,13.0,8.96762705
+-16007,Broncos D/ST,16,7,14,13.0,8.96762705
 4239993,Tee Higgins,WR,4,14,27.2,13.27785438
 4431459,Tyler Warren,TE,11,14,3.7,12.9333733
 4426388,Jameson Williams,WR,8,14,17.3,13.75657941
@@ -10014,7 +10014,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429615,Zay Flowers,WR,33,14,20.6,12.30508047
 4239996,Travis Etienne Jr.,RB,30,14,21.2,11.66242685
 16800,Davante Adams,WR,14,14,6.9,16.7131253
--16034,Texans D/ST,D/ST,34,14,13.0,4.80669995
+-16034,Texans D/ST,16,34,14,13.0,4.80669995
 4259545,D'Andre Swift,RB,3,14,11.2,11.05993582
 4038815,Rico Dowdle,RB,29,14,,0.0
 4612826,Ladd McConkey,WR,24,14,2.2,12.28591285
@@ -10041,7 +10041,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685382,Omarion Hampton,RB,24,14,14.7,12.1245774
 4035687,Michael Pittman Jr.,WR,11,14,16.9,12.8217244
 4567750,Emeka Egbuka,WR,27,14,3.5,13.58069537
--16026,Seahawks D/ST,D/ST,26,14,20.0,6.25849903
+-16026,Seahawks D/ST,16,26,14,20.0,6.25849903
 4362081,Cameron Dicker,K,24,14,20.0,8.30076944
 3126486,Deebo Samuel,WR,28,14,6.7,11.00565096
 3121023,Dallas Goedert,TE,21,14,15.8,9.38999321
@@ -10083,30 +10083,30 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4373678,Khalil Shakir,WR,2,14,9.6,11.99392699
 4429205,Jordan Addison,WR,16,14,10.2,10.45955129
 4360310,Trevor Lawrence,QB,30,14,19.36,16.15807262
--16008,Lions D/ST,D/ST,8,14,7.0,3.52646642
+-16008,Lions D/ST,16,8,14,7.0,3.52646642
 3150744,Chase McLaughlin,K,27,14,9.0,8.01674682
--16023,Steelers D/ST,D/ST,23,14,1.0,4.7230021
+-16023,Steelers D/ST,16,23,14,1.0,4.7230021
 4036378,Jordan Love,QB,9,14,19.26,17.65320568
 4685702,Quinshon Judkins,RB,5,14,9.4,14.82515128
 4248528,Christian Watson,WR,9,14,24.9,11.80544116
 3116165,Chris Godwin Jr.,WR,27,14,10.5,10.99325965
--16021,Eagles D/ST,D/ST,21,14,13.0,5.78094512
+-16021,Eagles D/ST,16,21,14,13.0,5.78094512
 4569618,Garrett Wilson,WR,20,14,0.0,0.0
 4385690,Dalton Kincaid,TE,2,14,14.1,9.9572523
--16030,Jaguars D/ST,D/ST,30,14,11.0,4.02370859
+-16030,Jaguars D/ST,16,30,14,11.0,4.02370859
 2578570,Jacoby Brissett,QB,22,14,19.04,15.30216978
 4608686,Kyle Monangai,RB,3,14,8.7,9.71409471
 4426385,Zach Charbonnet,RB,26,14,8.6,8.75100852
 4241416,Chuba Hubbard,RB,29,14,,0.0
 4361432,Romeo Doubs,WR,9,14,0.0,10.35650251
--16014,Rams D/ST,D/ST,14,14,6.0,6.9150423
+-16014,Rams D/ST,16,14,14,6.0,6.9150423
 3929645,Juwan Johnson,TE,18,14,7.8,9.68656229
 4429025,Quentin Johnston,WR,24,14,2.8,8.65926686
 4036133,T.J. Hockenson,TE,16,14,9.2,8.7869598
 3117256,Dalton Schultz,TE,34,14,5.2,9.69260938
 3139477,Patrick Mahomes,QB,12,14,6.3,17.86370356
 4431280,Troy Franklin,WR,7,14,4.1,9.53225398
--16002,Bills D/ST,D/ST,2,14,10.0,4.64456756
+-16002,Bills D/ST,16,2,14,10.0,4.64456756
 4430027,Sam LaPorta,TE,8,14,0.0,0.0
 4697745,Tyler Loop,K,33,14,10.0,8.11526374
 4241463,Jerry Jeudy,WR,5,14,16.6,8.85450728
@@ -10129,17 +10129,17 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4574716,Harrison Mevis,K,14,14,9.0,8.53168698
 4430968,Kimani Vidal,RB,24,14,11.4,6.94270402
 17427,Cairo Santos,K,3,14,8.0,8.04472387
--16005,Browns D/ST,D/ST,5,14,4.0,6.9253611
+-16005,Browns D/ST,16,5,14,4.0,6.9253611
 3912547,Sam Darnold,QB,26,14,22.26,14.27614417
--16009,Packers D/ST,D/ST,9,14,3.0,3.74499746
+-16009,Packers D/ST,16,9,14,3.0,3.74499746
 4575131,Jacory Croskey-Merritt,RB,28,14,3.2,4.11336009
 4686361,Cam Little,K,30,14,11.0,7.95812388
 2977187,Cooper Kupp,WR,26,14,11.5,8.65234112
--16018,Saints D/ST,D/ST,18,14,2.0,4.20756354
+-16018,Saints D/ST,16,18,14,2.0,4.20756354
 4688813,Josh Downs,WR,11,14,6.3,9.49537752
--16016,Vikings D/ST,D/ST,16,14,15.0,5.24701332
+-16016,Vikings D/ST,16,16,14,15.0,5.24701332
 4569923,Andy Borregales,K,17,14,,0.0
--16033,Ravens D/ST,D/ST,33,14,0.0,5.9359337
+-16033,Ravens D/ST,16,33,14,0.0,5.9359337
 4040655,Darnell Mooney,WR,1,14,1.6,9.29485748
 3123076,David Njoku,TE,5,14,7.1,4.27503276
 4685278,Luther Burden III,WR,3,14,11.0,10.32658732
@@ -10149,10 +10149,10 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429096,Blake Corum,RB,14,14,26.1,7.03768827
 4576297,AJ Barner,TE,26,14,5.7,9.14719845
 4635008,Keon Coleman,WR,2,14,3.6,6.70135606
--16024,Chargers D/ST,D/ST,24,14,10.0,5.16851711
+-16024,Chargers D/ST,16,24,14,10.0,5.16851711
 4428718,Tre Tucker,WR,13,14,4.4,9.32766581
 3917792,Daniel Jones,QB,11,14,0.8,17.22559601
--16011,Colts D/ST,D/ST,11,14,0.0,6.03283039
+-16011,Colts D/ST,16,11,14,0.0,6.03283039
 3051876,Evan Engram,TE,7,14,2.8,7.81395396
 3128720,Nick Chubb,RB,34,14,0.3,5.27284842
 4887558,Emanuel Wilson,RB,9,14,1.0,6.12148365
@@ -10160,7 +10160,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 15835,Zach Ertz,TE,28,14,2.1,9.21990631
 4597500,Adonai Mitchell,WR,20,14,3.4,10.76265109
 4362619,Chris Rodriguez Jr.,RB,28,14,5.2,8.92351831
--16027,Buccaneers D/ST,D/ST,27,14,7.0,5.84106067
+-16027,Buccaneers D/ST,16,27,14,7.0,5.84106067
 4429275,Trey Benson,RB,22,14,0.0,0.0
 4430539,Brenton Strange,TE,30,14,5.7,8.86863052
 4701936,Matthew Golden,WR,9,14,0.0,4.92480339
@@ -10171,7 +10171,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4428557,Tyjae Spears,RB,10,14,6.7,8.59996685
 4373626,Tyler Allgeier,RB,1,14,8.7,7.25964494
 5081397,Dylan Sampson,RB,5,14,9.8,5.03065141
--16012,Chiefs D/ST,D/ST,12,14,5.0,4.7528857
+-16012,Chiefs D/ST,16,12,14,5.0,4.7528857
 4433970,J.J. McCarthy,QB,16,14,20.42,14.68097528
 4685415,Travis Hunter,WR,30,14,0.0,0.0
 2468609,Taysom Hill,TE,18,14,-0.1,3.43163046
@@ -10180,7 +10180,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 2576925,Darren Waller,TE,15,14,2.7,7.34860699
 4696981,Cam Skattebo,RB,19,14,,0.0
 4243331,Cade Otton,TE,27,14,4.9,6.4751356
--16006,Cowboys D/ST,D/ST,6,14,-3.0,3.04625788
+-16006,Cowboys D/ST,16,6,14,-3.0,3.04625788
 4595348,Malik Nabers,WR,19,14,,0.0
 4429022,Kayshon Boutte,WR,17,14,,0.0
 8439,Aaron Rodgers,QB,23,14,21.46,12.21729598
@@ -10193,12 +10193,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4572680,Tucker Kraft,TE,9,14,0.0,0.0
 4360234,Evan McPherson,K,4,14,4.0,8.04536595
 4241372,Hollywood Brown,WR,12,14,4.5,2.85836531
--16001,Falcons D/ST,D/ST,1,14,0.0,4.029851
+-16001,Falcons D/ST,16,1,14,0.0,4.029851
 4259147,Jake Tonges,TE,25,14,,0.0
 3116406,Tyreek Hill,WR,0,14,0.0,0.0
 4241474,Brian Robinson Jr.,RB,25,14,,0.0
 2985659,Wil Lutz,K,7,14,6.0,8.06179753
--16003,Bears D/ST,D/ST,3,14,2.0,2.53178648
+-16003,Bears D/ST,16,3,14,2.0,2.53178648
 4362887,Justin Fields,QB,20,14,0.0,0.0
 3045147,James Conner,RB,22,14,0.0,0.0
 4882093,Bhayshul Tuten,RB,30,14,-1.5,6.40711366
@@ -10218,17 +10218,17 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4608810,Tez Johnson,WR,27,14,0.0,5.97393814
 4819231,Kaleb Johnson,RB,23,14,0.4,0.41233733
 3068267,Austin Ekeler,RB,28,14,0.0,0.0
--16015,Dolphins D/ST,D/ST,15,14,17.0,6.04119024
+-16015,Dolphins D/ST,16,15,14,17.0,6.04119024
 3123052,Michael Badgley,K,0,14,,0.0
--16028,Commanders D/ST,D/ST,28,14,3.0,6.33648799
+-16028,Commanders D/ST,16,28,14,3.0,6.33648799
 4432762,Shedeur Sanders,QB,5,14,33.46,12.00028327
 4567096,John Metchie III,WR,20,14,7.4,10.5204131
 4569603,Malik Washington,WR,15,14,4.0,8.42322155
--16013,Raiders D/ST,D/ST,13,14,2.0,3.25032852
+-16013,Raiders D/ST,16,13,14,2.0,3.25032852
 4695883,Jalen Coker,WR,29,14,,0.0
 4682745,Jaylen Wright,RB,15,14,16.7,1.46477698
 3054212,Jonnu Smith,TE,23,14,0.0,5.03808584
--16010,Titans D/ST,D/ST,10,14,4.0,6.3909881
+-16010,Titans D/ST,16,10,14,4.0,6.3909881
 4249087,Matt Gay,K,0,14,,0.0
 4362478,Emari Demercado,RB,22,14,0.0,0.0
 4243389,Calvin Austin III,WR,23,14,4.1,6.61364323
@@ -10243,12 +10243,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 14880,Kirk Cousins,QB,1,14,2.48,10.47913994
 4369863,Cedric Tillman,WR,5,14,3.3,6.05063301
 4038441,Justice Hill,RB,33,14,0.0,0.0
--16020,Jets D/ST,D/ST,20,14,5.0,5.27137403
+-16020,Jets D/ST,16,20,14,5.0,5.27137403
 4360635,Chig Okonkwo,TE,10,14,4.0,6.28184039
 10621,Nick Folk,K,20,14,4.0,7.66143576
 3116389,Samaje Perine,RB,4,14,4.8,6.53626618
 15864,Geno Smith,QB,13,14,9.04,10.02313343
--16022,Cardinals D/ST,D/ST,22,14,-9.0,2.6985167
+-16022,Cardinals D/ST,16,22,14,-9.0,2.6985167
 4711533,Ollie Gordon II,RB,15,14,7.7,3.25266836
 4688380,Cam Ward,QB,10,14,11.08,10.88184669
 4427095,DeMario Douglas,WR,17,14,,0.0
@@ -10274,7 +10274,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4613202,Kyle Williams,WR,17,14,,0.0
 4243371,Riley Patterson,K,15,14,13.0,7.9647743
 3930086,Dawson Knox,TE,2,14,17.3,3.31435926
--16004,Bengals D/ST,D/ST,4,14,1.0,2.87229236
+-16004,Bengals D/ST,16,4,14,1.0,2.87229236
 15795,DeAndre Hopkins,WR,33,14,0.0,3.5830324
 3127586,Jeremy McNichols,RB,28,14,1.2,5.49203737
 3149687,Chris Brooks,RB,9,14,1.6,1.36989154
@@ -10775,7 +10775,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4047646,A.J. Brown,WR,21,15,12.1,16.83139
 4047365,Josh Jacobs,RB,9,15,23.2,15.1896896
 4596448,Bucky Irving,RB,27,15,8.1,15.17433579
--16007,Broncos D/ST,D/ST,7,15,6.0,5.30785561
+-16007,Broncos D/ST,16,7,15,6.0,5.30785561
 4239993,Tee Higgins,WR,4,15,0.0,0.0
 4431459,Tyler Warren,TE,11,15,4.9,10.54246025
 4426388,Jameson Williams,WR,8,15,26.4,13.88611388
@@ -10783,7 +10783,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429615,Zay Flowers,WR,33,15,15.8,12.84119559
 4239996,Travis Etienne Jr.,RB,30,15,31.5,15.21427025
 16800,Davante Adams,WR,14,15,11.1,16.41581178
--16034,Texans D/ST,D/ST,34,15,6.0,7.86394906
+-16034,Texans D/ST,16,34,15,6.0,7.86394906
 4259545,D'Andre Swift,RB,3,15,22.6,12.1658435
 4038815,Rico Dowdle,RB,29,15,12.4,12.96592031
 4612826,Ladd McConkey,WR,24,15,4.0,13.62871582
@@ -10810,7 +10810,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685382,Omarion Hampton,RB,24,15,7.5,11.73101528
 4035687,Michael Pittman Jr.,WR,11,15,5.6,12.26018258
 4567750,Emeka Egbuka,WR,27,15,10.4,11.98586913
--16026,Seahawks D/ST,D/ST,26,15,6.0,7.65092491
+-16026,Seahawks D/ST,16,26,15,6.0,7.65092491
 4362081,Cameron Dicker,K,24,15,12.0,8.08028664
 3126486,Deebo Samuel,WR,28,15,7.3,14.04330977
 3121023,Dallas Goedert,TE,21,15,25.0,10.32333664
@@ -10822,7 +10822,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4432773,Brian Thomas Jr.,WR,30,15,17.1,9.52336311
 4038941,Justin Herbert,QB,24,15,10.4,15.70411437
 4432708,Marvin Harrison Jr.,WR,22,15,0.0,0.0
--16017,Patriots D/ST,D/ST,17,15,-1.0,4.64658768
+-16017,Patriots D/ST,16,17,15,-1.0,4.64658768
 4569587,Wan'Dale Robinson,WR,19,15,16.4,14.6534555
 3886598,Jauan Jennings,WR,25,15,18.7,13.10430943
 3916433,Jakobi Meyers,WR,30,15,12.1,11.71577644
@@ -10853,30 +10853,30 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4373678,Khalil Shakir,WR,2,15,11.5,10.524564
 4429205,Jordan Addison,WR,16,15,8.6,12.40477459
 4360310,Trevor Lawrence,QB,30,15,44.3,17.28833558
--16008,Lions D/ST,D/ST,8,15,-5.0,3.12467609
+-16008,Lions D/ST,16,8,15,-5.0,3.12467609
 3150744,Chase McLaughlin,K,27,15,11.0,8.06909313
--16023,Steelers D/ST,D/ST,23,15,9.0,6.77573938
+-16023,Steelers D/ST,16,23,15,9.0,6.77573938
 4036378,Jordan Love,QB,9,15,13.94,14.8393093
 4685702,Quinshon Judkins,RB,5,15,4.7,16.63462707
 4248528,Christian Watson,WR,9,15,5.9,11.33409558
 3116165,Chris Godwin Jr.,WR,27,15,14.0,11.08107779
--16021,Eagles D/ST,D/ST,21,15,16.0,7.30999016
+-16021,Eagles D/ST,16,21,15,16.0,7.30999016
 4569618,Garrett Wilson,WR,20,15,0.0,0.0
 4385690,Dalton Kincaid,TE,2,15,6.4,9.99741897
--16030,Jaguars D/ST,D/ST,30,15,11.0,9.2178598
+-16030,Jaguars D/ST,16,30,15,11.0,9.2178598
 2578570,Jacoby Brissett,QB,22,15,20.56,13.89493856
 4608686,Kyle Monangai,RB,3,15,3.3,10.85374034
 4426385,Zach Charbonnet,RB,26,15,3.1,8.90688903
 4241416,Chuba Hubbard,RB,29,15,4.8,10.32179146
 4361432,Romeo Doubs,WR,9,15,5.6,9.52788509
--16014,Rams D/ST,D/ST,14,15,-1.0,4.17465418
+-16014,Rams D/ST,16,14,15,-1.0,4.17465418
 3929645,Juwan Johnson,TE,18,15,7.0,9.68383458
 4429025,Quentin Johnston,WR,24,15,0.0,0.0
 4036133,T.J. Hockenson,TE,16,15,10.6,8.99469705
 3117256,Dalton Schultz,TE,34,15,21.6,8.87241013
 3139477,Patrick Mahomes,QB,12,15,13.06,17.40816267
 4431280,Troy Franklin,WR,7,15,20.8,10.24897031
--16002,Bills D/ST,D/ST,2,15,3.0,4.10148801
+-16002,Bills D/ST,16,2,15,3.0,4.10148801
 4430027,Sam LaPorta,TE,8,15,0.0,0.0
 4697745,Tyler Loop,K,33,15,6.0,8.22827541
 4241463,Jerry Jeudy,WR,5,15,4.2,9.31926127
@@ -10899,17 +10899,17 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4574716,Harrison Mevis,K,14,15,12.0,9.05560218
 4430968,Kimani Vidal,RB,24,15,5.8,6.64304669
 17427,Cairo Santos,K,3,15,7.0,8.13492481
--16005,Browns D/ST,D/ST,5,15,1.0,4.14472201
+-16005,Browns D/ST,16,5,15,1.0,4.14472201
 3912547,Sam Darnold,QB,26,15,11.34,15.18923433
--16009,Packers D/ST,D/ST,9,15,0.0,4.9861371
+-16009,Packers D/ST,16,9,15,0.0,4.9861371
 4575131,Jacory Croskey-Merritt,RB,28,15,15.6,12.73592201
 4686361,Cam Little,K,30,15,12.0,8.63215697
 2977187,Cooper Kupp,WR,26,15,9.6,8.35222263
--16018,Saints D/ST,D/ST,18,15,6.0,5.88473134
+-16018,Saints D/ST,16,18,15,6.0,5.88473134
 4688813,Josh Downs,WR,11,15,10.3,7.41455933
--16016,Vikings D/ST,D/ST,16,15,-1.0,3.91715269
+-16016,Vikings D/ST,16,16,15,-1.0,3.91715269
 4569923,Andy Borregales,K,17,15,7.0,8.4095848
--16033,Ravens D/ST,D/ST,33,15,20.0,4.61565633
+-16033,Ravens D/ST,16,33,15,20.0,4.61565633
 4040655,Darnell Mooney,WR,1,15,6.5,9.51806419
 3123076,David Njoku,TE,5,15,0.0,0.0
 4685278,Luther Burden III,WR,3,15,14.4,10.09666428
@@ -10919,10 +10919,10 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429096,Blake Corum,RB,14,15,13.1,7.89500984
 4576297,AJ Barner,TE,26,15,5.7,9.05263809
 4635008,Keon Coleman,WR,2,15,0.0,5.85302214
--16024,Chargers D/ST,D/ST,24,15,14.0,5.16173764
+-16024,Chargers D/ST,16,24,15,14.0,5.16173764
 4428718,Tre Tucker,WR,13,15,0.0,8.86498572
 3917792,Daniel Jones,QB,11,15,0.0,0.0
--16011,Colts D/ST,D/ST,11,15,1.0,3.83056717
+-16011,Colts D/ST,16,11,15,1.0,3.83056717
 3051876,Evan Engram,TE,7,15,2.2,7.43277198
 3128720,Nick Chubb,RB,34,15,0.0,0.0
 4887558,Emanuel Wilson,RB,9,15,0.3,4.75538167
@@ -10930,7 +10930,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 15835,Zach Ertz,TE,28,15,0.0,0.0
 4597500,Adonai Mitchell,WR,20,15,17.4,9.94631078
 4362619,Chris Rodriguez Jr.,RB,28,15,0.0,0.0
--16027,Buccaneers D/ST,D/ST,27,15,-3.0,4.99952144
+-16027,Buccaneers D/ST,16,27,15,-3.0,4.99952144
 4429275,Trey Benson,RB,22,15,0.0,0.0
 4430539,Brenton Strange,TE,30,15,3.6,8.15445847
 4701936,Matthew Golden,WR,9,15,8.5,2.23925073
@@ -10941,18 +10941,18 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4428557,Tyjae Spears,RB,10,15,5.6,10.03959902
 4373626,Tyler Allgeier,RB,1,15,1.8,9.18184493
 5081397,Dylan Sampson,RB,5,15,0.0,0.0
--16012,Chiefs D/ST,D/ST,12,15,9.0,6.52289517
--16019,Giants D/ST,D/ST,19,15,5.0,4.437549
+-16012,Chiefs D/ST,16,12,15,9.0,6.52289517
+-16019,Giants D/ST,16,19,15,5.0,4.437549
 4433970,J.J. McCarthy,QB,16,15,23.5,15.6107842
 4685415,Travis Hunter,WR,30,15,0.0,0.0
 2468609,Taysom Hill,TE,18,15,0.2,3.66987491
 4242557,Colby Parkinson,TE,14,15,24.5,9.38455385
 4427728,Bam Knight,RB,22,15,-0.2,9.61892038
 2576925,Darren Waller,TE,15,15,25.6,6.96117443
--16025,49ers D/ST,D/ST,25,15,0.0,6.41236547
+-16025,49ers D/ST,16,25,15,0.0,6.41236547
 4696981,Cam Skattebo,RB,19,15,0.0,0.0
 4243331,Cade Otton,TE,27,15,0.0,0.0
--16006,Cowboys D/ST,D/ST,6,15,1.0,7.12942978
+-16006,Cowboys D/ST,16,6,15,1.0,7.12942978
 4595348,Malik Nabers,WR,19,15,0.0,0.0
 4429022,Kayshon Boutte,WR,17,15,4.0,9.00117391
 8439,Aaron Rodgers,QB,23,15,16.96,13.80237413
@@ -10965,12 +10965,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4572680,Tucker Kraft,TE,9,15,0.0,0.0
 4360234,Evan McPherson,K,4,15,0.0,8.24861799
 4241372,Hollywood Brown,WR,12,15,0.0,0.0
--16001,Falcons D/ST,D/ST,1,15,6.0,4.92923699
+-16001,Falcons D/ST,16,1,15,6.0,4.92923699
 4259147,Jake Tonges,TE,25,15,0.0,0.0
 3116406,Tyreek Hill,WR,0,15,0.0,0.0
 4241474,Brian Robinson Jr.,RB,25,15,2.1,6.22446391
 2985659,Wil Lutz,K,7,15,4.0,8.02930769
--16003,Bears D/ST,D/ST,3,15,18.0,6.65813315
+-16003,Bears D/ST,16,3,15,18.0,6.65813315
 4362887,Justin Fields,QB,20,15,0.0,0.0
 3045147,James Conner,RB,22,15,0.0,0.0
 4882093,Bhayshul Tuten,RB,30,15,9.3,6.61462534
@@ -10990,17 +10990,17 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4608810,Tez Johnson,WR,27,15,0.0,1.43741511
 4819231,Kaleb Johnson,RB,23,15,0.4,1.87821861
 3068267,Austin Ekeler,RB,28,15,0.0,0.0
--16015,Dolphins D/ST,D/ST,15,15,2.0,5.57761522
+-16015,Dolphins D/ST,16,15,15,2.0,5.57761522
 3123052,Michael Badgley,K,0,15,,0.0
--16028,Commanders D/ST,D/ST,28,15,8.0,3.23680654
+-16028,Commanders D/ST,16,28,15,8.0,3.23680654
 4432762,Shedeur Sanders,QB,5,15,3.48,13.11658078
 4567096,John Metchie III,WR,20,15,6.9,9.61647096
 4569603,Malik Washington,WR,15,15,2.0,8.68993372
--16013,Raiders D/ST,D/ST,13,15,-1.0,4.67611791
+-16013,Raiders D/ST,16,13,15,-1.0,4.67611791
 4695883,Jalen Coker,WR,29,15,14.0,7.66702841
 4682745,Jaylen Wright,RB,15,15,2.1,2.69926982
 3054212,Jonnu Smith,TE,23,15,10.6,5.38359133
--16010,Titans D/ST,D/ST,10,15,-2.0,3.18878886
+-16010,Titans D/ST,16,10,15,-2.0,3.18878886
 4249087,Matt Gay,K,0,15,,0.0
 4362478,Emari Demercado,RB,22,15,2.1,6.38030187
 4243389,Calvin Austin III,WR,23,15,0.0,4.5046413
@@ -11016,12 +11016,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 5529,Philip Rivers,QB,11,15,6.8,9.43264311
 4369863,Cedric Tillman,WR,5,15,0.0,6.56225277
 4038441,Justice Hill,RB,33,15,0.0,0.0
--16020,Jets D/ST,D/ST,20,15,-6.0,4.62260558
+-16020,Jets D/ST,16,20,15,-6.0,4.62260558
 4360635,Chig Okonkwo,TE,10,15,7.3,6.15901664
 10621,Nick Folk,K,20,15,11.0,7.07893605
 3116389,Samaje Perine,RB,4,15,5.3,5.4621161
 15864,Geno Smith,QB,13,15,0.0,0.0
--16022,Cardinals D/ST,D/ST,22,15,1.0,4.1031258
+-16022,Cardinals D/ST,16,22,15,1.0,4.1031258
 4711533,Ollie Gordon II,RB,15,15,0.0,2.03670268
 4688380,Cam Ward,QB,10,15,15.0,14.01556113
 4427095,DeMario Douglas,WR,17,15,0.5,6.42209373
@@ -11029,7 +11029,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685247,Braelon Allen,RB,20,15,0.0,0.0
 4368003,Andrei Iosivas,WR,4,15,0.0,9.07473283
 4361411,Pat Freiermuth,TE,23,15,7.5,5.33564299
--16029,Panthers D/ST,D/ST,29,15,5.0,5.19281583
+-16029,Panthers D/ST,16,29,15,5.0,5.19281583
 3124679,Jason Sanders,K,15,15,0.0,0.0
 4241457,Najee Harris,RB,24,15,0.0,0.0
 2991662,Mack Hollins,WR,17,15,8.1,7.45350971
@@ -11049,7 +11049,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4613202,Kyle Williams,WR,17,15,0.0,2.04301093
 4243371,Riley Patterson,K,15,15,5.0,7.83193289
 3930086,Dawson Knox,TE,2,15,18.7,3.77971468
--16004,Bengals D/ST,D/ST,4,15,6.0,3.65227989
+-16004,Bengals D/ST,16,4,15,6.0,3.65227989
 15795,DeAndre Hopkins,WR,33,15,4.2,6.07181326
 3127586,Jeremy McNichols,RB,28,15,1.2,9.88803773
 3149687,Chris Brooks,RB,9,15,2.6,2.4278994
@@ -11565,7 +11565,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4047646,A.J. Brown,WR,21,16,18.5,17.37307215
 4047365,Josh Jacobs,RB,9,16,4.8,18.94133765
 4596448,Bucky Irving,RB,27,16,7.1,15.16721954
--16007,Broncos D/ST,D/ST,7,16,4.0,6.89210434
+-16007,Broncos D/ST,16,7,16,4.0,6.89210434
 4239993,Tee Higgins,WR,4,16,14.3,13.90775145
 4431459,Tyler Warren,TE,11,16,6.0,11.59299896
 4426388,Jameson Williams,WR,8,16,12.0,15.90069418
@@ -11573,7 +11573,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429615,Zay Flowers,WR,33,16,21.2,13.79425233
 4239996,Travis Etienne Jr.,RB,30,16,16.6,13.88078814
 16800,Davante Adams,WR,14,16,0.0,0.0
--16034,Texans D/ST,D/ST,34,16,11.0,9.80590411
+-16034,Texans D/ST,16,34,16,11.0,9.80590411
 4259545,D'Andre Swift,RB,3,16,9.0,13.02476697
 4038815,Rico Dowdle,RB,29,16,8.3,15.19113196
 4612826,Ladd McConkey,WR,24,16,14.3,12.60072262
@@ -11600,7 +11600,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685382,Omarion Hampton,RB,24,16,16.5,13.2261913
 4035687,Michael Pittman Jr.,WR,11,16,7.2,12.56265931
 4567750,Emeka Egbuka,WR,27,16,5.0,10.96134495
--16026,Seahawks D/ST,D/ST,26,16,-4.0,5.59546895
+-16026,Seahawks D/ST,16,26,16,-4.0,5.59546895
 4362081,Cameron Dicker,K,24,16,10.0,8.82334325
 3126486,Deebo Samuel,WR,28,16,6.5,12.42636004
 3121023,Dallas Goedert,TE,21,16,12.2,11.943331
@@ -11612,7 +11612,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4432773,Brian Thomas Jr.,WR,30,16,3.8,11.75937858
 4038941,Justin Herbert,QB,24,16,30.2,18.61969279
 4432708,Marvin Harrison Jr.,WR,22,16,2.4,12.19743009
--16017,Patriots D/ST,D/ST,17,16,5.0,6.0493239
+-16017,Patriots D/ST,16,17,16,5.0,6.0493239
 4569587,Wan'Dale Robinson,WR,19,16,5.2,13.49596699
 3886598,Jauan Jennings,WR,25,16,18.1,12.88299258
 3916433,Jakobi Meyers,WR,30,16,8.6,12.64597313
@@ -11643,30 +11643,30 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4373678,Khalil Shakir,WR,2,16,7.4,9.57293683
 4429205,Jordan Addison,WR,16,16,4.6,10.51269588
 4360310,Trevor Lawrence,QB,30,16,31.16,16.59251003
--16008,Lions D/ST,D/ST,8,16,-1.0,5.40125515
+-16008,Lions D/ST,16,8,16,-1.0,5.40125515
 3150744,Chase McLaughlin,K,27,16,10.0,8.00263609
--16023,Steelers D/ST,D/ST,23,16,4.0,2.41800997
+-16023,Steelers D/ST,16,23,16,4.0,2.41800997
 4036378,Jordan Love,QB,9,16,3.78,17.30779449
 4685702,Quinshon Judkins,RB,5,16,10.1,15.45461128
 4248528,Christian Watson,WR,9,16,3.7,11.83087214
 3116165,Chris Godwin Jr.,WR,27,16,8.0,10.74792506
--16021,Eagles D/ST,D/ST,21,16,6.0,7.04429986
+-16021,Eagles D/ST,16,21,16,6.0,7.04429986
 4569618,Garrett Wilson,WR,20,16,0.0,0.0
 4385690,Dalton Kincaid,TE,2,16,0.0,8.16193599
--16030,Jaguars D/ST,D/ST,30,16,2.0,5.66086763
+-16030,Jaguars D/ST,16,30,16,2.0,5.66086763
 2578570,Jacoby Brissett,QB,22,16,10.62,18.74200722
 4608686,Kyle Monangai,RB,3,16,12.3,11.02423295
 4426385,Zach Charbonnet,RB,26,16,17.4,8.06833002
 4241416,Chuba Hubbard,RB,29,16,4.4,9.85111348
 4361432,Romeo Doubs,WR,9,16,19.4,9.57807719
--16014,Rams D/ST,D/ST,14,16,4.0,5.61432194
+-16014,Rams D/ST,16,14,16,4.0,5.61432194
 3929645,Juwan Johnson,TE,18,16,16.9,9.14079556
 4429025,Quentin Johnston,WR,24,16,20.4,9.10003965
 4036133,T.J. Hockenson,TE,16,16,1.2,8.73876699
 3117256,Dalton Schultz,TE,34,16,14.5,10.08785194
 3139477,Patrick Mahomes,QB,12,16,0.0,0.0
 4431280,Troy Franklin,WR,7,16,10.6,7.74240376
--16002,Bills D/ST,D/ST,2,16,9.0,7.22993086
+-16002,Bills D/ST,16,2,16,9.0,7.22993086
 4430027,Sam LaPorta,TE,8,16,0.0,0.0
 4697745,Tyler Loop,K,33,16,5.0,7.96902702
 4241463,Jerry Jeudy,WR,5,16,4.2,8.22811804
@@ -11689,17 +11689,17 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4574716,Harrison Mevis,K,14,16,13.0,8.15947362
 4430968,Kimani Vidal,RB,24,16,1.1,8.96121012
 17427,Cairo Santos,K,3,16,14.0,8.33756261
--16005,Browns D/ST,D/ST,5,16,4.0,4.29261844
+-16005,Browns D/ST,16,5,16,4.0,4.29261844
 3912547,Sam Darnold,QB,26,16,19.5,13.89258228
--16009,Packers D/ST,D/ST,9,16,-3.0,3.61504313
+-16009,Packers D/ST,16,9,16,-3.0,3.61504313
 4575131,Jacory Croskey-Merritt,RB,28,16,8.5,4.48820967
 4686361,Cam Little,K,30,16,11.0,8.14844094
 2977187,Cooper Kupp,WR,26,16,6.9,8.85469358
--16018,Saints D/ST,D/ST,18,16,19.0,8.22727143
+-16018,Saints D/ST,16,18,16,19.0,8.22727143
 4688813,Josh Downs,WR,11,16,11.8,8.89218402
--16016,Vikings D/ST,D/ST,16,16,13.0,6.25588301
+-16016,Vikings D/ST,16,16,16,13.0,6.25588301
 4569923,Andy Borregales,K,17,16,10.0,8.06827386
--16033,Ravens D/ST,D/ST,33,16,2.0,4.5865156
+-16033,Ravens D/ST,16,33,16,2.0,4.5865156
 4040655,Darnell Mooney,WR,1,16,4.4,6.285843
 3123076,David Njoku,TE,5,16,0.0,0.0
 4685278,Luther Burden III,WR,3,16,0.0,0.0
@@ -11709,10 +11709,10 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429096,Blake Corum,RB,14,16,13.1,6.3977728
 4576297,AJ Barner,TE,26,16,15.0,8.79442521
 4635008,Keon Coleman,WR,2,16,0.0,0.0
--16024,Chargers D/ST,D/ST,24,16,4.0,4.20242152
+-16024,Chargers D/ST,16,24,16,4.0,4.20242152
 4428718,Tre Tucker,WR,13,16,9.4,8.88308991
 3917792,Daniel Jones,QB,11,16,0.0,0.0
--16011,Colts D/ST,D/ST,11,16,-3.0,4.3279336
+-16011,Colts D/ST,16,11,16,-3.0,4.3279336
 3051876,Evan Engram,TE,7,16,5.6,6.7225742
 3128720,Nick Chubb,RB,34,16,5.2,9.63386048
 4887558,Emanuel Wilson,RB,9,16,8.2,4.10501114
@@ -11720,7 +11720,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 15835,Zach Ertz,TE,28,16,0.0,0.0
 4597500,Adonai Mitchell,WR,20,16,7.3,10.82629037
 4362619,Chris Rodriguez Jr.,RB,28,16,13.9,7.91958345
--16027,Buccaneers D/ST,D/ST,27,16,4.0,5.07316857
+-16027,Buccaneers D/ST,16,27,16,4.0,5.07316857
 4429275,Trey Benson,RB,22,16,0.0,0.0
 4430539,Brenton Strange,TE,30,16,14.9,8.15054853
 4701936,Matthew Golden,WR,9,16,0.4,3.62292031
@@ -11731,18 +11731,18 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4428557,Tyjae Spears,RB,10,16,21.5,8.68256662
 4373626,Tyler Allgeier,RB,1,16,8.3,8.22884046
 5081397,Dylan Sampson,RB,5,16,0.0,0.0
--16012,Chiefs D/ST,D/ST,12,16,1.0,6.47377031
--16019,Giants D/ST,D/ST,19,16,17.0,5.76586962
+-16012,Chiefs D/ST,16,12,16,1.0,6.47377031
+-16019,Giants D/ST,16,19,16,17.0,5.76586962
 4433970,J.J. McCarthy,QB,16,16,8.32,17.02819602
 4685415,Travis Hunter,WR,30,16,0.0,0.0
 2468609,Taysom Hill,TE,18,16,15.32,4.32879996
 4242557,Colby Parkinson,TE,14,16,4.1,9.56448305
 4427728,Bam Knight,RB,22,16,0.0,0.0
 2576925,Darren Waller,TE,15,16,7.0,9.35273396
--16025,49ers D/ST,D/ST,25,16,12.0,4.74080595
+-16025,49ers D/ST,16,25,16,12.0,4.74080595
 4696981,Cam Skattebo,RB,19,16,0.0,0.0
 4243331,Cade Otton,TE,27,16,3.5,5.49700328
--16006,Cowboys D/ST,D/ST,6,16,-6.0,4.61761435
+-16006,Cowboys D/ST,16,6,16,-6.0,4.61761435
 4595348,Malik Nabers,WR,19,16,0.0,0.0
 4429022,Kayshon Boutte,WR,17,16,2.6,7.88119845
 8439,Aaron Rodgers,QB,23,16,15.54,14.83567919
@@ -11755,12 +11755,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4572680,Tucker Kraft,TE,9,16,0.0,0.0
 4360234,Evan McPherson,K,4,16,10.0,7.94558988
 4241372,Hollywood Brown,WR,12,16,5.2,9.51110252
--16001,Falcons D/ST,D/ST,1,16,4.0,5.57442466
+-16001,Falcons D/ST,16,1,16,4.0,5.57442466
 4259147,Jake Tonges,TE,25,16,1.7,0.0
 3116406,Tyreek Hill,WR,0,16,0.0,0.0
 4241474,Brian Robinson Jr.,RB,25,16,2.0,4.48453363
 2985659,Wil Lutz,K,7,16,9.0,7.98220056
--16003,Bears D/ST,D/ST,3,16,4.0,2.78008683
+-16003,Bears D/ST,16,3,16,4.0,2.78008683
 4362887,Justin Fields,QB,20,16,0.0,0.0
 3045147,James Conner,RB,22,16,0.0,0.0
 4882093,Bhayshul Tuten,RB,30,16,0.0,0.0
@@ -11780,17 +11780,17 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4608810,Tez Johnson,WR,27,16,0.9,0.73645911
 4819231,Kaleb Johnson,RB,23,16,0.0,0.0
 3068267,Austin Ekeler,RB,28,16,0.0,0.0
--16015,Dolphins D/ST,D/ST,15,16,-4.0,6.23629125
+-16015,Dolphins D/ST,16,15,16,-4.0,6.23629125
 3123052,Michael Badgley,K,0,16,6.0,8.29948686
--16028,Commanders D/ST,D/ST,28,16,2.0,2.90494307
+-16028,Commanders D/ST,16,28,16,2.0,2.90494307
 4432762,Shedeur Sanders,QB,5,16,11.18,12.97442914
 4567096,John Metchie III,WR,20,16,1.4,9.02958986
 4569603,Malik Washington,WR,15,16,10.2,7.41362495
--16013,Raiders D/ST,D/ST,13,16,3.0,3.6949753
+-16013,Raiders D/ST,16,13,16,3.0,3.6949753
 4695883,Jalen Coker,WR,29,16,7.7,10.19423875
 4682745,Jaylen Wright,RB,15,16,12.3,3.1510198
 3054212,Jonnu Smith,TE,23,16,2.8,6.00786606
--16010,Titans D/ST,D/ST,10,16,12.0,5.43967588
+-16010,Titans D/ST,16,10,16,12.0,5.43967588
 4249087,Matt Gay,K,0,16,,0.0
 4362478,Emari Demercado,RB,22,16,3.0,9.53547656
 4243389,Calvin Austin III,WR,23,16,1.8,2.70828669
@@ -11806,12 +11806,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 5529,Philip Rivers,QB,11,16,17.08,12.96930582
 4369863,Cedric Tillman,WR,5,16,1.8,6.02679862
 4038441,Justice Hill,RB,33,16,0.0,0.0
--16020,Jets D/ST,D/ST,20,16,1.0,5.17473015
+-16020,Jets D/ST,16,20,16,1.0,5.17473015
 4360635,Chig Okonkwo,TE,10,16,16.4,6.75043738
 10621,Nick Folk,K,20,16,6.0,7.5376917
 3116389,Samaje Perine,RB,4,16,12.1,6.4547247
 15864,Geno Smith,QB,13,16,14.04,10.099829
--16022,Cardinals D/ST,D/ST,22,16,7.0,3.4101906
+-16022,Cardinals D/ST,16,22,16,7.0,3.4101906
 4711533,Ollie Gordon II,RB,15,16,-0.1,3.4350324
 4688380,Cam Ward,QB,10,16,18.02,13.37953159
 4427095,DeMario Douglas,WR,17,16,1.6,5.37914558
@@ -11819,7 +11819,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685247,Braelon Allen,RB,20,16,0.0,0.0
 4368003,Andrei Iosivas,WR,4,16,3.1,4.62770753
 4361411,Pat Freiermuth,TE,23,16,6.0,6.31217028
--16029,Panthers D/ST,D/ST,29,16,6.0,4.67874024
+-16029,Panthers D/ST,16,29,16,6.0,4.67874024
 3124679,Jason Sanders,K,15,16,0.0,0.0
 4241457,Najee Harris,RB,24,16,0.0,0.0
 2991662,Mack Hollins,WR,17,16,13.9,8.77176687
@@ -11839,7 +11839,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4613202,Kyle Williams,WR,17,16,12.6,1.87760779
 4243371,Riley Patterson,K,15,16,3.0,8.00991894
 3930086,Dawson Knox,TE,2,16,2.0,6.28120978
--16004,Bengals D/ST,D/ST,4,16,5.0,4.63422117
+-16004,Bengals D/ST,16,4,16,5.0,4.63422117
 15795,DeAndre Hopkins,WR,33,16,8.1,3.10233719
 3127586,Jeremy McNichols,RB,28,16,5.2,4.62391703
 3149687,Chris Brooks,RB,9,16,0.4,3.06278064
@@ -12359,7 +12359,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4047646,A.J. Brown,WR,21,17,11.8,15.68486412
 4047365,Josh Jacobs,RB,9,17,1.3,14.65679684
 4596448,Bucky Irving,RB,27,17,8.3,14.70235553
--16007,Broncos D/ST,D/ST,7,17,7.0,8.93003731
+-16007,Broncos D/ST,16,7,17,7.0,8.93003731
 4239993,Tee Higgins,WR,4,17,9.9,14.15518436
 4431459,Tyler Warren,TE,11,17,9.3,12.11506869
 4426388,Jameson Williams,WR,8,17,5.7,13.42782301
@@ -12367,7 +12367,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429615,Zay Flowers,WR,33,17,13.0,11.9153736
 4239996,Travis Etienne Jr.,RB,30,17,11.2,15.75820865
 16800,Davante Adams,WR,14,17,0.0,0.0
--16034,Texans D/ST,D/ST,34,17,10.0,6.8135342
+-16034,Texans D/ST,16,34,17,10.0,6.8135342
 4259545,D'Andre Swift,RB,3,17,21.9,13.9118814
 4038815,Rico Dowdle,RB,29,17,9.3,12.86223565
 4612826,Ladd McConkey,WR,24,17,4.1,10.55357595
@@ -12394,7 +12394,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685382,Omarion Hampton,RB,24,17,20.0,14.91172812
 4035687,Michael Pittman Jr.,WR,11,17,3.6,11.5264821
 4567750,Emeka Egbuka,WR,27,17,5.0,5.53126835
--16026,Seahawks D/ST,D/ST,26,17,12.0,6.6621653
+-16026,Seahawks D/ST,16,26,17,12.0,6.6621653
 4362081,Cameron Dicker,K,24,17,3.0,8.34339995
 3126486,Deebo Samuel,WR,28,17,11.3,11.96150194
 3121023,Dallas Goedert,TE,21,17,9.8,10.09624375
@@ -12406,7 +12406,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4432773,Brian Thomas Jr.,WR,30,17,7.9,11.45156046
 4038941,Justin Herbert,QB,24,17,15.14,14.93174152
 4432708,Marvin Harrison Jr.,WR,22,17,0.0,11.5103177
--16017,Patriots D/ST,D/ST,17,17,6.0,8.38029327
+-16017,Patriots D/ST,16,17,17,6.0,8.38029327
 4569587,Wan'Dale Robinson,WR,19,17,22.3,12.53732145
 3886598,Jauan Jennings,WR,25,17,12.2,13.64342409
 3916433,Jakobi Meyers,WR,30,17,7.9,13.64797444
@@ -12437,30 +12437,30 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4373678,Khalil Shakir,WR,2,17,9.5,9.32414749
 4429205,Jordan Addison,WR,16,17,12.5,9.1067015
 4360310,Trevor Lawrence,QB,30,17,23.12,19.43498812
--16008,Lions D/ST,D/ST,8,17,10.0,8.34799919
+-16008,Lions D/ST,16,8,17,10.0,8.34799919
 3150744,Chase McLaughlin,K,27,17,4.0,7.98592201
--16023,Steelers D/ST,D/ST,23,17,11.0,7.20123959
+-16023,Steelers D/ST,16,23,17,11.0,7.20123959
 4036378,Jordan Love,QB,9,17,0.0,0.0
 4685702,Quinshon Judkins,RB,5,17,0.0,0.0
 4248528,Christian Watson,WR,9,17,22.3,11.03050743
 3116165,Chris Godwin Jr.,WR,27,17,23.8,10.52875813
--16021,Eagles D/ST,D/ST,21,17,12.0,4.63253626
+-16021,Eagles D/ST,16,21,17,12.0,4.63253626
 4569618,Garrett Wilson,WR,20,17,0.0,0.0
 4385690,Dalton Kincaid,TE,2,17,0.0,0.0
--16030,Jaguars D/ST,D/ST,30,17,9.0,6.63009076
+-16030,Jaguars D/ST,16,30,17,9.0,6.63009076
 2578570,Jacoby Brissett,QB,22,17,16.48,20.2631993
 4608686,Kyle Monangai,RB,3,17,7.7,10.28415087
 4426385,Zach Charbonnet,RB,26,17,26.2,9.87664988
 4241416,Chuba Hubbard,RB,29,17,2.8,7.49656345
 4361432,Romeo Doubs,WR,9,17,9.2,9.50033127
--16014,Rams D/ST,D/ST,14,17,8.0,5.25426033
+-16014,Rams D/ST,16,14,17,8.0,5.25426033
 3929645,Juwan Johnson,TE,18,17,13.5,10.12039522
 4429025,Quentin Johnston,WR,24,17,14.8,8.28486894
 4036133,T.J. Hockenson,TE,16,17,0.0,0.0
 3117256,Dalton Schultz,TE,34,17,4.9,9.74708355
 3139477,Patrick Mahomes,QB,12,17,0.0,0.0
 4431280,Troy Franklin,WR,7,17,5.7,10.55994015
--16002,Bills D/ST,D/ST,2,17,7.0,4.65464132
+-16002,Bills D/ST,16,2,17,7.0,4.65464132
 4430027,Sam LaPorta,TE,8,17,0.0,0.0
 4697745,Tyler Loop,K,33,17,11.0,7.6576122
 4241463,Jerry Jeudy,WR,5,17,10.4,7.19812862
@@ -12483,17 +12483,17 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4574716,Harrison Mevis,K,14,17,6.0,8.99471873
 4430968,Kimani Vidal,RB,24,17,0.0,0.0
 17427,Cairo Santos,K,3,17,8.0,8.41815431
--16005,Browns D/ST,D/ST,5,17,8.0,5.24179834
+-16005,Browns D/ST,16,5,17,8.0,5.24179834
 3912547,Sam Darnold,QB,26,17,6.08,15.97640039
--16009,Packers D/ST,D/ST,9,17,-5.0,6.30844347
+-16009,Packers D/ST,16,9,17,-5.0,6.30844347
 4575131,Jacory Croskey-Merritt,RB,28,17,22.5,11.05693826
 4686361,Cam Little,K,30,17,14.0,8.6370793
 2977187,Cooper Kupp,WR,26,17,1.6,9.46951452
--16018,Saints D/ST,D/ST,18,17,12.0,6.23475403
+-16018,Saints D/ST,16,18,17,12.0,6.23475403
 4688813,Josh Downs,WR,11,17,5.4,9.49737211
--16016,Vikings D/ST,D/ST,16,17,22.0,3.36586662
+-16016,Vikings D/ST,16,16,17,22.0,3.36586662
 4569923,Andy Borregales,K,17,17,5.0,8.6963253
--16033,Ravens D/ST,D/ST,33,17,5.0,5.22725087
+-16033,Ravens D/ST,16,33,17,5.0,5.22725087
 4040655,Darnell Mooney,WR,1,17,5.5,5.9046559
 3123076,David Njoku,TE,5,17,0.0,0.0
 4685278,Luther Burden III,WR,3,17,27.8,11.97003303
@@ -12503,10 +12503,10 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429096,Blake Corum,RB,14,17,1.8,9.81558845
 4576297,AJ Barner,TE,26,17,13.3,10.53317467
 4635008,Keon Coleman,WR,2,17,0.0,0.0
--16024,Chargers D/ST,D/ST,24,17,3.0,6.08416821
+-16024,Chargers D/ST,16,24,17,3.0,6.08416821
 4428718,Tre Tucker,WR,13,17,9.9,10.80860066
 3917792,Daniel Jones,QB,11,17,0.0,0.0
--16011,Colts D/ST,D/ST,11,17,5.0,4.5025577
+-16011,Colts D/ST,16,11,17,5.0,4.5025577
 3051876,Evan Engram,TE,7,17,6.1,6.4550469
 3128720,Nick Chubb,RB,34,17,0.1,2.89305512
 4887558,Emanuel Wilson,RB,9,17,3.4,4.0149991
@@ -12514,7 +12514,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 15835,Zach Ertz,TE,28,17,0.0,0.0
 4597500,Adonai Mitchell,WR,20,17,5.2,10.08144422
 4362619,Chris Rodriguez Jr.,RB,28,17,0.0,0.0
--16027,Buccaneers D/ST,D/ST,27,17,4.0,5.50808302
+-16027,Buccaneers D/ST,16,27,17,4.0,5.50808302
 4429275,Trey Benson,RB,22,17,0.0,0.0
 4430539,Brenton Strange,TE,30,17,8.4,8.77155542
 4701936,Matthew Golden,WR,9,17,2.2,2.7519768
@@ -12525,18 +12525,18 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4428557,Tyjae Spears,RB,10,17,1.1,9.87964639
 4373626,Tyler Allgeier,RB,1,17,2.3,6.91004672
 5081397,Dylan Sampson,RB,5,17,5.7,10.59668164
--16012,Chiefs D/ST,D/ST,12,17,3.0,3.51337166
--16019,Giants D/ST,D/ST,19,17,19.0,7.63320527
+-16012,Chiefs D/ST,16,12,17,3.0,3.51337166
+-16019,Giants D/ST,16,19,17,19.0,7.63320527
 4433970,J.J. McCarthy,QB,16,17,0.0,0.0
 4685415,Travis Hunter,WR,30,17,0.0,0.0
 2468609,Taysom Hill,TE,18,17,0.0,10.37697736
 4242557,Colby Parkinson,TE,14,17,11.3,9.44500746
 4427728,Bam Knight,RB,22,17,0.0,0.0
 2576925,Darren Waller,TE,15,17,1.0,8.97694353
--16025,49ers D/ST,D/ST,25,17,-4.0,2.75678459
+-16025,49ers D/ST,16,25,17,-4.0,2.75678459
 4696981,Cam Skattebo,RB,19,17,0.0,0.0
 4243331,Cade Otton,TE,27,17,7.3,4.6793295
--16006,Cowboys D/ST,D/ST,6,17,2.0,5.92448341
+-16006,Cowboys D/ST,16,6,17,2.0,5.92448341
 4595348,Malik Nabers,WR,19,17,0.0,0.0
 4429022,Kayshon Boutte,WR,17,17,0.0,0.0
 8439,Aaron Rodgers,QB,23,17,7.32,12.68222881
@@ -12549,12 +12549,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4572680,Tucker Kraft,TE,9,17,0.0,0.0
 4360234,Evan McPherson,K,4,17,9.0,8.39253215
 4241372,Hollywood Brown,WR,12,17,1.7,7.08884596
--16001,Falcons D/ST,D/ST,1,17,14.0,2.25688512
+-16001,Falcons D/ST,16,1,17,14.0,2.25688512
 4259147,Jake Tonges,TE,25,17,19.0,10.80823091
 3116406,Tyreek Hill,WR,0,17,0.0,0.0
 4241474,Brian Robinson Jr.,RB,25,17,3.8,5.31268139
 2985659,Wil Lutz,K,7,17,8.0,7.84976132
--16003,Bears D/ST,D/ST,3,17,1.0,3.71759054
+-16003,Bears D/ST,16,3,17,1.0,3.71759054
 4362887,Justin Fields,QB,20,17,0.0,0.0
 3045147,James Conner,RB,22,17,0.0,0.0
 4882093,Bhayshul Tuten,RB,30,17,0.0,0.0
@@ -12574,17 +12574,17 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4608810,Tez Johnson,WR,27,17,3.9,1.1096187
 4819231,Kaleb Johnson,RB,23,17,0.0,0.0
 3068267,Austin Ekeler,RB,28,17,0.0,0.0
--16015,Dolphins D/ST,D/ST,15,17,11.0,5.00008575
+-16015,Dolphins D/ST,16,15,17,11.0,5.00008575
 3123052,Michael Badgley,K,0,17,0.0,8.13843032
--16028,Commanders D/ST,D/ST,28,17,0.0,2.42464846
+-16028,Commanders D/ST,16,28,17,0.0,2.42464846
 4432762,Shedeur Sanders,QB,5,17,9.44,12.14059536
 4567096,John Metchie III,WR,20,17,7.1,7.65509627
 4569603,Malik Washington,WR,15,17,1.5,5.95357228
--16013,Raiders D/ST,D/ST,13,17,1.0,4.57332631
+-16013,Raiders D/ST,16,13,17,1.0,4.57332631
 4695883,Jalen Coker,WR,29,17,3.6,8.72624778
 4682745,Jaylen Wright,RB,15,17,5.6,5.26454697
 3054212,Jonnu Smith,TE,23,17,7.7,5.16212317
--16010,Titans D/ST,D/ST,10,17,0.0,5.23186097
+-16010,Titans D/ST,16,10,17,0.0,5.23186097
 4249087,Matt Gay,K,0,17,,0.0
 4362478,Emari Demercado,RB,22,17,4.0,7.09358861
 4243389,Calvin Austin III,WR,23,17,0.0,0.0
@@ -12600,12 +12600,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 5529,Philip Rivers,QB,11,17,7.78,11.35275056
 4369863,Cedric Tillman,WR,5,17,5.2,3.86397446
 4038441,Justice Hill,RB,33,17,0.0,0.0
--16020,Jets D/ST,D/ST,20,17,-5.0,3.39397572
+-16020,Jets D/ST,16,20,17,-5.0,3.39397572
 4360635,Chig Okonkwo,TE,10,17,14.5,7.66882919
 10621,Nick Folk,K,20,17,4.0,7.4089917
 3116389,Samaje Perine,RB,4,17,8.3,7.97677639
 15864,Geno Smith,QB,13,17,7.14,13.95591172
--16022,Cardinals D/ST,D/ST,22,17,-3.0,3.99897668
+-16022,Cardinals D/ST,16,22,17,-3.0,3.99897668
 4711533,Ollie Gordon II,RB,15,17,0.0,1.38878398
 4688380,Cam Ward,QB,10,17,17.04,12.94317387
 4427095,DeMario Douglas,WR,17,17,2.0,9.21521198
@@ -12613,7 +12613,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685247,Braelon Allen,RB,20,17,0.0,0.0
 4368003,Andrei Iosivas,WR,4,17,8.1,3.762227
 4361411,Pat Freiermuth,TE,23,17,9.3,5.62053984
--16029,Panthers D/ST,D/ST,29,17,9.0,3.23259062
+-16029,Panthers D/ST,16,29,17,9.0,3.23259062
 3124679,Jason Sanders,K,15,17,0.0,0.0
 4241457,Najee Harris,RB,24,17,0.0,0.0
 2991662,Mack Hollins,WR,17,17,0.0,0.0
@@ -12633,7 +12633,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4613202,Kyle Williams,WR,17,17,5.0,9.59036354
 4243371,Riley Patterson,K,15,17,8.0,7.94541682
 3930086,Dawson Knox,TE,2,17,8.0,7.38719806
--16004,Bengals D/ST,D/ST,4,17,7.0,4.04511303
+-16004,Bengals D/ST,16,4,17,7.0,4.04511303
 15795,DeAndre Hopkins,WR,33,17,0.0,3.79108739
 3127586,Jeremy McNichols,RB,28,17,4.0,9.63154534
 3149687,Chris Brooks,RB,9,17,2.1,2.07156095
@@ -13165,7 +13165,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4047646,A.J. Brown,WR,21,18,0.0,3.29382183
 4047365,Josh Jacobs,RB,9,18,0.0,0.0
 4596448,Bucky Irving,RB,27,18,10.8,14.40316462
--16007,Broncos D/ST,D/ST,7,18,20.0,7.50188534
+-16007,Broncos D/ST,16,7,18,20.0,7.50188534
 4239993,Tee Higgins,WR,4,18,18.7,11.54813043
 4431459,Tyler Warren,TE,11,18,7.6,9.49648809
 4426388,Jameson Williams,WR,8,18,13.4,13.56216748
@@ -13173,7 +13173,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429615,Zay Flowers,WR,33,18,29.8,13.45630707
 4239996,Travis Etienne Jr.,RB,30,18,4.8,17.01399564
 16800,Davante Adams,WR,14,18,0.0,16.56679529
--16034,Texans D/ST,D/ST,34,18,11.0,8.01708502
+-16034,Texans D/ST,16,34,18,11.0,8.01708502
 4259545,D'Andre Swift,RB,3,18,5.8,14.8898278
 4038815,Rico Dowdle,RB,29,18,3.0,15.63560182
 4612826,Ladd McConkey,WR,24,18,0.0,7.08485189
@@ -13200,7 +13200,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685382,Omarion Hampton,RB,24,18,0.0,0.0
 4035687,Michael Pittman Jr.,WR,11,18,3.1,9.0135529
 4567750,Emeka Egbuka,WR,27,18,1.8,5.62353399
--16026,Seahawks D/ST,D/ST,26,18,12.0,4.79733318
+-16026,Seahawks D/ST,16,26,18,12.0,4.79733318
 4362081,Cameron Dicker,K,24,18,3.0,7.67058614
 3126486,Deebo Samuel,WR,28,18,4.1,10.98639109
 3121023,Dallas Goedert,TE,21,18,0.0,0.0
@@ -13212,7 +13212,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4432773,Brian Thomas Jr.,WR,30,18,7.9,11.4504517
 4038941,Justin Herbert,QB,24,18,0.0,0.0
 4432708,Marvin Harrison Jr.,WR,22,18,0.0,0.0
--16017,Patriots D/ST,D/ST,17,18,14.0,6.39358161
+-16017,Patriots D/ST,16,17,18,14.0,6.39358161
 4569587,Wan'Dale Robinson,WR,19,18,0.0,0.0
 3886598,Jauan Jennings,WR,25,18,7.5,11.21896901
 3916433,Jakobi Meyers,WR,30,18,9.4,14.00409291
@@ -13243,30 +13243,30 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4373678,Khalil Shakir,WR,2,18,0.0,9.99437103
 4429205,Jordan Addison,WR,16,18,1.8,8.8766469
 4360310,Trevor Lawrence,QB,30,18,23.3,21.49267935
--16008,Lions D/ST,D/ST,8,18,6.0,3.03759178
+-16008,Lions D/ST,16,8,18,6.0,3.03759178
 3150744,Chase McLaughlin,K,27,18,10.0,8.08852253
--16023,Steelers D/ST,D/ST,23,18,4.0,5.50475051
+-16023,Steelers D/ST,16,23,18,4.0,5.50475051
 4036378,Jordan Love,QB,9,18,0.0,0.0
 4685702,Quinshon Judkins,RB,5,18,0.0,0.0
 4248528,Christian Watson,WR,9,18,0.0,4.25286697
 3116165,Chris Godwin Jr.,WR,27,18,1.8,11.10636099
--16021,Eagles D/ST,D/ST,21,18,6.0,6.68919224
+-16021,Eagles D/ST,16,21,18,6.0,6.68919224
 4569618,Garrett Wilson,WR,20,18,0.0,0.0
 4385690,Dalton Kincaid,TE,2,18,7.8,7.16490748
--16030,Jaguars D/ST,D/ST,30,18,15.0,6.84489594
+-16030,Jaguars D/ST,16,30,18,15.0,6.84489594
 2578570,Jacoby Brissett,QB,22,18,15.62,16.5854756
 4608686,Kyle Monangai,RB,3,18,5.9,11.32514046
 4426385,Zach Charbonnet,RB,26,18,18.7,11.08380734
 4241416,Chuba Hubbard,RB,29,18,3.7,8.63229766
 4361432,Romeo Doubs,WR,9,18,0.0,3.88660625
--16014,Rams D/ST,D/ST,14,18,10.0,6.1109238
+-16014,Rams D/ST,16,14,18,10.0,6.1109238
 3929645,Juwan Johnson,TE,18,18,7.1,10.68923437
 4429025,Quentin Johnston,WR,24,18,0.0,6.45219666
 4036133,T.J. Hockenson,TE,16,18,0.0,0.0
 3117256,Dalton Schultz,TE,34,18,11.3,8.46728918
 3139477,Patrick Mahomes,QB,12,18,0.0,0.0
 4431280,Troy Franklin,WR,7,18,0.0,6.34468271
--16002,Bills D/ST,D/ST,2,18,7.0,7.16721258
+-16002,Bills D/ST,16,2,18,7.0,7.16721258
 4430027,Sam LaPorta,TE,8,18,0.0,0.0
 4697745,Tyler Loop,K,33,18,6.0,7.93835009
 4241463,Jerry Jeudy,WR,5,18,4.2,9.85429126
@@ -13289,17 +13289,17 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4574716,Harrison Mevis,K,14,18,15.0,9.25309242
 4430968,Kimani Vidal,RB,24,18,2.0,9.80333153
 17427,Cairo Santos,K,3,18,0.0,8.74121228
--16005,Browns D/ST,D/ST,5,18,19.0,5.24958224
+-16005,Browns D/ST,16,5,18,19.0,5.24958224
 3912547,Sam Darnold,QB,26,18,8.82,15.67751858
--16009,Packers D/ST,D/ST,9,18,4.0,6.47230351
+-16009,Packers D/ST,16,9,18,4.0,6.47230351
 4575131,Jacory Croskey-Merritt,RB,28,18,2.9,4.94476546
 4686361,Cam Little,K,30,18,16.0,8.88129474
 2977187,Cooper Kupp,WR,26,18,4.9,9.64570091
--16018,Saints D/ST,D/ST,18,18,8.0,4.73780563
+-16018,Saints D/ST,16,18,18,8.0,4.73780563
 4688813,Josh Downs,WR,11,18,9.6,6.61694956
--16016,Vikings D/ST,D/ST,16,18,11.0,7.29335521
+-16016,Vikings D/ST,16,16,18,11.0,7.29335521
 4569923,Andy Borregales,K,17,18,9.0,8.68863583
--16033,Ravens D/ST,D/ST,33,18,3.0,4.95147232
+-16033,Ravens D/ST,16,33,18,3.0,4.95147232
 4040655,Darnell Mooney,WR,1,18,5.0,5.7922637
 3123076,David Njoku,TE,5,18,0.0,0.0
 4685278,Luther Burden III,WR,3,18,7.5,13.17453141
@@ -13309,10 +13309,10 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4429096,Blake Corum,RB,14,18,7.9,0.0
 4576297,AJ Barner,TE,26,18,3.4,9.64507437
 4635008,Keon Coleman,WR,2,18,8.9,0.0
--16024,Chargers D/ST,D/ST,24,18,9.0,4.26126504
+-16024,Chargers D/ST,16,24,18,9.0,4.26126504
 4428718,Tre Tucker,WR,13,18,5.4,10.53112175
 3917792,Daniel Jones,QB,11,18,0.0,0.0
--16011,Colts D/ST,D/ST,11,18,-1.0,4.91023677
+-16011,Colts D/ST,16,11,18,-1.0,4.91023677
 3051876,Evan Engram,TE,7,18,7.5,5.46216744
 3128720,Nick Chubb,RB,34,18,0.0,0.0
 4887558,Emanuel Wilson,RB,9,18,5.8,7.38622791
@@ -13320,7 +13320,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 15835,Zach Ertz,TE,28,18,0.0,0.0
 4597500,Adonai Mitchell,WR,20,18,0.0,10.72206337
 4362619,Chris Rodriguez Jr.,RB,28,18,15.3,10.44476847
--16027,Buccaneers D/ST,D/ST,27,18,9.0,5.26915737
+-16027,Buccaneers D/ST,16,27,18,9.0,5.26915737
 4429275,Trey Benson,RB,22,18,0.0,0.0
 4430539,Brenton Strange,TE,30,18,17.2,9.27235879
 4701936,Matthew Golden,WR,9,18,1.8,5.4234081
@@ -13331,18 +13331,18 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4428557,Tyjae Spears,RB,10,18,9.7,8.51264388
 4373626,Tyler Allgeier,RB,1,18,2.9,7.22562658
 5081397,Dylan Sampson,RB,5,18,6.4,12.78009468
--16012,Chiefs D/ST,D/ST,12,18,12.0,6.18524395
--16019,Giants D/ST,D/ST,19,18,7.0,3.45746362
+-16012,Chiefs D/ST,16,12,18,12.0,6.18524395
+-16019,Giants D/ST,16,19,18,7.0,3.45746362
 4433970,J.J. McCarthy,QB,16,18,7.98,14.35965951
 4685415,Travis Hunter,WR,30,18,0.0,0.0
 2468609,Taysom Hill,TE,18,18,6.2,6.10078067
 4242557,Colby Parkinson,TE,14,18,19.6,6.00847682
 4427728,Bam Knight,RB,22,18,0.0,0.0
 2576925,Darren Waller,TE,15,18,0.0,0.0
--16025,49ers D/ST,D/ST,25,18,4.0,3.88522083
+-16025,49ers D/ST,16,25,18,4.0,3.88522083
 4696981,Cam Skattebo,RB,19,18,0.0,0.0
 4243331,Cade Otton,TE,27,18,22.4,4.25849578
--16006,Cowboys D/ST,D/ST,6,18,4.0,3.99473393
+-16006,Cowboys D/ST,16,6,18,4.0,3.99473393
 4595348,Malik Nabers,WR,19,18,0.0,0.0
 4429022,Kayshon Boutte,WR,17,18,4.4,8.03066439
 8439,Aaron Rodgers,QB,23,18,17.76,13.88469062
@@ -13355,12 +13355,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4572680,Tucker Kraft,TE,9,18,0.0,0.0
 4360234,Evan McPherson,K,4,18,0.0,8.16872145
 4241372,Hollywood Brown,WR,12,18,9.4,7.82434192
--16001,Falcons D/ST,D/ST,1,18,11.0,5.37656291
+-16001,Falcons D/ST,16,1,18,11.0,5.37656291
 4259147,Jake Tonges,TE,25,18,0.0,0.53743641
 3116406,Tyreek Hill,WR,0,18,0.0,0.0
 4241474,Brian Robinson Jr.,RB,25,18,0.9,4.11780785
 2985659,Wil Lutz,K,7,18,14.0,8.09333881
--16003,Bears D/ST,D/ST,3,18,2.0,3.33866865
+-16003,Bears D/ST,16,3,18,2.0,3.33866865
 4362887,Justin Fields,QB,20,18,0.0,0.0
 3045147,James Conner,RB,22,18,0.0,0.0
 4882093,Bhayshul Tuten,RB,30,18,8.3,3.05115014
@@ -13380,17 +13380,17 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4608810,Tez Johnson,WR,27,18,3.2,1.6328171
 4819231,Kaleb Johnson,RB,23,18,0.0,0.0
 3068267,Austin Ekeler,RB,28,18,0.0,0.0
--16015,Dolphins D/ST,D/ST,15,18,-6.0,3.57117248
+-16015,Dolphins D/ST,16,15,18,-6.0,3.57117248
 3123052,Michael Badgley,K,0,18,,0.0
--16028,Commanders D/ST,D/ST,28,18,6.0,3.63822273
+-16028,Commanders D/ST,16,28,18,6.0,3.63822273
 4432762,Shedeur Sanders,QB,5,18,5.04,14.25001742
 4567096,John Metchie III,WR,20,18,5.0,7.35626651
 4569603,Malik Washington,WR,15,18,11.8,9.27106756
--16013,Raiders D/ST,D/ST,13,18,20.0,6.77755027
+-16013,Raiders D/ST,16,13,18,20.0,6.77755027
 4695883,Jalen Coker,WR,29,18,16.7,8.43332329
 4682745,Jaylen Wright,RB,15,18,4.0,11.93675728
 3054212,Jonnu Smith,TE,23,18,1.4,7.72827647
--16010,Titans D/ST,D/ST,10,18,-1.0,3.64193424
+-16010,Titans D/ST,16,10,18,-1.0,3.64193424
 4249087,Matt Gay,K,0,18,,0.0
 4362478,Emari Demercado,RB,22,18,6.7,8.73243983
 4243389,Calvin Austin III,WR,23,18,14.5,4.67561644
@@ -13406,12 +13406,12 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 5529,Philip Rivers,QB,11,18,0.0,0.0
 4369863,Cedric Tillman,WR,5,18,3.3,7.63501109
 4038441,Justice Hill,RB,33,18,0.0,0.0
--16020,Jets D/ST,D/ST,20,18,-8.0,3.08368991
+-16020,Jets D/ST,16,20,18,-8.0,3.08368991
 4360635,Chig Okonkwo,TE,10,18,2.2,9.57544254
 10621,Nick Folk,K,20,18,0.0,7.3272437
 3116389,Samaje Perine,RB,4,18,8.2,6.04335801
 15864,Geno Smith,QB,13,18,0.0,0.0
--16022,Cardinals D/ST,D/ST,22,18,-3.0,2.20964027
+-16022,Cardinals D/ST,16,22,18,-3.0,2.20964027
 4711533,Ollie Gordon II,RB,15,18,2.1,10.34275995
 4688380,Cam Ward,QB,10,18,9.18,12.08145329
 4427095,DeMario Douglas,WR,17,18,4.9,5.72411219
@@ -13419,7 +13419,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4685247,Braelon Allen,RB,20,18,0.0,0.0
 4368003,Andrei Iosivas,WR,4,18,3.0,4.7341108
 4361411,Pat Freiermuth,TE,23,18,8.1,8.28723046
--16029,Panthers D/ST,D/ST,29,18,7.0,4.29864406
+-16029,Panthers D/ST,16,29,18,7.0,4.29864406
 3124679,Jason Sanders,K,15,18,0.0,0.0
 4241457,Najee Harris,RB,24,18,0.0,0.0
 2991662,Mack Hollins,WR,17,18,0.0,0.0
@@ -13439,7 +13439,7 @@ player_id,player,position,pro_team_id,week,fantasy_points,projected_points
 4613202,Kyle Williams,WR,17,18,0.5,7.19509224
 4243371,Riley Patterson,K,15,18,6.0,7.65517549
 3930086,Dawson Knox,TE,2,18,10.4,6.42219853
--16004,Bengals D/ST,D/ST,4,18,13.0,5.29196842
+-16004,Bengals D/ST,16,4,18,13.0,5.29196842
 15795,DeAndre Hopkins,WR,33,18,0.0,5.25939485
 3127586,Jeremy McNichols,RB,28,18,2.1,4.33314495
 3149687,Chris Brooks,RB,9,18,6.1,7.97881413

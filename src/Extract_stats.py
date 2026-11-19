@@ -27,7 +27,7 @@ SEASONS = [2024, 2025, 2026]
 POSITIONS = {1: "QB", 2: "RB", 3: "WR", 4: "TE", 5: "K"}  # D/ST has no player gamelog
 MAX_WORKERS = 8  # concurrent gamelog requests
 LAST_REG_SEASON_WEEK = 18
-DATA_DIR = Path("data")
+DATA_DIR = Path("../data")
 
 # --- upcoming-week settings -------------------------------------------------------------
 # The next week is detected per season as (latest week with played games) + 1, so a finished

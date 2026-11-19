@@ -21,7 +21,7 @@ from pathlib import Path
 # Default seasons to extract when none are given on the command line
 SEASONS = [2024, 2025, 2026]
 WEEKS = range(1, 19)  # full regular season; later weeks are trimmed below if not yet reached
-DATA_DIR = Path("data")
+DATA_DIR = Path("../data")
 
 # ESPN's default-league endpoint (no league ID or login needed)
 URL = (

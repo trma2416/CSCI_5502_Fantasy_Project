@@ -2,6 +2,13 @@ import numpy as np
 import pandas as pd
 from pathlib import Path
 import nflreadpy as nfl
+import Extract_fantasy_points
+import Extract_stats
+import subprocess
+import sys
+import argparse
+# Season defaults
+SEASONS = [2024, 2025, 2026]
 
 def clean_data(seasons, data_dir=None, write=True):
     """Clean and feature-build one or more seasons. Returns {season: final DataFrame}.
@@ -183,14 +190,59 @@ def clean_data(seasons, data_dir=None, write=True):
         df["team_rush_rank"] = ranks["team_rush_rank"].reindex(row_keys).to_numpy()
 
         # ---------------- save ----------------
-        if write:
-            pd.DataFrame(df.columns.to_numpy()).to_csv(
-                data_path / f"dicts/df_{season}_dictionary.csv")
-            df.to_csv(data_path / f"df_{season}_final.csv")
+        # if write:
+        #     pd.DataFrame(df.columns.to_numpy()).to_csv(
+        #         data_path / f"dicts/df_{season}_dictionary.csv")
+        #     df.to_csv(data_path / f"df_{season}_final.csv")
 
-        last_wk = int(df["week"].max())
-        print(f"{season}: {len(df)} rows, weeks {int(df['week'].min())}-{last_wk}, "
-              f"{(df['week'] == last_wk).sum()} rows in week {last_wk}")
+        # last_wk = int(df["week"].max())
+        # print(f"{season}: {len(df)} rows, weeks {int(df['week'].min())}-{last_wk}, "
+        #       f"{(df['week'] == last_wk).sum()} rows in week {last_wk}")
         cleaned[season] = df
+    df_final = pd.concat([cleaned[season] for season in seasons])
+    if write:
+            pd.DataFrame(df_final.columns.to_numpy()).to_csv(
+            data_path / f"dicts/df_main_dictionary.csv")
+            df_final.to_csv(data_path / f"df_main_final.csv")
 
-    return cleaned
+
+    return df_final
+
+
+def parse_args(argv=None):
+    parser = argparse.ArgumentParser(
+        description="Extract gamelogs, summaries, statistics and merge into a master csv file to be used in analysis."
+    )
+    parser.add_argument("seasons", nargs="*", type=int, metavar="SEASON",
+                        help="season year(s) to extract, e.g. 2024 2025")
+    parser.add_argument("-s", "--season", dest="extra_seasons", action="append", type=int, default=[],
+                        metavar="SEASON", help="season to extract (can be repeated)")
+    parser.add_argument("--start", type=int, help="first season of an inclusive range (requires --end)")
+    parser.add_argument("--end", type=int, help="last season of an inclusive range (requires --start)")
+    args = parser.parse_args(argv)
+
+    if (args.start is None) != (args.end is None):
+        parser.error("--start and --end must be used together")
+    if args.start is not None and args.start > args.end:
+        parser.error("--start must be less than or equal to --end")
+
+    seasons = list(args.seasons) + args.extra_seasons
+    if args.start is not None:
+        seasons += range(args.start, args.end + 1)
+    return sorted(set(seasons)) or SEASONS
+
+def main(seasons):
+    # import data functions
+    Extract_stats.main(seasons)
+    Extract_fantasy_points.main(seasons)
+    clean_data(seasons, write=True)
+    # remove excess csv files
+    for season in seasons:
+        file_week = Path(f"../data/player_weeks_{season}.csv")
+        file_week.unlink(missing_ok=True)
+        file_log = Path(f"../data/player_gamelogs_{season}.csv")
+        file_log.unlink(missing_ok=True)
+        file_sum = Path(f"../data/player_summary_{season}.csv")
+        file_sum.unlink(missing_ok=True)
+if __name__ == "__main__":
+    main(parse_args())
